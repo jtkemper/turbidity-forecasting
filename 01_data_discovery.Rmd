@@ -85,7 +85,7 @@ gages_trim <- sf::st_intersection(gages, watershed) %>%
 
 
 
-#### And check if they are indeed trimmed
+#### And check if they are indeed trimmed by plotting
 plot.new()
 
 plot(sf::st_geometry(watershed))
