@@ -54,7 +54,7 @@ watershed_flowlines <- get_nhdplus(AOI = watershed, realization = "flowline")
 ```
 
 #### Plot download watershed and flowlines
-```{r, message=FALSE, warning=FALSE}
+```{r, warning=FALSE}
 #### Plot them
 plot.new()
 
@@ -64,7 +64,7 @@ plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
 ```
 
 #### Get just the gages in watershed of interest
-```{r, message=FALSE, warning=FALSE}
+```{r, warning=FALSE}
 #### Get the gages in our watershed
 #### Note that this uses the watershed as a bounding box so the 
 #### search area is technically wider than the actual watershed itself
@@ -96,7 +96,7 @@ plot(gages_trim, col= "darkred", add = TRUE)
 ```
 
 #### Now, trim gages to only those with turbidity AND flow data
-```{r, message=FALSE, warning=FALSE}
+```{r, warning=FALSE}
 ################################################################################
 
 #### Now, we only want the stations that have flow and turbidity data

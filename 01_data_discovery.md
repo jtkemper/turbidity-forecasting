@@ -61,7 +61,11 @@ plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
 #### (bc it draws a rectangle around the watershed)
 gages <- get_geoconnex_reference(watershed, type = "gages",
                                          buffer = 0.0)
+```
 
+    ## Starting download of first set of features.
+
+``` r
 #### So we need to trim down to gages actually in the basin
 #### Cut out only the gages in the watershed
 #### And then, because the ultimate goal is to forecast with
