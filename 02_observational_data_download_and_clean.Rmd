@@ -1,0 +1,202 @@
+---
+title: "02_observational_data_download_and_clean"
+author: "JTK"
+date: "2024-12-20"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      fig.path = "figures/")
+
+
+require(tidyverse)
+require(nwmTools)
+require(dataRetrieval)
+require(tsibble)
+require(ggpubr)
+
+
+```
+# GET GAGE METADATA
+
+```{r}
+#### These are the gages within Esopus Creek that have paired turbidity & flow data
+#### Dating back to at least 2016
+#### Additionally, we further pared down the gage dataset by selecting only
+#### the downstream-most gage when multiple gages were located in a single COMID reach
+#### For further details, see 01_data_discovery.md
+#### Note that this script must be run first
+
+#### Trim the gage meta data to remove extraneous fields
+selected_gages_trim <- selected_gages %>%
+  dplyr::select(site_no, station_nm, 
+                drain_area_va, nhdpv2_comid,
+                dec_lat_va, dec_long_va) %>%
+  rename(tributary = station_nm,
+         comid = nhdpv2_comid,
+         lat = dec_lat_va,
+         long = dec_long_va,
+         drain_area_mi2 = drain_area_va) %>%
+  mutate(comid = as.character(comid))
+
+#### Check the gage IDs that we identified in the prior script
+print(selected_gages_nwis_ids)
+```
+
+
+# DOWNLOAD OBSERVATIONAL DATA
+
+## Flow Data
+
+### Download data 
+```{r, message=FALSE, error=FALSE}
+
+#### Do the download
+#### The USGS parameter code for discharge
+#### is "00060"
+#### Note that this does take awhile
+
+discharge_all_sites <- readNWISuv(siteNumbers = selected_gages_nwis_ids$nwis_id,
+                                  parameterCd = "00060",
+                                  startDate = "2015-10-01",
+                                  endDate = "2023-09-30",
+                                  tz = "America/New_York") %>%
+  renameNWISColumns() %>%
+  addWaterYear()
+
+#### Add in site names to discharge file
+discharge_all_sites <- discharge_all_sites %>%
+  inner_join(., selected_gages_trim,
+             by = "site_no") %>%
+  rename(station = tributary)
+
+
+
+#### And download the discharge data from the Shandaken tunnel
+#### This will be necessary later when we identify storm events
+discharge_tunnel <- readNWISdata( sites = "01362230", 
+                                           service = "iv",
+                                           parameterCd = "00060",
+                                           startDate = "2016-10-01", 
+                          endDate = "2023-09-19",
+                                           tz = "America/New_York") %>% 
+  renameNWISColumns() %>%
+  as_tsibble() %>%
+  fill_gaps() %>%
+  mutate(Flow_Inst = 
+           zoo::na.approx(Flow_Inst, maxgap = 24)) %>% ## Fill in six hr gaps
+  as_tibble() %>%
+  mutate(Station = "Tunnel") %>%
+  rename(Flow = Flow_Inst)
+
+
+```
+
+### Subset the data
+```{r, message=FALSE}
+
+########### Grab the discharge from the Coldbrook gage only ###################
+
+#### Pull out just the data for the Coldbrook gage
+#### We will need this later
+coldbrook_discharge <- discharge_all_sites %>%
+  filter(str_detect(station, "COLD"))
+
+###############################################################################
+
+########### Extract stations that have flow records extending to 2015 ##########
+
+#### First check when the flow record starts and ends
+start_ends <- discharge_all_sites %>%
+  group_by(station, site_no) %>%
+  summarise(start_date = first(dateTime),
+            end_date = last(dateTime)) %>%
+  mutate(longer = ifelse(start_date < "2016-10-01", TRUE, FALSE))
+
+### See which ones extend beyond 2016
+long_stations <- start_ends %>%
+  filter(longer == TRUE)
+
+### Extract the ones with longer discharge records 
+longer_record_q <- discharge_all_sites %>%
+  filter(station %in% long_stations$station)
+
+################################################################################
+
+```
+
+## Turbidity Data
+
+### Download turbidity at Coldbrook
+```{r}
+#### Here we are going to download the turbidity data for the Coldbrook gage
+#### Because this is where we want to forecast turbidity
+#### Note that downstream_site_id is inherited from 01_data_discovery
+#### But here we repeat it just to make this script more independent
+#### It can be uncommented if 01 has not been run
+#### Note that 63680 is the USGS code for instaneously-measured in-stream turbidity
+
+#downstream_site_id <- "USGS-01362500"
+
+
+coldbrook_turbidity <- readNWISdata(siteNumbers = "01362500",
+                                    service = "iv",
+                                   parameterCd = "63680",
+                                   startDate = "2016-10-01",
+                                   endDate = "2023-09-30",
+                                 tz = "America/New_York") %>%
+  renameNWISColumns() %>%
+  addWaterYear()
+
+
+```
+
+### Download turb at 01362370 & 01362497 (Stony Clove at Chicester and Little Beaver Kill)
+```{r}
+#### We will need this to make a correction between the DTS-12 probe and the Analite probe
+#### Because there is a period where the Analite probe was the only probe at Coldbrook
+#### And it is not a 1:1 conversion 
+
+#### These are the sites where USGS has deployed DTS-12 (old probes) and analites (new probes) simulatanously. We are downloading to develop a regression between new probe and old probe. Analites went in the stream on 2022-11-10 at Little Beaver Kill site and 2022-11-15 at the Stony Clove at Chichester site.
+
+### Stony at Chichester
+chichester_turb <- readNWISdata( sites = "01362370",
+                               service = "iv",
+                               parameterCd = "63680",
+                               startDate = "2022-11-15",
+                               endDate = "2024-01-31",
+                                           tz = "America/New_York") %>%
+  renameNWISColumns() %>%
+  rename(code = contains("_cd")) %>%
+  rename(dts_12 = contains("Forest"),
+         analite = contains("Analite")) %>%
+  drop_na(analite) %>%
+  drop_na(dts_12) 
+
+### Little Beaver
+little_beav_turb <- readNWISdata( sites = "01362497",
+                               service = "iv",
+                               parameterCd = "63680",
+                               startDate = "2022-11-10",
+                               endDate = "2024-01-31",
+                                           tz = "America/New_York") %>%
+  renameNWISColumns() %>%
+  rename(code = contains("_cd")) %>%
+  rename(dts_12 = contains("dts"),
+         analite = contains("Analite")) %>%
+  drop_na(analite) %>%
+  drop_na(dts_12)
+
+
+```
+
+# CLEAN & TRANSFORM DATA
+
+## Flow Data
+```{r}
+
+```
+

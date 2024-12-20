@@ -1,0 +1,14 @@
+---
+title: "00_functions"
+author: "JTK"
+date: "2024-12-20"
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
