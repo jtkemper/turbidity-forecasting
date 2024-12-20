@@ -2,7 +2,7 @@
 title: "01_data_discovery"
 author: "JTK"
 date: "2024-12-20"
-output: html_document
+output: github_document
 ---
 
 ### HOUSEKEEPING
