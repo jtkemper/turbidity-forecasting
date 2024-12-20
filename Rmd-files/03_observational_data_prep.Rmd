@@ -1,0 +1,24 @@
+---
+title: "03_data_prep"
+author: "JTK"
+date: "2024-12-20"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# HOUSEKEEPING
+```{r setup, include=TRUE,message=FALSE, warning=FALSE,error=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+require(tidyverse)
+```
+
+### Load prior scripts
+```{r}
+
+source(knitr::purl(here("02_observational_data_download_and_clean.Rmd"), quiet=TRUE))
+
+```
+

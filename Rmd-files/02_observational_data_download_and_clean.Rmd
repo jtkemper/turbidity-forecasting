@@ -10,7 +10,8 @@ editor_options:
 # HOUSEKEEPING
 ```{r setup, include=TRUE,message=FALSE,error=FALSE,warning=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
-                      fig.path = "figures/")
+                      fig.path = "figures/"
+                      )
 
 
 require(here)
@@ -25,6 +26,7 @@ require(slider)
 
 
 ```
+
 
 # Load prior variables and functions
 ```{r, warning=FALSE, error=FALSE, eval=FALSE}
