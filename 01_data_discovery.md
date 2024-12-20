@@ -5,10 +5,6 @@ JTK
 
 ### HOUSEKEEPING
 
-``` r
-setwd("F:/office_desktop_3-20-2020/Local Disk/Documents/CIROH")
-```
-
 ## METADATA ANALYSIS
 
 ####### Find all gages upstream of the gage we select. Here, that is the Esopus Creek at Coldbrook Gage. This is the downstream-most gage in the Upper Esopus Creek watershed, right before it empties into the Ashokan Reservoir. We are going to find all the gages & flowlines upstream of this point. Data from these sites are ultimately what we’ll use to train our prediction model.
@@ -43,30 +39,29 @@ watershed <- get_nldi_basin(downstream_site)
 watershed_flowlines <- get_nhdplus(AOI = watershed, realization = "flowline")
 ```
 
-    ## Spherical geometry (s2) switched off
-
-    ## although coordinates are longitude/latitude, st_intersects assumes that they
-    ## are planar
-
-    ## Spherical geometry (s2) switched on
+#### Plot download watershed and flowlines
 
 ``` r
 #### Plot them
+plot.new()
+
 plot(sf::st_geometry(watershed))
 
 plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
+```
 
+![](01_data_discovery_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+#### Get just the gages in watershed of interest
+
+``` r
 #### Get the gages in our watershed
 #### Note that this uses the watershed as a bounding box so the 
 #### search area is technically wider than the actual watershed itself
 #### (bc it draws a rectangle around the watershed)
 gages <- get_geoconnex_reference(watershed, type = "gages",
                                          buffer = 0.0)
-```
 
-    ## Starting download of first set of features.
-
-``` r
 #### So we need to trim down to gages actually in the basin
 #### Cut out only the gages in the watershed
 #### And then, because the ultimate goal is to forecast with
@@ -77,18 +72,22 @@ gages <- get_geoconnex_reference(watershed, type = "gages",
 #### Additionally, if they share a comid, get only the most downstream gage
 gages_trim <- sf::st_intersection(gages, watershed) %>%
   drop_na(nhdpv2_comid)
-```
 
-    ## Warning: attribute variables are assumed to be spatially constant throughout
-    ## all geometries
 
-``` r
+
 #### And check if they are indeed trimmed
+plot.new()
+
+plot(sf::st_geometry(watershed))
+
+plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
+
 plot(gages_trim, col= "darkred", add = TRUE)
 ```
 
-    ## Warning in plot.sf(gages_trim, col = "darkred", add = TRUE): ignoring all but
-    ## the first attribute
+![](01_data_discovery_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+#### Now, trim gages to only those with turbidity AND flow data
 
 ``` r
 ################################################################################
@@ -147,10 +146,15 @@ selected_gages_nwis_ids <- tibble(nwis_id = unique(selected_gages$site_no))
 gages_trim_trim <- gages_trim %>%
   filter(provider_id %in% selected_gages_nwis_ids$nwis_id)
 
+plot.new()
+
+plot(sf::st_geometry(watershed))
+
+plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
+
+plot(gages_trim, col= "darkred", add = TRUE)
+
 plot(gages_trim_trim, pch = 17, color = "black", add = TRUE)
 ```
 
-    ## Warning in plot.sf(gages_trim_trim, pch = 17, color = "black", add = TRUE):
-    ## ignoring all but the first attribute
-
-![](01_data_discovery_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](01_data_discovery_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->

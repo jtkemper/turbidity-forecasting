@@ -3,6 +3,8 @@ title: "01_data_discovery"
 author: "JTK"
 date: "2024-12-20"
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ### HOUSEKEEPING
@@ -18,16 +20,10 @@ require(ncdf4)
 ```
 
 
-```{r}
-setwd("F:/office_desktop_3-20-2020/Local Disk/Documents/CIROH")
-```
-
-
 ## METADATA ANALYSIS
 
 ####### Find all gages upstream of the gage we select. Here, that is the Esopus Creek at Coldbrook Gage. This is the downstream-most gage in the Upper Esopus Creek watershed, right before it empties into the Ashokan Reservoir. We are going to find all the gages & flowlines upstream of this point. Data from these sites are ultimately what we'll use to train our prediction model.
 ```{r}
-
 #### Esopus Creek at Coldbrook, NY is the gage at the outlet of the 
 #### Upper Esopus Creek watershed, which drains to the Ashokan Reservoir
 #### We know this gage id (USGS-01362500). 
@@ -55,12 +51,20 @@ watershed <- get_nldi_basin(downstream_site)
 
 #### Get the flowlines in that watershed
 watershed_flowlines <- get_nhdplus(AOI = watershed, realization = "flowline")
+```
 
+#### Plot download watershed and flowlines
+```{r, message=FALSE, warning=FALSE}
 #### Plot them
+plot.new()
+
 plot(sf::st_geometry(watershed))
 
 plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
+```
 
+#### Get just the gages in watershed of interest
+```{r, message=FALSE, warning=FALSE}
 #### Get the gages in our watershed
 #### Note that this uses the watershed as a bounding box so the 
 #### search area is technically wider than the actual watershed itself
@@ -82,9 +86,17 @@ gages_trim <- sf::st_intersection(gages, watershed) %>%
 
 
 #### And check if they are indeed trimmed
+plot.new()
+
+plot(sf::st_geometry(watershed))
+
+plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
+
 plot(gages_trim, col= "darkred", add = TRUE)
+```
 
-
+#### Now, trim gages to only those with turbidity AND flow data
+```{r, message=FALSE, warning=FALSE}
 ################################################################################
 
 #### Now, we only want the stations that have flow and turbidity data
@@ -140,6 +152,14 @@ selected_gages_nwis_ids <- tibble(nwis_id = unique(selected_gages$site_no))
 #### And now plot to see which of the gages we selected for use 
 gages_trim_trim <- gages_trim %>%
   filter(provider_id %in% selected_gages_nwis_ids$nwis_id)
+
+plot.new()
+
+plot(sf::st_geometry(watershed))
+
+plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
+
+plot(gages_trim, col= "darkred", add = TRUE)
 
 plot(gages_trim_trim, pch = 17, color = "black", add = TRUE)
 
