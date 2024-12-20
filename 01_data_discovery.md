@@ -50,7 +50,7 @@ plot(sf::st_geometry(watershed))
 plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
 ```
 
-![](01_data_discovery_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](figures/unnamed-chunk-2-1.png)<!-- -->
 
 #### Get just the gages in watershed of interest
 
@@ -61,11 +61,7 @@ plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
 #### (bc it draws a rectangle around the watershed)
 gages <- get_geoconnex_reference(watershed, type = "gages",
                                          buffer = 0.0)
-```
 
-    ## Starting download of first set of features.
-
-``` r
 #### So we need to trim down to gages actually in the basin
 #### Cut out only the gages in the watershed
 #### And then, because the ultimate goal is to forecast with
@@ -89,7 +85,7 @@ plot(sf::st_geometry(watershed_flowlines), col = "blue", add = TRUE)
 plot(gages_trim, col= "darkred", add = TRUE)
 ```
 
-![](01_data_discovery_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](figures/unnamed-chunk-3-1.png)<!-- -->
 
 #### Now, trim gages to only those with turbidity AND flow data
 
@@ -161,4 +157,4 @@ plot(gages_trim, col= "darkred", add = TRUE)
 plot(gages_trim_trim, pch = 17, color = "black", add = TRUE)
 ```
 
-![](01_data_discovery_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](figures/unnamed-chunk-4-1.png)<!-- -->
