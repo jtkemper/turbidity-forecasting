@@ -23,7 +23,7 @@ require(tsibble)
 require(ggpubr)
 require(zoo)
 require(slider)
-
+require(sbtools)
 
 ```
 
@@ -33,9 +33,9 @@ require(slider)
 
 
 
-source(knitr::purl(here("01_data_discovery.Rmd"), quiet=TRUE))
+source(knitr::purl(here("Rmd-files/01_data_discovery.Rmd"), quiet=TRUE))
 
-source(knitr::purl(here("00_functions.Rmd"), quiet=TRUE))
+source(knitr::purl(here("Rmd-files/00_functions.Rmd"), quiet=TRUE))
 ```
 
 
@@ -91,7 +91,8 @@ inst_discharge_all_sites <- readNWISuv(siteNumbers = selected_gages_nwis_ids$nwi
 inst_discharge_all_sites <- inst_discharge_all_sites %>%
   inner_join(., selected_gages_trim,
              by = "site_no") %>%
-  rename(station = tributary)
+  rename(station = tributary,
+         Flow = Flow_Inst)
 
 
 #### And download the discharge data from the Shandaken tunnel
@@ -121,7 +122,7 @@ inst_discharge_tunnel <- readNWISdata( sites = "01362230",
 #### Pull out just the data for the Coldbrook gage
 #### We will need this later
 inst_discharge_coldbrook <- inst_discharge_all_sites %>%
-  filter(str_detect(station, "COLD"))
+  filter(str_detect(station, "COLD")) 
 
 ###############################################################################
 
@@ -144,6 +145,8 @@ longer_record_q <- inst_discharge_all_sites %>%
 
 ################################################################################
 
+
+
 ```
 
 ## Turbidity Data
@@ -159,7 +162,7 @@ longer_record_q <- inst_discharge_all_sites %>%
 
 #downstream_site_id <- "USGS-01362500"
 
-
+#### This will get us the turbidity data that is available on NWIS
 inst_turbidity_coldbrook <- readNWISdata(siteNumbers = "01362500",
                                     service = "iv",
                                    parameterCd = "63680",
@@ -168,6 +171,20 @@ inst_turbidity_coldbrook <- readNWISdata(siteNumbers = "01362500",
                                  tz = "America/New_York") %>%
   renameNWISColumns() %>%
   addWaterYear()
+
+#### This will get us the turbidity data that is only available on ScienceBase.
+#### Here we use the sbtools package to get data directly from ScienceBase
+#### See https://journal.r-project.org/archive/2016-1/winslow-chamberlain-appling-etal.pdf
+#### For documentation
+
+#### Get the item
+sb_item <- sbtools::item_get("65ff1c43d34e64ff1548df16")
+
+#### Download the file to a tempdir()
+turb_sb_files <- item_file_download(sb_item, dest_dir = tempdir())
+
+#### Read in the turbidity data
+turb_from_sb <- read_csv(turb_sb_files[1], skip = 1)
 
 
 ```
@@ -231,7 +248,6 @@ hourly_discharge_tunnel <- hourly_Q_maker(inst_discharge_tunnel)
 ##### We will need this later
 hourly_discharge_coldbrook <- hourly_discharge_all_sites %>%
   filter(site_no == "01362500")
-
 
 ```
 
@@ -349,6 +365,8 @@ inst_turb_chi_lb %>%
 #### And get one continuous record of turbidity that is more-or-less
 #### Apples-to-apples 
 
+##### Do this for the data from NWIS
+
 inst_turbidity_coldbrook_clean <- inst_turbidity_coldbrook %>%
   as_tibble() %>%
   select(!contains("_cd")) %>%
@@ -359,7 +377,18 @@ inst_turbidity_coldbrook_clean <- inst_turbidity_coldbrook %>%
   dplyr::select(site_no, dateTime, observed_turbidity)
 
 
+##### And for the data from ScienceBase
+inst_turbidity_from_sb_clean <- turb_from_sb %>%
+  mutate(transformed_analite_turbidity = probe_to_probe_eqns$m*Analite_turbidity_FNU  + 
+           probe_to_probe_eqns$b) %>%
+  rename(observed_turbidity = transformed_analite_turbidity) %>%
+  dplyr::select(site_no, dateTime, observed_turbidity)
 
+##### And then combine the above two dataframes to get an overall record of 
+##### Turbidity at coldbrook
+inst_turbidity_coldbrook_clean_all <- bind_rows(inst_turbidity_coldbrook_clean,
+                                                inst_turbidity_from_sb_clean) %>%
+  arrange(dateTime)
 
 ```
 
@@ -391,6 +420,7 @@ inst_turbidity_coldbrook_clean <- inst_turbidity_coldbrook %>%
 #### Then we divide turbidity "load" by water "load"
 #### And finally fill in gaps that are 24 hours are less
 #### With linear interpolation
+
 hourly_turbidity_coldbrook <- inst_discharge_coldbrook %>%
   inner_join(., 
              inst_turbidity_coldbrook_clean, 
@@ -423,6 +453,8 @@ hourly_turbidity_coldbrook <- inst_discharge_coldbrook %>%
   as_tibble() %>%
   mutate(log_observed_turbidity = log10(fw_mean_observed_turbidity)) %>%
   dplyr::ungroup()
+
+
 
 ```
 
@@ -530,5 +562,6 @@ longer_term_expanded_discharge_all_sites <- annual_length_expanded_discharge %>%
                 time_since_6month_peak,
                 time_since_annual_peak)
 ```
+
 
 
