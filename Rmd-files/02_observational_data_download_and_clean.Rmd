@@ -50,6 +50,7 @@ source(knitr::purl(here("Rmd-files/00_functions.Rmd"), quiet=TRUE))
 #### Note that this script must be run first
 
 #### Trim the gage meta data to remove extraneous fields
+
 selected_gages_trim <- selected_gages %>%
   dplyr::select(site_no, station_nm, 
                 drain_area_va, nhdpv2_comid,
@@ -62,6 +63,7 @@ selected_gages_trim <- selected_gages %>%
   mutate(comid = as.character(comid))
 
 #### Check the gage IDs that we identified in the prior script
+
 print(selected_gages_nwis_ids)
 ```
 
@@ -71,7 +73,7 @@ print(selected_gages_nwis_ids)
 ## Flow Data
 
 ### Download data 
-```{r, message=FALSE, error=FALSE, cache=TRUE, eval=FALSE}
+```{r, message=FALSE, error=FALSE, eval=FALSE}
 
 
 #### Do the download
@@ -88,6 +90,7 @@ inst_discharge_all_sites <- readNWISuv(siteNumbers = selected_gages_nwis_ids$nwi
   addWaterYear()
 
 #### Add in site names to discharge file
+
 inst_discharge_all_sites <- inst_discharge_all_sites %>%
   inner_join(., selected_gages_trim,
              by = "site_no") %>%
@@ -97,6 +100,7 @@ inst_discharge_all_sites <- inst_discharge_all_sites %>%
 
 #### And download the discharge data from the Shandaken tunnel
 #### This will be necessary later when we identify storm events
+
 inst_discharge_tunnel <- readNWISdata( sites = "01362230", 
                                            service = "iv",
                                            parameterCd = "00060",
@@ -121,6 +125,7 @@ inst_discharge_tunnel <- readNWISdata( sites = "01362230",
 
 #### Pull out just the data for the Coldbrook gage
 #### We will need this later
+
 inst_discharge_coldbrook <- inst_discharge_all_sites %>%
   filter(str_detect(station, "COLD")) 
 
@@ -129,6 +134,7 @@ inst_discharge_coldbrook <- inst_discharge_all_sites %>%
 ########### Extract stations that have flow records extending to 2015 ##########
 
 #### First check when the flow record starts and ends
+
 start_ends <- inst_discharge_all_sites %>%
   group_by(station, site_no) %>%
   summarise(start_date = first(dateTime),
@@ -136,10 +142,12 @@ start_ends <- inst_discharge_all_sites %>%
   mutate(longer = ifelse(start_date < "2016-10-01", TRUE, FALSE))
 
 ### See which ones extend beyond 2016
+
 long_stations <- start_ends %>%
   filter(longer == TRUE)
 
 ### Extract the ones with longer discharge records 
+
 longer_record_q <- inst_discharge_all_sites %>%
   filter(station %in% long_stations$station)
 
@@ -152,7 +160,7 @@ longer_record_q <- inst_discharge_all_sites %>%
 ## Turbidity Data
 
 ### Download turbidity at Coldbrook
-```{r, message=FALSE, cache=TRUE}
+```{r, message=FALSE, warning=FALSE}
 #### Here we are going to download the turbidity data for the Coldbrook gage
 #### Because this is where we want to forecast turbidity
 #### Note that downstream_site_id is inherited from 01_data_discovery
@@ -163,6 +171,7 @@ longer_record_q <- inst_discharge_all_sites %>%
 #downstream_site_id <- "USGS-01362500"
 
 #### This will get us the turbidity data that is available on NWIS
+
 inst_turbidity_coldbrook <- readNWISdata(siteNumbers = "01362500",
                                     service = "iv",
                                    parameterCd = "63680",
@@ -178,19 +187,22 @@ inst_turbidity_coldbrook <- readNWISdata(siteNumbers = "01362500",
 #### For documentation
 
 #### Get the item
+
 sb_item <- sbtools::item_get("65ff1c43d34e64ff1548df16")
 
 #### Download the file to a tempdir()
+
 turb_sb_files <- item_file_download(sb_item, dest_dir = tempdir())
 
 #### Read in the turbidity data
+
 turb_from_sb <- read_csv(turb_sb_files[1], skip = 1)
 
 
 ```
 
 ### Download turb at 01362370 & 01362497 (Stony Clove at Chicester and Little Beaver Kill)
-```{r, message=FALSE, cache=TRUE}
+```{r, message=FALSE, warning=FALSE}
 #### We will need this to make a correction between the DTS-12 probe and the Analite probe
 #### Because there is a period where the Analite probe was the only probe at Coldbrook
 #### And it is not a 1:1 conversion 
@@ -198,6 +210,7 @@ turb_from_sb <- read_csv(turb_sb_files[1], skip = 1)
 #### These are the sites where USGS has deployed DTS-12 (old probes) and analites (new probes) simulatanously. We are downloading to develop a regression between new probe and old probe. Analites went in the stream on 2022-11-10 at Little Beaver Kill site and 2022-11-15 at the Stony Clove at Chichester site.
 
 ### Stony at Chichester
+
 inst_turbidity_chichester <- readNWISdata( sites = "01362370",
                                service = "iv",
                                parameterCd = "63680",
@@ -212,6 +225,7 @@ inst_turbidity_chichester <- readNWISdata( sites = "01362370",
   drop_na(dts_12) 
 
 ### Little Beaver
+
 inst_turbidity_little_beaver <- readNWISdata( sites = "01362497",
                                service = "iv",
                                parameterCd = "63680",
@@ -239,13 +253,16 @@ inst_turbidity_little_beaver <- readNWISdata( sites = "01362497",
 #### So 00_functions must be run
 
 ##### For all sites 
+
 hourly_discharge_all_sites <- hourly_Q_maker(inst_discharge_all_sites)
 
 ##### For the tunnel
+
 hourly_discharge_tunnel <- hourly_Q_maker(inst_discharge_tunnel)
 
 ##### Then extract hourly discharge data at Coldbrook
 ##### We will need this later
+
 hourly_discharge_coldbrook <- hourly_discharge_all_sites %>%
   filter(site_no == "01362500")
 
@@ -257,7 +274,7 @@ hourly_discharge_coldbrook <- hourly_discharge_all_sites %>%
 
 #### Build the regression
 
-```{r, message=FALSE}
+```{r, message=FALSE, warning=FALSE}
 #### The first thing we need to do is build a regression between
 #### Turbidity as measured by the DTS-12 probe and the Analite probe
 #### USGS has both probes at Little Beaver and Stony Clove at Chichester
@@ -268,6 +285,7 @@ hourly_discharge_coldbrook <- hourly_discharge_all_sites %>%
 #### And we can make apples-to-apples comparisons
 
 #### First, filter out the provisional data from Little Beaver & Stony Clove
+
 inst_turbidity_little_beaver_clean <- inst_turbidity_little_beaver %>%
     filter(code2 != "P" & code3 != "P")
 
@@ -275,6 +293,7 @@ inst_turbidity_chichester_clean <- inst_turbidity_chichester %>%
   filter(code2 != "P" & code3 != "P")
 
 ##### Combine into one dataframe
+
 inst_turb_chi_lb <- bind_rows(inst_turbidity_little_beaver_clean,
                               inst_turbidity_chichester_clean)
 
@@ -300,18 +319,19 @@ probe_to_probe_calcs <- inst_turb_chi_lb %>%
 
 
 #### See the equations, R2, and pvalues
+
 probe_to_probe_eqns <- probe_to_probe_calcs %>%
   dplyr::select(!data)
 
 probe_to_probe_eqns
 
-################################################################################
 ```
 
 #### Plot regression
-```{r, message=FALSE}
+```{r, message=FALSE, warning=FALSE}
 
 #### Do it
+
 inst_turb_chi_lb %>%
   ggplot() +
     geom_point(aes(x = analite, y = dts_12),
@@ -356,7 +376,7 @@ inst_turb_chi_lb %>%
 ```
 
 #### Convert the Coldbrook data
-```{r, message=FALSE,eval=FALSE}
+```{r, message=FALSE,eval=FALSE,warning=FALSE}
 
 #### Here we are going to take the equation we just built 
 #### And use it to "convert" the Analite-measured turbidity to
@@ -378,6 +398,7 @@ inst_turbidity_coldbrook_clean <- inst_turbidity_coldbrook %>%
 
 
 ##### And for the data from ScienceBase
+
 inst_turbidity_from_sb_clean <- turb_from_sb %>%
   mutate(transformed_analite_turbidity = probe_to_probe_eqns$m*Analite_turbidity_FNU  + 
            probe_to_probe_eqns$b) %>%
@@ -386,6 +407,7 @@ inst_turbidity_from_sb_clean <- turb_from_sb %>%
 
 ##### And then combine the above two dataframes to get an overall record of 
 ##### Turbidity at coldbrook
+
 inst_turbidity_coldbrook_clean_all <- bind_rows(inst_turbidity_coldbrook_clean,
                                                 inst_turbidity_from_sb_clean) %>%
   arrange(dateTime)
@@ -393,7 +415,7 @@ inst_turbidity_coldbrook_clean_all <- bind_rows(inst_turbidity_coldbrook_clean,
 ```
 
 ### Transform to hourly
-```{r, message=FALSE, cache=TRUE,eval=FALSE}
+```{r, message=FALSE, eval=FALSE}
 
 ################################################################################
 #### The transformation to hourly data for turbidity is more complicated
@@ -423,7 +445,7 @@ inst_turbidity_coldbrook_clean_all <- bind_rows(inst_turbidity_coldbrook_clean,
 
 hourly_turbidity_coldbrook <- inst_discharge_coldbrook %>%
   inner_join(., 
-             inst_turbidity_coldbrook_clean, 
+             inst_turbidity_coldbrook_clean_all, 
              by = c("site_no", "dateTime")) %>%
   mutate(observed_flow_cms = Flow*0.0283168) %>%
   dplyr::select(!Flow) %>%
@@ -460,7 +482,7 @@ hourly_turbidity_coldbrook <- inst_discharge_coldbrook %>%
 
 # CALCULATE ANTECEDENT FLOW VALUES
 
-```{r, message = FALSE, cache=TRUE,eval=FALSE}
+```{r, message = FALSE, warning=FALSE, eval=FALSE}
 #### Finally, here we are going to calculate a variety of antecedent discharge
 #### Values for each station
 #### These are antecedent 6-hr, daily, weekly, and monthly mean discharge
