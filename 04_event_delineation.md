@@ -1,30 +1,23 @@
----
-title: "04_event_delineation"
-author: "JTK"
-date: "2024-12-21"
-output: github_document
-editor_options: 
-  chunk_output_type: console
----
+04_event_delineation
+================
+JTK
+2024-12-21
 
-################################################################################
-This script extracts storms at the Coldbrook gaging station in 2023. It relies
-primarily on the "hydroEvents" package (Wasko and Guo, 2022, doi.org/10.1002/hyp.14563).
-Importantly, we try and mitigate "events" driven by tunnel releases
-by subtracting the discharge recorded at the Shandakan Tunnel from that 
-recorded at Coldbrook. We will also calculate some statistics for each storm.
-################################################################################
+################################################################################ 
+
+This script extracts storms at the Coldbrook gaging station in 2023. It
+relies primarily on the “hydroEvents” package (Wasko and Guo, 2022,
+doi.org/10.1002/hyp.14563). Importantly, we try and mitigate “events”
+driven by tunnel releases by subtracting the discharge recorded at the
+Shandakan Tunnel from that recorded at Coldbrook. We will also calculate
+some statistics for each storm.
+\################################################################################
 
 # HOUSEKEEPING
-```{r setup, include=FALSE,message=FALSE, warning=FALSE,error=FALSE}
-
-knitr::opts_chunk$set(echo = TRUE,
-                      fig.path = "figures/")
-
-```
 
 ### Packages
-```{r, eval=FALSE}
+
+``` r
 require(tidyverse)
 require(here)
 require(hydroEvents)
@@ -32,14 +25,13 @@ require(plotly)
 ```
 
 ### Load prior scripts
-```{r, message=FALSE, warning=FALSE, eval=FALSE}
 
+``` r
 source(knitr::purl(here("Rmd-files/02_observational_data_download_and_clean.Rmd"), 
                    quiet=TRUE))
 
 source(knitr::purl(here("Rmd-files/03_observational_data_prep.Rmd"), 
                    quiet=TRUE))
-
 ```
 
 # Event Delineation
@@ -47,8 +39,8 @@ source(knitr::purl(here("Rmd-files/03_observational_data_prep.Rmd"),
 ## ID the storms
 
 ### Subtract tunnel discharge from Coldbrook
-```{r, eval = FALSE}
 
+``` r
 #### Releases from the Shandakan tunnel can cause a hydrograph response at
 #### Coldbrook that is similar to a precipitation-driven event
 #### However, these "events" are not what we want to capture, as they are 
@@ -69,14 +61,11 @@ hourly_discharge_coldbrook_minus_tunnel <- hourly_discharge_coldbrook %>%
   mutate(observed_flow_minus_tunnel = ifelse(observed_flow_minus_tunnel < 0, 0,
                                              observed_flow_minus_tunnel)) %>%
   drop_na(observed_flow_minus_tunnel)
-
-
-
 ```
 
 ### Declare variables and extract baseflow
-```{r, eval = FALSE}
 
+``` r
 #### Declare the hourly (tunnel-subtracted) discharge as a numeric
 hourly_observed_discharge <- hourly_discharge_coldbrook_minus_tunnel$observed_flow_minus_tunnel
 
@@ -87,12 +76,11 @@ bf_coldbrook <- baseflowB(hourly_observed_discharge,
 
 #### Subtract baseflow from discharge to identify quickflow component
 qf_coldbrook <- hourly_observed_discharge - bf_coldbrook$bf
-
 ```
 
 ### Visualize baseflow seperation
-```{r, eval = FALSE}
 
+``` r
 #### Combine total discharge, baseflow, and quickflow into one dataframe
 q_bf_qf_coldbrook <- hourly_discharge_coldbrook_minus_tunnel %>%
   bind_cols(bf = bf_coldbrook$bf) %>%
@@ -106,12 +94,11 @@ plotly::plot_ly(q_bf_qf_coldbrook, x = ~dateTime, y = ~observed_flow_minus_tunne
             mode = "lines", name = "quickflow") %>%
   add_trace(y = ~bf, color = I("darkblue"), 
             mode = "lines", name = "baseflow")
-
 ```
 
 ### Identify the events
-```{r, eval = FALSE}
 
+``` r
 #### This relies on the hydroEvents functions to identify storm events
 #### There are a variety of functions for this, but here we utilize the 
 #### eventMinima approach
@@ -128,15 +115,13 @@ past_events_min <- eventMinima(qf_coldbrook, delta.x = 12, delta.y = 0.5,
 ##### And also further chops off some long-tail behavior of big events
 storms_index <- past_events_min %>% 
   filter(max > 5)
-
-
 ```
 
 ## Extract the storms
 
 ### Pull out all storm data from overall flow data
-```{r, eval=FALSE}
 
+``` r
 #### The above code identifies the index of the start and end timestamps for 
 #### each storm in the qf_coldbrook dataframe
 #### Now, we need to actually extract all the timestamps (rows) that fall within
@@ -168,8 +153,8 @@ storms_2023 <-  coldbrook_all_storms %>%
 ```
 
 ### Plot extracted storms
-```{r, eval=FALSE}
 
+``` r
 #### Combine identified storms with the discharge, baseflow, quickflow
 #### dataframe from above
 #### This allows us to layer identified storms over the observed hydrograph
@@ -192,8 +177,8 @@ plotly::plot_ly(q_bf_qf_storms_coldbrook %>%
 ```
 
 ## Clean storm data
-```{r, eval=FALSE}
 
+``` r
 #### We want to drop the storms that have missing data because this complicates
 #### prediction
 #### (remember, we have already filled gaps of 24 hr or less)
@@ -203,12 +188,11 @@ storms_2023_clean <- storms_2023 %>%
   group_by(storm) %>%
   drop_na() %>%
   ungroup()
-
 ```
 
 ## Calculate storm stats
-```{r, eval=FALSE}
 
+``` r
 #### Get the start and end date of each storm
 storm_start_end <- storms_2023_clean %>%
   group_by(storm) %>%
@@ -232,6 +216,4 @@ storm_turbidity_load <- storms_2023_clean %>%
   group_by(storm) %>%
   summarise(observed_storm_turbidity_load = sum(turbidity_load),
             observed_peak_turbidity_flux = max(turbidity_flux))
-
 ```
-
