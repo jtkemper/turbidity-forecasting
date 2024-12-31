@@ -1,0 +1,35 @@
+---
+title: "04_event_delineation"
+author: "JTK"
+date: "2024-12-21"
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# HOUSEKEEPING
+```{r setup, include=FALSE,message=FALSE, warning=FALSE,error=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE,
+                      fig.path = "figures/")
+
+```
+
+### Packages
+```{r, eval=FALSE}
+require(tidyverse)
+require(here)
+require(hydroEvents)
+```
+
+### Load prior scripts
+```{r, message=FALSE, warning=FALSE, eval=FALSE}
+
+source(knitr::purl(here("Rmd-files/02_observational_data_download_and_clean.Rmd"), 
+                   quiet=TRUE))
+
+source(knitr::purl(here("Rmd-files/03_observational_data_prep.Rmd"), 
+                   quiet=TRUE))
+
+```
+
