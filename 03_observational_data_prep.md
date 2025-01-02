@@ -28,17 +28,21 @@ source(knitr::purl(here("Rmd-files/02_observational_data_download_and_clean.Rmd"
 
 ##### First, get it for the antecedent data that is monthly or less
 expanded_discharge_tribs <- expanded_discharge_all_sites %>%
+  mutate(station = str_remove_all(station, " ")) %>%
   filter(site_no != "01362500")
 
 expanded_discharge_coldbrook <- expanded_discharge_all_sites %>%
+  mutate(station = str_remove_all(station, " ")) %>%
   filter(site_no == "01362500")
 
 ##### Then for the longer-term antecedent conditions (3month, 6month, year)
 
 longer_term_expanded_discharge_tribs <- longer_term_expanded_discharge_all_sites %>%
+  mutate(station = str_remove_all(station, " ")) %>%
   filter(site_no != "01362500")
 
 longer_term_expanded_discharge_coldbrook <- longer_term_expanded_discharge_all_sites %>%
+  mutate(station = str_remove_all(station, " ")) %>%
   filter(site_no == "01362500")
 ```
 
@@ -53,6 +57,7 @@ longer_term_expanded_discharge_coldbrook <- longer_term_expanded_discharge_all_s
 expanded_discharge_tribs_wide <- expanded_discharge_tribs %>%
   as_tibble() %>%
   ungroup() %>%
+  mutate(station = str_remove(station, " ")) %>%
   dplyr::select(!c(site_no, date, hour)) %>%
   pivot_wider(names_from = "station", 
               names_sep = "_",
@@ -69,6 +74,7 @@ expanded_discharge_tribs_wide <- expanded_discharge_tribs %>%
 longer_term_expanded_discharge_tribs_wide <- longer_term_expanded_discharge_tribs %>%
   as_tibble() %>%
   ungroup() %>%
+  mutate(station = str_remove(station, " ")) %>%
   dplyr::select(!c(site_no, date)) %>%
     pivot_wider(names_from = "station", 
               names_sep = "_",
