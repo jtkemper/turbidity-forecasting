@@ -1,0 +1,42 @@
+
+698 
+FGUS51 KTAR 260918
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0417 AM EST Thu Jan 26 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.37 ft at Jan-26 04:00 am
+:
+.ER MTRN6 20230126 E DC202301260417/DH07/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0126:       ::/     5.8/     5.8/     5.7
+.E2 :0127:/     5.5/     5.3/     5.2/     5.1
+.E3 :0128:/     5.0/     5.0/     5.0/     4.9
+.E4 :0129:/     4.9
+: Local QPF - 6 hr timestep
+: 0.02/ 0.00/ 0.01/ 0.00/ 0.00/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Rondout Creek - Rosendale, NY
+:Flood Stage 18.0 ft
+:Latest Observed Value: 11.40 ft at Jan-26 03:30 am
+:
+.ER ROSN6 20230126 E DC202301260417/DH07/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0126:       ::/    11.9/    12.0/    12.0
+.E2 :0127:/    11.9/    11.8/    11.7/    11.5
+.E3 :0128:/    11.3/    11.2/    11.0/    10.9
+.E4 :0129:/    10.8
+: Local QPF - 6 hr timestep
+: 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+$$
+:NERFC
+:...END OF MESSAGE

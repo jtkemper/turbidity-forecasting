@@ -1,0 +1,40 @@
+
+749 
+FGUS51 KTAR 080338
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1137 PM EDT Mon Aug 07 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 3.40 ft at Aug-07 11:15 pm
+:
+.ER PTVN6 20230808 E DC202308072337/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0808:/     4.3/     4.9/     4.4/     4.0
+.E2 :0809:/     3.8/     3.6/     3.4/     3.4
+.E3 :0810:/     3.3/     3.3/     3.3/     3.3
+: Local QPF - 6 hr timestep
+: 0.55/ 0.08/ 0.05/ 0.03/ 0.04/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.16/
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.52 ft at Aug-07 11:00 pm
+:
+.ER MTRN6 20230808 E DC202308072337/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0808:/     6.6/     6.3/     5.8/     5.3
+.E2 :0809:/     5.2/     5.1/     5.0/     5.0
+.E3 :0810:/     4.9/     4.9/     4.9/     4.9
+: Local QPF - 6 hr timestep
+: 0.60/ 0.10/ 0.05/ 0.03/ 0.03/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.20/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+$$
+:NERFC
+:...END OF MESSAGE

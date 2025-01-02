@@ -1,0 +1,30 @@
+
+387 
+FGUS51 KTAR 110803
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0402 AM EDT Tue Jul 11 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Mettawee River - Middle Granville, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 7.18 ft at Jul-11 03:30 am
+:Crest 7.01 at Jul-11 8am
+:
+.ER GVVN6 20230711 E DC202307110402/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0711:       ::/     7.1/     6.6/     6.2
+.E2 :0712:/     6.0/     5.8/     5.6/     5.4
+.E3 :0713:/     5.3/     5.2/     5.1/     5.0
+.E4 :0714:/     5.0
+: Local QPF - 6 hr timestep
+: 0.21/ 0.01/ 0.00/ 0.01/ 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.00/ 0.18/ 0.56/
+: GVVN6 Above minor flood stage at 2023-07-11 08:00:00
+$$
+:NERFC
+:...END OF MESSAGE

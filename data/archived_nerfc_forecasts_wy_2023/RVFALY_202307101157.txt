@@ -1,0 +1,32 @@
+
+406 
+FGUS51 KTAR 101158
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0757 AM EDT Mon Jul 10 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Housatonic River - Gaylordsville, CT
+:Flood Stage 8.0 ft
+:Latest Observed Value: 9.22 ft at Jul-10 07:30 am
+:Crest 10.01 at Jul-10 2pm
+:
+.ER GAYC3 20230710 E DC202307100757/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:       ::/     9.3/    10.0/     9.4
+.E2 :0711:/     9.2/     9.0/     8.8/     8.6
+.E3 :0712:/     8.5/     8.3/     8.1/     7.9
+.E4 :0713:/     7.6
+: Local QPF - 6 hr timestep
+: 1.09/ 0.26/ 0.04/ 0.04/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: GAYC3 Above minor flood stage at 2023-07-10 08:00:00
+: GAYC3 Above moderate flood at 2023-07-10 14:00:00
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

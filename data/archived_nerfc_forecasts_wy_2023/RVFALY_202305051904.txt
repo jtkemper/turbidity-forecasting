@@ -1,0 +1,93 @@
+
+379 
+FGUS51 KTAR 051906
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0304 PM EDT Fri May 05 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Mohawk River - Delta Dam, NY
+:
+.ER DDMN6 20230505 E DC202305051504/DH20/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0505:       ::       ::       ::/    0.39
+.E2 :0506:/    0.36/    0.34/    0.32/    0.31
+.E3 :0507:/    0.30/    0.29/    0.28/    0.27
+.E4 :0508:/    0.27/    0.26/    0.25
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.03/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:Mohawk River - Delta Dam, NY
+:Flood Stage 551.5 ft
+:Latest Observed Value: 549.31 ft at May-05 02:45 pm
+:
+.ER DDMN6 20230505 E DC202305051504/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0505:       ::       ::       ::/   549.3
+.E2 :0506:/   549.3/   549.3/   549.3/   549.3
+.E3 :0507:/   549.3/   549.3/   549.3/   549.3
+.E4 :0508:/   549.3/   549.3/   549.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.03/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20230505 E DC202305051504/DH20/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0505:       ::       ::       ::/    1.96
+.E2 :0506:/    1.86/    1.77/    1.69/    1.60
+.E3 :0507:/    1.52/    1.45/    1.38/    1.32
+.E4 :0508:/    1.26/    1.22/    1.17
+: Local QPF - 6 hr timestep
+: 0.08/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1225.52 ft at May-05 02:45 pm
+:
+.ER HIKN6 20230505 E DC202305051504/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0505:       ::       ::       ::/  1225.4
+.E2 :0506:/  1225.4/  1225.3/  1225.3/  1225.3
+.E3 :0507:/  1225.2/  1225.2/  1225.1/  1225.0
+.E4 :0508:/  1225.0/  1224.9/  1224.8
+: Local QPF - 6 hr timestep
+: 0.08/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.51 ft at May-05 02:15 pm
+:
+.ER KASN6 20230505 E DC202305051504/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0505:       ::       ::       ::/     4.5
+.E2 :0506:/     4.5/     4.2/     4.1/     4.1
+.E3 :0507:/     4.0/     4.0/     4.0/     4.0
+.E4 :0508:/     4.0/     3.9/     3.9
+: Local QPF - 6 hr timestep
+: 0.06/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 8.82 ft at May-05 02:30 pm
+:
+.ER LTLN6 20230505 E DC202305051504/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0505:       ::       ::       ::/     8.6
+.E2 :0506:/     8.4/     7.9/     7.7/     7.6
+.E3 :0507:/     7.5/     7.4/     7.3/     7.3
+.E4 :0508:/     7.3/     7.2/     7.2
+: Local QPF - 6 hr timestep
+: 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+$$
+:NERFC
+:...END OF MESSAGE

@@ -1,0 +1,116 @@
+
+045 
+FGUS51 KTAR 260223
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1023 PM EDT Mon Sep 25 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hoosic River - Eagle Bridge, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 3.84 ft at Sep-25 09:30 pm
+:
+.ER EAGN6 20230926 E DC202309252223/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0926:/     3.8/     3.7/     3.6/     3.6
+.E2 :0927:/     3.5/     3.5/     3.5/     3.5
+.E3 :0928:/     3.4/     3.4/     3.4/     3.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 5.68 ft at Sep-25 09:15 pm
+:
+.ER PTVN6 20230926 E DC202309252223/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0926:/     5.3/     4.8/     4.5/     4.4
+.E2 :0927:/     4.3/     4.2/     4.1/     4.1
+.E3 :0928:/     4.0/     4.0/     3.9/     3.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1125.24 ft at Sep-25 09:40 pm
+:Crest 1126.26 at Sep-26 2pm
+:
+.ER GILN6 20230926 E DC202309252223/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0926:/  1125.8/  1126.2/  1126.3/  1126.3
+.E2 :0927:/  1126.2/  1126.1/  1126.0/  1126.0
+.E3 :0928:/  1125.9/  1125.9/  1125.8/  1125.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Schoharie Creek - Gilboa, NY
+:Flood Stage 17.0 ft
+:Latest Observed Value: 10.53 ft at Sep-25 09:15 pm
+:Crest 12.57 at Sep-26 2pm
+:
+.ER GBRN6 20230926 E DC202309252223/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0926:/    11.8/    12.5/    12.6/    12.4
+.E2 :0927:/    12.2/    12.1/    12.0/    11.9
+.E3 :0928:/    11.8/    11.7/    11.7/    11.6
+: RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Breakabeen, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 2.24 ft at Sep-25 09:30 pm
+:
+.ER BKBN6 20230926 E DC202309252223/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0926:/     2.1/     2.3/     3.1/     3.5
+.E2 :0927:/     3.5/     3.4/     3.2/     3.1
+.E3 :0928:/     3.0/     2.9/     2.8/     2.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Burtonsville, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 1.33 ft at Sep-25 09:45 pm
+:
+.ER BRTN6 20230926 E DC202309252223/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0926:/     1.5/     1.4/     1.4/     1.6
+.E2 :0927:/     1.8/     1.9/     1.9/     1.8
+.E3 :0928:/     1.8/     1.7/     1.7/     1.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Rondout Creek - Rosendale, NY
+:Flood Stage 18.0 ft
+:Latest Observed Value: 15.52 ft at Sep-25 09:30 pm
+:
+.ER ROSN6 20230926 E DC202309252223/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0926:/    15.0/    14.2/    13.6/    13.0
+.E2 :0927:/    12.3/    11.8/    11.4/    11.1
+.E3 :0928:/    10.8/    10.4/    10.2/    10.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 8.08 ft at Sep-25 10:16 pm
+:Crest 8.03 at Sep-26 2am
+:
+.ER WAPN6 20230926 E DC202309252223/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0926:/     8.0/     7.7/     7.2/     6.9
+.E2 :0927:/     6.5/     6.0/     5.5/     5.2
+.E3 :0928:/     5.0/     4.8/     4.8/     4.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: WAPN6 Above minor flood stage at 2023-09-26 02:00:00
+$$
+:NERFC
+:...END OF MESSAGE

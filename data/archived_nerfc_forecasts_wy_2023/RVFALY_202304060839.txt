@@ -1,0 +1,31 @@
+
+794 
+FGUS51 KTAR 060839
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0439 AM EDT Thu Apr 06 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 5.20 ft at Apr-06 04:15 am
+:Crest 6.32 at Apr-06 8am
+:
+.ER KASN6 20230406 E DC202304060439/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0406:       ::/     6.3/     5.4/     5.0
+.E2 :0407:/     4.7/     4.5/     4.4/     4.3
+.E3 :0408:/     4.2/     4.2/     4.1/     4.1
+.E4 :0409:/     4.1
+: Local QPF - 6 hr timestep
+: 0.09/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: KASN6 Above minor flood stage at 2023-04-06 08:00:00
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

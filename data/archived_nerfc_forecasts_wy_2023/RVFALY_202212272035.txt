@@ -1,0 +1,29 @@
+
+022 
+FGUS51 KTAR 272037
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0335 PM EST Tue Dec 27 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 15.16 ft at Dec-27 02:30 pm
+:
+.ER MRNN6 20221227 E DC202212271535/DH19/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1227:       ::       ::       ::/    15.3
+.E2 :1228:/    15.5/    15.6/    15.5/    15.5
+.E3 :1229:/    15.4/    15.4/    15.3/    15.3
+.E4 :1230:/    15.3/    15.3/    15.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

@@ -1,0 +1,78 @@
+
+950 
+FGUS51 KTAR 140257
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0956 PM EST Fri Jan 13 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - Hadley, NY
+:Flood Stage 14.0 ft
+:Latest Observed Value: 6.66 ft at Jan-13 09:00 pm
+:
+.ER HDYN6 20230114 E DC202301132156/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0114:/     6.9/     6.9/     6.9/     6.7
+.E2 :0115:/     6.6/     6.4/     6.3/     6.2
+.E3 :0116:/     6.1/     5.9/     5.8/     5.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Hoosic River - Williamstown, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 6.96 ft at Jan-13 09:00 pm
+:
+.ER WILM3 20230114 E DC202301132156/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0114:/     6.7/     6.3/     6.2/     6.1
+.E2 :0115:/     6.1/     6.0/     6.0/     6.0
+.E3 :0116:/     6.0/     5.9/     5.9/     5.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 4.95 ft at Jan-13 09:15 pm
+:
+.ER PTVN6 20230114 E DC202301132156/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0114:/     4.9/     4.6/     4.4/     4.2
+.E2 :0115:/     4.1/     4.1/     4.0/     4.0
+.E3 :0116:/     4.0/     4.0/     4.0/     3.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.57 ft at Jan-13 09:00 pm
+:
+.ER MTRN6 20230114 E DC202301132156/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0114:/     5.4/     5.2/     5.1/     5.0
+.E2 :0115:/     4.9/     4.9/     4.9/     4.8
+.E3 :0116:/     4.8/     4.8/     4.7/     4.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 15.11 ft at Jan-13 09:30 pm
+:
+.ER MRNN6 20230114 E DC202301132156/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0114:/    15.2/    15.1/    15.1/    15.0
+.E2 :0115:/    14.9/    14.8/    14.7/    14.6
+.E3 :0116:/    14.5/    14.4/    14.3/    14.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

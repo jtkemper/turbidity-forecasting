@@ -1,0 +1,618 @@
+
+439 
+FGUS51 KTAR 211625
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1122 AM EST Wed Dec 21 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - North Creek, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 4.09 ft at Dec-21 10:15 am
+:Crest 7.27 at Dec-24 7pm
+:
+.ER NCKN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     4.0/     4.0
+.E2 :1222:/     4.0/     4.0/     4.0/     4.0
+.E3 :1223:/     3.9/     4.0/     4.9/     6.0
+.E4 :1224:/     6.9/     7.2
+: Local QPF - 6 hr timestep
+: 0.70/ 0.51/ 0.00/ 0.01/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Schroon River - Riverbank, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 3.36 ft at Dec-21 10:30 am
+:
+.ER RVRN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     3.3/     3.3
+.E2 :1222:/     3.3/     3.3/     3.2/     3.2
+.E3 :1223:/     3.2/     3.2/     3.4/     3.9
+.E4 :1224:/     4.5/     4.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.24/ 0.50/ 0.66/ 0.49/ 0.00/ 0.00/
+:*************************************************
+:Hudson River - Hadley, NY
+:Flood Stage 14.0 ft
+:Latest Observed Value: 3.91 ft at Dec-21 11:00 am
+:Crest 8.85 at Dec-25 1am
+:
+.ER HDYN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     3.9/     3.9
+.E2 :1222:/     3.9/     3.9/     4.0/     4.0
+.E3 :1223:/     4.0/     4.0/     4.4/     5.5
+.E4 :1224:/     6.8/     7.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.05/ 0.30/ 0.48/ 0.66/ 0.41/ 0.00/ 0.01/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Sacandaga River - Hope, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 2.35 ft at Dec-21 10:30 am
+:Crest 6.57 at Dec-24 1am
+:
+.ER HOPN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     2.6/     2.6
+.E2 :1222:/     2.6/     2.6/     2.6/     2.6
+.E3 :1223:/     2.6/     2.7/     4.0/     5.3
+.E4 :1224:/     6.6/     6.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.08/ 0.33/ 0.45/ 0.68/ 0.49/ 0.01/ 0.03/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION AT LOW FLOWS
+:*************************************************
+:Sacandaga River - Conklingville, NY
+:Flood Stage 773.0 ft
+:Latest Observed Value: 759.43 ft at Dec-21 10:30 am
+:
+.ER SACN6 20221221 E DC202212211122/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/   759.4/   759.3
+.E2 :1222:/   759.3/   759.2/   759.2/   759.1
+.E3 :1223:/   759.0/   759.0/   758.9/   758.9
+.E4 :1224:/   759.0/   759.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.08/ 0.30/ 0.46/ 0.61/ 0.36/ 0.00/ 0.02/
+: LAKE LEVELS BELOW 771.0 FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:Sacandaga River - Hadley, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 5.36 ft at Dec-21 10:30 am
+:
+.ER HDLN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     5.3/     5.3
+.E2 :1222:/     5.3/     5.3/     5.3/     5.3
+.E3 :1223:/     5.3/     5.4/     5.4/     5.4
+.E4 :1224:/     5.4/     5.4
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:*************************************************
+:Hudson River - Fort Edward, NY
+:Flood Stage 26.0 ft
+:Latest Observed Value: 22.20 ft at Dec-21 10:45 am
+:Crest 24.36 at Dec-25 7am
+:
+.ER FTEN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    22.1/    22.1
+.E2 :1222:/    22.1/    22.1/    22.1/    22.1
+.E3 :1223:/    22.0/    22.0/    22.1/    22.6
+.E4 :1224:/    23.2/    23.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.05/ 0.23/ 0.42/ 0.58/ 0.33/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:*************************************************
+:Battenkill - Battenville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 5.15 ft at Dec-21 10:15 am
+:Crest 9.57 at Dec-24 7am
+:
+.ER BTTN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     5.2/     5.2
+.E2 :1222:/     5.2/     5.2/     5.2/     5.2
+.E3 :1223:/     5.2/     5.3/     6.8/     8.6
+.E4 :1224:/     9.5/     9.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.17/ 0.52/ 0.63/ 0.33/ 0.03/ 0.00/
+:*************************************************
+:Hoosic River - Williamstown, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 5.56 ft at Dec-21 11:00 am
+:Crest 10.19 at Dec-23 7pm
+:
+.ER WILM3 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     5.6/     5.6
+.E2 :1222:/     5.6/     5.6/     5.6/     5.6
+.E3 :1223:/     5.8/     7.2/     9.9/    10.2
+.E4 :1224:/     8.1/     7.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.39/ 0.84/ 0.76/ 0.25/ 0.00/ 0.00/
+: WILM3 Above minor flood stage at 2022-12-23 13:00:00
+:*************************************************
+:Walloomsac River - Bennington, VT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 1.82 ft at Dec-21 10:15 am
+:Crest 8.61 at Dec-23 7pm
+:
+.ER BNTV1 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     1.9/     1.9
+.E2 :1222:/     1.9/     1.9/     1.9/     1.9
+.E3 :1223:/     1.9/     2.4/     4.3/     8.6
+.E4 :1224:/     6.1/     4.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.27/ 0.70/ 0.73/ 0.30/ 0.02/ 0.00/
+: BNTV1 Above minor flood stage at 2022-12-23 19:00:00
+:*************************************************
+:Hoosic River - Eagle Bridge, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 3.56 ft at Dec-21 10:30 am
+:Crest 12.74 at Dec-23 7pm
+:
+.ER EAGN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     3.6/     3.6
+.E2 :1222:/     3.6/     3.6/     3.6/     3.6
+.E3 :1223:/     3.7/     5.2/    10.1/    12.7
+.E4 :1224:/    11.9/     9.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.24/ 0.64/ 0.63/ 0.25/ 0.01/ 0.00/
+: EAGN6 Above minor flood stage at 2022-12-23 19:00:00
+:*************************************************
+:Hudson River - Waterford, NY
+:Flood Stage 34.0 ft
+:Latest Observed Value: 21.07 ft at Dec-21 10:30 am
+:Crest 27.04 at Dec-24 7am
+:
+.ER WTFN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    21.2/    21.2
+.E2 :1222:/    21.2/    21.1/    21.1/    21.1
+.E3 :1223:/    21.1/    21.3/    22.3/    24.4
+.E4 :1224:/    26.2/    27.0
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.20/ 0.45/ 0.54/ 0.28/ 0.01/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Mohawk River - Delta Dam, NY
+:
+.ER DDMN6 20221221 E DC202212211122/DH13/QIIFF/DIH6
+:FLOW FCST      1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    0.23/    0.23
+.E2 :1222:/    0.22/    0.22/    0.22/    0.22
+.E3 :1223:/    0.22/    0.66/    4.09/    4.72
+.E4 :1224:/    3.24/    2.67
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.10/ 0.19/ 0.28/ 0.73/ 0.40/ 0.04/ 0.04/
+: LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:Mohawk River - Delta Dam, NY
+:Flood Stage 551.5 ft
+:Latest Observed Value: 543.54 ft at Dec-21 10:45 am
+:Crest 546.24 at Dec-26 7am
+:
+.ER DDMN6 20221221 E DC202212211122/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/   543.5/   543.4
+.E2 :1222:/   543.3/   543.1/   543.0/   542.9
+.E3 :1223:/   542.8/   542.8/   543.1/   543.9
+.E4 :1224:/   544.7/   545.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.10/ 0.19/ 0.28/ 0.73/ 0.40/ 0.04/ 0.04/
+: LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20221221 E DC202212211122/DH13/QIIFF/DIH6
+:FLOW FCST      1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    0.71/    0.65
+.E2 :1222:/    0.62/    0.60/    0.58/    0.56
+.E3 :1223:/    0.55/    0.64/    1.68/    4.62
+.E4 :1224:/    6.85/    6.36
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.10/ 0.26/ 0.36/ 0.66/ 0.64/ 0.03/ 0.04/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1218.60 ft at Dec-21 10:45 am
+:Crest 1222.73 at Dec-26 7am
+:
+.ER HIKN6 20221221 E DC202212211122/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/  1218.6/  1218.4
+.E2 :1222:/  1218.2/  1218.1/  1217.9/  1217.7
+.E3 :1223:/  1217.5/  1217.4/  1217.3/  1217.8
+.E4 :1224:/  1218.8/  1219.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.10/ 0.26/ 0.36/ 0.66/ 0.64/ 0.03/ 0.04/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.03 ft at Dec-21 10:15 am
+:
+.ER KASN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     3.8/     3.8
+.E2 :1222:/     3.7/     3.7/     3.7/     3.7
+.E3 :1223:/     3.7/     3.8/     4.2/     4.6
+.E4 :1224:/     4.7/     4.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.10/ 0.19/ 0.29/ 0.61/ 0.44/ 0.02/ 0.03/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 7.16 ft at Dec-21 10:30 am
+:Crest 14.30 at Dec-24 1am
+:
+.ER LTLN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     7.2/     7.2
+.E2 :1222:/     7.2/     7.2/     7.1/     7.1
+.E3 :1223:/     7.1/     7.3/     8.7/    11.5
+.E4 :1224:/    14.3/    14.0
+: Local QPF - 6 hr timestep
+: 0.02/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 3.53 ft at Dec-21 10:15 am
+:Crest 11.92 at Dec-23 7pm
+:
+.ER PTVN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     3.4/     3.4
+.E2 :1222:/     3.4/     3.4/     3.4/     3.4
+.E3 :1223:/     4.0/     6.7/    11.2/    11.9
+.E4 :1224:/     8.4/     7.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.14/ 0.60/ 0.88/ 0.73/ 0.18/ 0.00/ 0.00/
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1124.02 ft at Dec-21 10:40 am
+:Crest 1131.65 at Dec-24 1am
+:
+.ER GILN6 20221221 E DC202212211122/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/  1123.7/  1123.4
+.E2 :1222:/  1123.1/  1122.9/  1122.6/  1122.3
+.E3 :1223:/  1122.2/  1122.3/  1124.1/  1128.7
+.E4 :1224:/  1131.7/  1130.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.09/ 0.39/ 0.69/ 0.65/ 0.20/ 0.00/ 0.00/
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Schoharie Creek - Gilboa, NY
+:Flood Stage 17.0 ft
+:Latest Observed Value: 12.13 ft at Dec-21 10:15 am
+:Crest 19.30 at Dec-24 1am
+:
+.ER GBRN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    12.1/    12.1
+.E2 :1222:/    12.0/    11.9/    11.8/    11.7
+.E3 :1223:/    11.6/    11.5/    11.5/    15.4
+.E4 :1224:/    19.3/    18.3
+: GBRN6 Above moderate flood at 2022-12-24 01:00:00
+: RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Breakabeen, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 2.81 ft at Dec-21 10:30 am
+:Crest 11.79 at Dec-24 7am
+:
+.ER BKBN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     3.0/     3.1
+.E2 :1222:/     3.1/     3.0/     2.9/     2.8
+.E3 :1223:/     2.7/     2.9/     4.1/     8.7
+.E4 :1224:/    11.3/    11.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.08/ 0.33/ 0.58/ 0.62/ 0.22/ 0.00/ 0.00/
+: BKBN6 Above minor flood stage at 2022-12-24 01:00:00
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Burtonsville, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 1.85 ft at Dec-21 10:45 am
+:Crest 6.07 at Dec-24 7am
+:
+.ER BRTN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     1.8/     1.8
+.E2 :1222:/     1.8/     1.8/     1.8/     1.8
+.E3 :1223:/     1.7/     1.7/     2.2/     4.4
+.E4 :1224:/     5.9/     6.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.08/ 0.28/ 0.53/ 0.58/ 0.25/ 0.00/ 0.00/
+: BRTN6 Above minor flood stage at 2022-12-24 07:00:00
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Mohawk River - Schenectady, NY
+:Flood Stage 220.0 ft
+:Latest Observed Value: 210.27 ft at Dec-21 11:10 am
+:Crest 217.80 at Dec-23 7pm
+:
+.ER SCHN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/   210.3/   210.3
+.E2 :1222:/   210.3/   210.3/   210.3/   210.3
+.E3 :1223:/   210.4/   211.2/   213.3/   217.8
+.E4 :1224:/   217.7/   215.6
+:*************************************************
+:Mohawk River - Cohoes, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 11.15 ft at Dec-21 11:00 am
+:Crest 18.79 at Dec-24 1am
+:
+.ER COHN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    11.1/    11.1
+.E2 :1222:/    11.1/    11.1/    11.1/    11.1
+.E3 :1223:/    11.0/    11.2/    12.5/    15.4
+.E4 :1224:/    18.8/    18.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.08/ 0.23/ 0.43/ 0.54/ 0.32/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION AND/OR CANAL OPERATIONS
+:*************************************************
+:Hudson River - Troy Lock and Dam, NY
+:Flood Stage 21.5 ft
+:Latest Observed Value: 17.13 ft at Dec-21 10:15 am
+:Crest 21.62 at Dec-24 7am
+:
+.ER TRYN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    17.1/    17.1
+.E2 :1222:/    17.1/    17.1/    17.0/    17.0
+.E3 :1223:/    17.0/    17.1/    17.9/    19.7
+.E4 :1224:/    21.5/    21.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.23/ 0.49/ 0.50/ 0.22/ 0.00/ 0.00/
+: TRYN6 Above minor flood stage at 2022-12-24 07:00:00
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION AND/OR CANAL OPERATIONS
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 4.83 ft at Dec-21 11:00 am
+:Crest 12.49 at Dec-23 1pm
+:
+.ER MTRN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     4.8/     4.8
+.E2 :1222:/     4.8/     4.8/     4.8/     4.8
+.E3 :1223:/     6.0/     8.6/    12.5/    11.3
+.E4 :1224:/     8.9/     7.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.19/ 0.76/ 0.93/ 0.80/ 0.16/ 0.00/ 0.00/
+: MTRN6 Above minor flood stage at 2022-12-23 13:00:00
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 582.11 ft at Dec-21 10:40 am
+:Crest 584.32 at Dec-26 7am
+:
+.ER ASEN6 20221221 E DC202212211122/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/   582.1/   582.1
+.E2 :1222:/   582.1/   582.1/   582.1/   582.1
+.E3 :1223:/   582.2/   582.3/   582.5/   582.6
+.E4 :1224:/   582.8/   583.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.21/ 0.77/ 0.94/ 0.72/ 0.11/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 14.24 ft at Dec-21 10:30 am
+:Crest 19.59 at Dec-23 7pm
+:
+.ER MRNN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    14.2/    14.1
+.E2 :1222:/    14.1/    14.0/    13.9/    14.0
+.E3 :1223:/    14.5/    16.5/    18.8/    19.6
+.E4 :1224:/    19.1/    18.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.19/ 0.72/ 0.94/ 0.63/ 0.11/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Roundout Reservoir - Roundout Resvr, NY
+:Latest Observed Value: 833.59 ft at Dec-21 10:40 am
+:Crest 837.06 at Dec-25 1am
+:
+.ER RONN6 20221221 E DC202212211122/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/   833.5/   833.3
+.E2 :1222:/   833.0/   832.8/   832.6/   832.3
+.E3 :1223:/   832.2/   832.8/   834.7/   836.3
+.E4 :1224:/   836.7/   836.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.21/ 0.73/ 0.91/ 0.74/ 0.10/ 0.00/ 0.00/
+:*************************************************
+:Rondout Creek - Rosendale, NY
+:Flood Stage 18.0 ft
+:Latest Observed Value: 10.05 ft at Dec-21 10:30 am
+:Crest 18.23 at Dec-23 1pm
+:
+.ER ROSN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    10.1/    10.1
+.E2 :1222:/    10.0/    10.0/    10.0/    10.3
+.E3 :1223:/    12.6/    15.0/    18.2/    18.1
+.E4 :1224:/    16.9/    15.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.21/ 0.73/ 0.92/ 0.66/ 0.08/ 0.00/ 0.00/
+: ROSN6 Above minor flood stage at 2022-12-23 13:00:00
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 3.82 ft at Dec-21 10:30 am
+:Crest 5.85 at Dec-24 1pm
+:
+.ER WAPN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     3.8/     3.8
+.E2 :1222:/     3.8/     3.8/     3.8/     3.8
+.E3 :1223:/     3.8/     4.0/     4.5/     5.0
+.E4 :1224:/     5.5/     5.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.09/ 0.50/ 0.82/ 0.51/ 0.09/ 0.00/ 0.00/
+:*************************************************
+:Hudson River - Albany, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 2.14 ft at Dec-21 10:30 am
+:Crest 8.13 at Dec-23 4pm
+:
+.ER ALBN6 20221221 ES DC202212211122/DH12/HGIFF/DIH1
+.E1 :1221:/   4.4/   5.2/   5.8/   5.6/   4.7/   3.7
+.E2 :1221:/   2.7/   1.8/   1.0/   0.3/  -0.3/   0.3
+.E3 :1222:/   2.4/   3.7/   4.2/   4.2/   3.6/   2.7
+.E4 :1222:/   1.8/   1.0/   0.3/  -0.3/  -0.7/   0.6
+.E5 :1222:/   2.8/   4.1/   5.0/   5.5/   5.3/   4.4
+.E6 :1222:/   3.3/   2.4/   1.6/   0.8/   0.2/  -0.4
+.E7 :1223:/   0.7/   2.9/   4.1/   4.8/   5.3/   5.0
+.E8 :1223:/   4.2/   3.2/   2.6/   2.1/   1.9/   3.0
+.E9 :1223:/   4.9/   6.1/   7.0/   7.7/   8.1/   7.8
+.E10 :1223:/   6.8/   5.7/   4.6/   3.7/   2.8/   2.0
+.E11 :1224:/   1.1/   0.5/   1.9/   3.8/   4.0/   3.3
+.E12 :1224:/   2.6/   2.0/   1.3/   0.6/   0.0/  -0.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.24/ 0.55/ 0.54/ 0.22/ 0.01/ 0.00/
+: FORECAST TIDE STAGES ARE NOT INTENDED FOR NAVIGATIONAL USE
+:*************************************************
+:Hudson River - Poughkeepsie, NY
+:Flood Stage 4.2 ft
+:Latest Observed Value: 3.21 ft at Dec-21 10:45 am
+:Crest 5.55 at Dec-23 12pm
+:
+.ER PKMN6 20221221 ES DC202212211122/DH12/HGIFF/DIH1
+.E1 :1221:/   2.6/   1.7/   0.9/   0.3/  -0.3/  -0.7
+.E2 :1221:/  -0.6/   0.2/   1.2/   1.8/   2.2/   2.2
+.E3 :1222:/   1.7/   0.9/   0.2/  -0.5/  -0.9/  -1.2
+.E4 :1222:/  -0.9/   0.2/   1.5/   2.4/   3.1/   3.4
+.E5 :1222:/   3.2/   2.4/   1.5/   0.7/   0.1/  -0.5
+.E6 :1222:/  -0.8/  -0.6/   0.4/   1.4/   2.1/   2.6
+.E7 :1223:/   2.8/   2.6/   2.1/   1.5/   0.9/   0.8
+.E8 :1223:/   0.9/   1.6/   2.7/   3.7/   4.5/   5.2
+.E9 :1223:/   5.5/   5.4/   4.8/   3.9/   3.1/   2.3
+.E10 :1223:/   1.5/   1.0/   0.7/   0.9/   1.7/   2.2
+.E11 :1224:/   2.1/   1.6/   0.9/   0.2/  -0.4/  -1.1
+.E12 :1224:/  -1.6/  -1.8/  -1.6/  -0.5/   0.7/   1.6
+: PKMN6 Above minor flood stage at 2022-12-23 10:00:00
+:*************************************************
+:Mettawee River - Middle Granville, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 4.09 ft at Dec-21 11:15 am
+:Crest 7.81 at Dec-23 7pm
+:
+.ER GVVN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     4.1/     4.1
+.E2 :1222:/     4.1/     4.1/     4.1/     4.1
+.E3 :1223:/     4.1/     4.6/     6.8/     7.8
+.E4 :1224:/     7.4/     6.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.16/ 0.52/ 0.63/ 0.39/ 0.03/ 0.00/
+: GVVN6 Above minor flood stage at 2022-12-23 19:00:00
+:*************************************************
+:Housatonic River - Great Barrington, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 2.76 ft at Dec-21 10:30 am
+:Crest 7.39 at Dec-24 7am
+:
+.ER GTBM3 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     2.8/     2.8
+.E2 :1222:/     2.8/     2.7/     2.7/     2.7
+.E3 :1223:/     2.9/     3.8/     5.6/     6.9
+.E4 :1224:/     7.3/     7.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.41/ 0.90/ 0.69/ 0.18/ 0.00/ 0.00/
+:*************************************************
+:Housatonic River - Falls Village, CT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 3.47 ft at Dec-21 10:15 am
+:Crest 8.47 at Dec-25 1am
+:
+.ER FLVC3 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     3.5/     3.5
+.E2 :1222:/     3.5/     3.4/     3.4/     3.4
+.E3 :1223:/     3.5/     4.3/     5.4/     6.4
+.E4 :1224:/     7.1/     7.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.05/ 0.43/ 0.94/ 0.62/ 0.13/ 0.00/ 0.00/
+: FLVC3 Above minor flood stage at 2022-12-24 01:00:00
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Tenmile River - Webatuck, NY
+:Flood Stage 9.0 ft
+:Latest Observed Value: 1.97 ft at Dec-21 10:15 am
+:Crest 5.80 at Dec-24 7am
+:
+.ER TENN6 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     2.0/     2.0
+.E2 :1222:/     2.0/     2.0/     2.0/     2.0
+.E3 :1223:/     2.2/     2.9/     4.1/     5.2
+.E4 :1224:/     5.8/     5.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.07/ 0.52/ 0.93/ 0.53/ 0.09/ 0.00/ 0.00/
+:*************************************************
+:Housatonic River - Gaylordsville, CT
+:Flood Stage 8.0 ft
+:Latest Observed Value: 3.80 ft at Dec-21 11:00 am
+:Crest 8.96 at Dec-24 7pm
+:
+.ER GAYC3 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     3.9/     3.8
+.E2 :1222:/     3.8/     3.8/     3.8/     3.7
+.E3 :1223:/     3.9/     4.3/     5.6/     7.0
+.E4 :1224:/     8.0/     8.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.07/ 0.51/ 1.00/ 0.56/ 0.10/ 0.00/ 0.00/
+: GAYC3 Above minor flood stage at 2022-12-24 07:00:00
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Housatonic River - Stevenson Dam, CT
+:Flood Stage 11.0 ft
+:Latest Observed Value: 7.83 ft at Dec-21 10:30 am
+:Crest 11.45 at Dec-24 7pm
+:
+.ER STVC3 20221221 E DC202212211122/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/     7.7/     7.7
+.E2 :1222:/     2.0/     5.8/     5.4/     5.8
+.E3 :1223:/     6.2/     6.8/     7.8/    10.0
+.E4 :1224:/    10.9/    11.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.10/ 0.59/ 1.14/ 0.52/ 0.05/ 0.00/ 0.00/
+: STVC3 Above minor flood stage at 2022-12-24 07:00:00
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+:Housatonic River - Stevenson Dam, CT
+:
+.ER STVC3 20221221 E DC202212211122/DH13/QRIFF/DIH6
+:FLOW FCST      1AM      7AM      1PM      7PM
+.E1 :1221:       ::       ::/    6.00/    6.00
+.E2 :1222:/    0.30/    3.09/    2.63/    3.10
+.E3 :1223:/    3.59/    4.47/    6.14/   11.27
+.E4 :1224:/   13.37/   14.30
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.10/ 0.59/ 1.14/ 0.52/ 0.05/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

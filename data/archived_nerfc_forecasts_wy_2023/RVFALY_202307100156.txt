@@ -1,0 +1,215 @@
+
+303 
+FGUS51 KTAR 100159
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0956 PM EDT Sun Jul 09 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hoosic River - Eagle Bridge, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 3.78 ft at Jul-09 09:30 pm
+:Crest 12.31 at Jul-11 2am
+:
+.ER EAGN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/     3.9/     4.4/     7.2/    11.1
+.E2 :0711:/    12.3/    11.5/    10.4/     9.3
+.E3 :0712:/     8.3/     7.7/     7.2/     6.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/
+: EAGN6 Above minor flood stage at 2023-07-10 20:00:00
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20230710 E DC202307092156/DH02/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0710:/    0.40/    0.47/    0.53/    0.64
+.E2 :0711:/    0.84/    1.23/    1.55/    1.59
+.E3 :0712:/    1.39/    1.14/    0.94/    0.82
+: Local QPF - 6 hr timestep
+: 0.23/ 0.19/ 0.16/ 0.43/ 0.29/ 0.10/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1221.25 ft at Jul-09 08:45 pm
+:
+.ER HIKN6 20230710 E DC202307092156/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0710:/  1221.2/  1221.1/  1221.1/  1221.1
+.E2 :0711:/  1221.1/  1221.2/  1221.3/  1221.5
+.E3 :0712:/  1221.7/  1221.8/  1221.9/  1222.0
+: Local QPF - 6 hr timestep
+: 0.23/ 0.19/ 0.16/ 0.43/ 0.29/ 0.10/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 3.02 ft at Jul-09 09:15 pm
+:
+.ER KASN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/     3.0/     3.1/     3.1/     3.2
+.E2 :0711:/     3.3/     3.4/     3.4/     3.4
+.E3 :0712:/     3.3/     3.2/     3.2/     3.1
+: Local QPF - 6 hr timestep
+: 0.17/ 0.15/ 0.21/ 0.34/ 0.26/ 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 5.49 ft at Jul-09 09:30 pm
+:
+.ER LTLN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/     5.6/     5.6/     5.7/     5.8
+.E2 :0711:/     6.1/     6.4/     6.4/     6.3
+.E3 :0712:/     6.2/     6.1/     6.0/     5.9
+: Local QPF - 6 hr timestep
+: 0.14/ 0.12/ 0.11/ 0.46/ 0.22/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 5.05 ft at Jul-09 09:15 pm
+:
+.ER PTVN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/     4.8/     5.3/     5.4/     5.5
+.E2 :0711:/     5.6/     5.4/     5.2/     4.8
+.E3 :0712:/     4.5/     4.4/     4.2/     4.1
+: Local QPF - 6 hr timestep
+: 0.44/ 0.45/ 0.22/ 0.16/ 0.30/ 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1117.32 ft at Jul-09 09:15 pm
+:Crest 1125.98 at Jul-14 8pm
+:
+.ER GILN6 20230710 E DC202307092156/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0710:/  1117.6/  1118.1/  1118.8/  1119.6
+.E2 :0711:/  1120.4/  1121.3/  1122.1/  1122.8
+.E3 :0712:/  1123.4/  1123.8/  1124.2/  1124.5
+: Local QPF - 6 hr timestep
+: 0.34/ 0.45/ 0.18/ 0.26/ 0.29/ 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Schoharie Creek - Gilboa, NY
+:Flood Stage 17.0 ft
+:Latest Observed Value: 9.57 ft at Jul-09 09:15 pm
+:
+.ER GBRN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/     9.8/     9.8/     9.8/     9.8
+.E2 :0711:/     9.8/     9.8/     9.8/     9.8
+.E3 :0712:/     9.8/     9.8/     9.8/     9.8
+: RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Breakabeen, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 1.84 ft at Jul-09 09:30 pm
+:
+.ER BKBN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/     2.2/     2.6/     3.0/     3.2
+.E2 :0711:/     3.4/     3.5/     3.4/     3.1
+.E3 :0712:/     2.8/     2.6/     2.5/     2.4
+: Local QPF - 6 hr timestep
+: 0.26/ 0.51/ 0.22/ 0.36/ 0.26/ 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Burtonsville, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 1.68 ft at Jul-09 08:45 pm
+:
+.ER BRTN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/     1.7/     1.9/     2.2/     2.6
+.E2 :0711:/     2.8/     3.0/     3.1/     3.0
+.E3 :0712:/     2.8/     2.7/     2.5/     2.4
+: Local QPF - 6 hr timestep
+: 0.30/ 0.48/ 0.30/ 0.35/ 0.30/ 0.06/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.93 ft at Jul-09 09:00 pm
+:
+.ER MTRN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/     6.8/     7.0/     6.7/     6.4
+.E2 :0711:/     6.4/     6.1/     5.8/     5.6
+.E3 :0712:/     5.5/     5.5/     5.4/     5.4
+: Local QPF - 6 hr timestep
+: 0.58/ 0.44/ 0.14/ 0.14/ 0.24/ 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 585.91 ft at Jul-09 09:00 pm
+:
+.ER ASEN6 20230710 E DC202307092156/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0710:/   586.0/   586.2/   586.5/   586.7
+.E2 :0711:/   586.9/   587.1/   587.3/   587.4
+.E3 :0712:/   587.5/   587.5/   587.5/   587.5
+: Local QPF - 6 hr timestep
+: 0.55/ 0.43/ 0.12/ 0.11/ 0.16/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 14.51 ft at Jul-09 09:30 pm
+:
+.ER MRNN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/    15.2/    15.8/    16.1/    16.3
+.E2 :0711:/    16.3/    16.3/    16.2/    16.1
+.E3 :0712:/    16.1/    16.2/    16.2/    16.1
+: Local QPF - 6 hr timestep
+: 0.45/ 0.43/ 0.17/ 0.11/ 0.19/ 0.04/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Roundout Reservoir - Roundout Resvr, NY
+:Latest Observed Value: 836.59 ft at Jul-09 09:00 pm
+:Crest 836.65 at Jul-10 2am
+:
+.ER RONN6 20230710 E DC202307092156/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0710:/   836.6/   836.6/   836.6/   836.5
+.E2 :0711:/   836.4/   836.2/   836.0/   835.8
+.E3 :0712:/   835.6/   835.4/   835.1/   834.9
+: Local QPF - 6 hr timestep
+: 0.46/ 0.24/ 0.07/ 0.11/ 0.09/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Rondout Creek - Rosendale, NY
+:Flood Stage 18.0 ft
+:Latest Observed Value: 12.91 ft at Jul-09 09:30 pm
+:
+.ER ROSN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/    14.5/    13.9/    13.0/    12.7
+.E2 :0711:/    12.4/    12.2/    11.8/    11.5
+.E3 :0712:/    11.3/    11.1/    10.9/    10.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 5.34 ft at Jul-09 09:30 pm
+:
+.ER WAPN6 20230710 E DC202307092156/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0710:/     6.3/     6.8/     6.8/     6.5
+.E2 :0711:/     6.1/     5.8/     5.5/     5.3
+.E3 :0712:/     5.1/     5.0/     4.9/     4.8
+: Local QPF - 6 hr timestep
+: 0.87/ 0.55/ 0.37/ 0.07/ 0.11/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+$$
+:NERFC
+:...END OF MESSAGE

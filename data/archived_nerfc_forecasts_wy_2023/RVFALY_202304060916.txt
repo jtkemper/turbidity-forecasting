@@ -1,0 +1,29 @@
+
+794 
+FGUS51 KTAR 060916
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0516 AM EDT Thu Apr 06 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 12.34 ft at Apr-06 04:30 am
+:
+.ER LTLN6 20230406 E DC202304060515/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0406:       ::/    13.9/    14.2/    13.3
+.E2 :0407:/    11.9/    11.3/    10.8/    10.3
+.E3 :0408:/     9.9/     9.6/     9.3/     9.1
+.E4 :0409:/     8.8
+: Local QPF - 6 hr timestep
+: 0.08/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+$$
+:NERFC
+:...END OF MESSAGE

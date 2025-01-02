@@ -1,0 +1,28 @@
+
+109 
+FGUS51 KTAR 191205
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0805 AM EDT Wed Jul 19 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hoosic River - Williamstown, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 6.79 ft at Jul-19 07:00 am
+:
+.ER WILM3 20230719 E DC202307190805/DH14/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0719:       ::       ::/     6.6/     6.4
+.E2 :0720:/     6.3/     6.2/     6.2/     6.2
+.E3 :0721:/     6.2/     6.1/     6.1/     6.1
+.E4 :0722:/     6.0/     6.0
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.06/ 0.18/ 0.11/ 0.09/ 0.09/
+$$
+:NERFC
+:...END OF MESSAGE

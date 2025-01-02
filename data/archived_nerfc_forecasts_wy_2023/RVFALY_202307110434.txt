@@ -1,0 +1,30 @@
+
+499 
+FGUS51 KTAR 110435
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1234 AM EDT Tue Jul 11 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Housatonic River - Falls Village, CT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 8.32 ft at Jul-11 12:15 am
+:Crest 8.28 at Jul-11 2am
+:
+.ER FLVC3 20230711 E DC202307110034/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0711:/     8.3/     8.0/     7.8/     7.6
+.E2 :0712:/     7.5/     7.4/     7.2/     6.9
+.E3 :0713:/     6.7/     6.5/     6.3/     6.1
+: Local QPF - 6 hr timestep
+: 0.07/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.19/
+: FLVC3 Above minor flood stage at 2023-07-11 02:00:00
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

@@ -1,0 +1,61 @@
+
+385 
+FGUS51 KTAR 010730
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0328 AM EDT Mon May 01 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 10.42 ft at May-01 03:00 am
+:Crest 11.22 at May-01 8am
+:
+.ER MTRN6 20230501 E DC202305010328/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0501:       ::/    11.2/     9.0/     7.6
+.E2 :0502:/     7.3/     7.0/     6.9/     6.6
+.E3 :0503:/     6.4/     6.2/     6.1/     6.1
+.E4 :0504:/     6.0
+: Local QPF - 6 hr timestep
+: 0.14/ 0.00/ 0.07/ 0.03/ 0.12/ 0.06/ 0.04/ 0.01/ 0.04/ 0.05/ 0.06/ 0.04/
+: MTRN6 Above minor flood stage at 2023-05-01 08:00:00
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 587.18 ft at May-01 02:25 am
+:
+.ER ASEN6 20230501 E DC202305010328/DH08/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0501:       ::/   587.8/   588.7/   588.9
+.E2 :0502:/   588.8/   588.6/   588.4/   588.3
+.E3 :0503:/   588.2/   588.1/   588.0/   587.9
+.E4 :0504:/   587.8
+: Local QPF - 6 hr timestep
+: 0.12/ 0.00/ 0.04/ 0.03/ 0.10/ 0.06/ 0.03/ 0.01/ 0.03/ 0.04/ 0.05/ 0.03/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 18.67 ft at May-01 02:30 am
+:Crest 20.30 at May-02 8pm
+:
+.ER MRNN6 20230501 E DC202305010328/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0501:       ::/    18.8/    18.0/    17.4
+.E2 :0502:/    17.0/    17.9/    19.6/    19.8
+.E3 :0503:/    19.9/    19.4/    18.8/    18.3
+.E4 :0504:/    17.9
+: Local QPF - 6 hr timestep
+: 0.10/ 0.00/ 0.03/ 0.02/ 0.10/ 0.05/ 0.03/ 0.00/ 0.03/ 0.03/ 0.04/ 0.04/
+: MRNN6 Above minor flood stage at 2023-05-02 20:00:00
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

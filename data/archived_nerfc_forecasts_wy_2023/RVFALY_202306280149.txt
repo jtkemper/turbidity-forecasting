@@ -1,0 +1,52 @@
+
+354 
+FGUS51 KTAR 280149
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0949 PM EDT Tue Jun 27 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hoosic River - Williamstown, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 6.95 ft at Jun-27 09:31 pm
+:
+.ER WILM3 20230628 E DC202306272149/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0628:/     6.8/     6.5/     6.3/     6.4
+.E2 :0629:/     6.2/     6.1/     6.0/     6.0
+.E3 :0630:/     6.0/     5.9/     5.9/     5.9
+: Local QPF - 6 hr timestep
+: 0.04/ 0.00/ 0.11/ 0.21/ 0.02/ 0.00/ 0.01/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Walloomsac River - Bennington, VT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 4.26 ft at Jun-27 09:15 pm
+:
+.ER BNTV1 20230628 E DC202306272149/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0628:/     3.7/     3.2/     2.9/     3.0
+.E2 :0629:/     2.8/     2.7/     2.6/     2.5
+.E3 :0630:/     2.5/     2.4/     2.4/     2.4
+: Local QPF - 6 hr timestep
+: 0.05/ 0.00/ 0.11/ 0.19/ 0.02/ 0.01/ 0.01/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 586.80 ft at Jun-27 09:00 pm
+:
+.ER ASEN6 20230628 E DC202306272149/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0628:/   586.8/   586.8/   586.7/   586.7
+.E2 :0629:/   586.7/   586.6/   586.6/   586.5
+.E3 :0630:/   586.5/   586.4/   586.4/   586.3
+: Local QPF - 6 hr timestep
+: 0.33/ 0.00/ 0.11/ 0.19/ 0.01/ 0.00/ 0.02/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

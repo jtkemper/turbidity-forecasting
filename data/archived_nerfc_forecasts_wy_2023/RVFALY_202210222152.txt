@@ -1,0 +1,42 @@
+
+729 
+FGUS51 KTAR 222154
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0552 PM EDT Sat Oct 22 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 569.46 ft at Oct-22 05:05 pm
+:
+.ER ASEN6 20221022 E DC202210221752/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :1022:       ::       ::       ::/   569.5
+.E2 :1023:/   569.5/   569.5/   569.5/   569.6
+.E3 :1024:/   569.6/   569.6/   569.7/   569.7
+.E4 :1025:/   569.7/   569.7/   569.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.06/ 0.16/ 0.13/ 0.01/ 0.00/ 0.02/ 0.03/ 0.00/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Roundout Reservoir - Roundout Resvr, NY
+:Latest Observed Value: 835.71 ft at Oct-22 05:05 pm
+:Crest 836.29 at Oct-27 2pm
+:
+.ER RONN6 20221022 E DC202210221752/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :1022:       ::       ::       ::/   835.8
+.E2 :1023:/   835.7/   835.6/   835.7/   835.8
+.E3 :1024:/   835.8/   835.9/   835.9/   836.0
+.E4 :1025:/   836.0/   836.1/   836.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.14/ 0.14/ 0.01/ 0.01/ 0.01/ 0.03/ 0.00/
+$$
+:NERFC
+:...END OF MESSAGE

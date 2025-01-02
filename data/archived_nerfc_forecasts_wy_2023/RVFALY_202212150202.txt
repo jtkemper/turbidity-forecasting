@@ -1,0 +1,78 @@
+
+398 
+FGUS51 KTAR 150203
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0902 PM EST Wed Dec 14 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 4.75 ft at Dec-14 08:00 pm
+:
+.ER MTRN6 20221215 E DC202212142102/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1215:/     4.7/     4.7/     4.7/     4.7
+.E2 :1216:/     4.6/     4.6/     4.7/     5.0
+.E3 :1217:/     5.2/     5.1/     5.0/     4.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.09/ 0.55/ 0.63/ 0.47/ 0.39/ 0.20/ 0.03/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 581.16 ft at Dec-14 08:05 pm
+:
+.ER ASEN6 20221215 E DC202212142102/DH01/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1215:/   581.2/   581.2/   581.2/   581.2
+.E2 :1216:/   581.3/   581.3/   581.4/   581.4
+.E3 :1217:/   581.5/   581.5/   581.5/   581.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.08/ 0.54/ 0.61/ 0.43/ 0.36/ 0.18/ 0.03/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 13.91 ft at Dec-14 08:30 pm
+:
+.ER MRNN6 20221215 E DC202212142102/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1215:/    13.9/    13.9/    13.8/    13.8
+.E2 :1216:/    13.8/    13.8/    14.0/    14.3
+.E3 :1217:/    14.6/    14.7/    14.8/    14.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.04/ 0.47/ 0.55/ 0.41/ 0.36/ 0.19/ 0.03/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Housatonic River - Stevenson Dam, CT
+:Flood Stage 11.0 ft
+:Latest Observed Value: 6.80 ft at Dec-14 08:30 pm
+:Crest 9.63 at Dec-17 7pm
+:
+.ER STVC3 20221215 E DC202212142102/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1215:/     2.0/     6.9/     6.9/     6.9
+.E2 :1216:/     2.6/     6.8/     6.9/     6.9
+.E3 :1217:/     8.9/     9.5/     9.6/     9.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.32/ 0.45/ 0.38/ 0.21/ 0.13/ 0.03/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+:Housatonic River - Stevenson Dam, CT
+:
+.ER STVC3 20221215 E DC202212142102/DH01/QRIFF/DIH6
+:FLOW FCST      1AM      7AM      1PM      7PM
+.E1 :1215:/    0.29/    4.68/    4.66/    4.64
+.E2 :1216:/    0.50/    4.61/    4.64/    4.68
+.E3 :1217:/    8.47/    9.79/   10.16/   10.23
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.32/ 0.45/ 0.38/ 0.21/ 0.13/ 0.03/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

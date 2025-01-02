@@ -1,0 +1,100 @@
+
+378 
+FGUS51 KTAR 170022
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0821 PM EDT Sun Jul 16 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hoosic River - Williamstown, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 7.08 ft at Jul-16 08:00 pm
+:
+.ER WILM3 20230717 E DC202307162021/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0717:/     7.0/     6.8/     6.6/     6.5
+.E2 :0718:/     6.4/     6.3/     6.3/     6.3
+.E3 :0719:/     6.2/     6.2/     6.1/     6.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.07/ 0.28/ 0.05/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Walloomsac River - Bennington, VT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 3.37 ft at Jul-16 07:15 pm
+:
+.ER BNTV1 20230717 E DC202307162021/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0717:/     3.2/     3.2/     3.0/     2.9
+.E2 :0718:/     2.8/     2.8/     2.7/     2.7
+.E3 :0719:/     2.8/     2.7/     2.6/     2.6
+: Local QPF - 6 hr timestep
+: 0.17/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.07/ 0.24/ 0.04/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Hoosic River - Eagle Bridge, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 6.80 ft at Jul-16 07:30 pm
+:
+.ER EAGN6 20230717 E DC202307162021/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0717:/     6.8/     6.5/     6.2/     5.9
+.E2 :0718:/     5.6/     5.3/     5.1/     5.0
+.E3 :0719:/     4.9/     4.8/     4.6/     4.5
+: Local QPF - 6 hr timestep
+: 0.28/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.09/ 0.24/ 0.04/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Hudson River - Waterford, NY
+:Flood Stage 34.0 ft
+:Latest Observed Value: 30.45 ft at Jul-16 07:30 pm
+:
+.ER WTFN6 20230717 E DC202307162021/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0717:/    30.8/    30.6/    30.5/    30.3
+.E2 :0718:/    29.8/    29.3/    28.9/    28.6
+.E3 :0719:/    28.1/    27.7/    27.2/    26.8
+: Local QPF - 6 hr timestep
+: 0.20/ 0.00/ 0.00/ 0.00/ 0.01/ 0.04/ 0.12/ 0.25/ 0.02/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 6.03 ft at Jul-16 07:15 pm
+:
+.ER PTVN6 20230717 E DC202307162021/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0717:/     5.6/     5.4/     5.0/     4.8
+.E2 :0718:/     4.6/     4.5/     4.6/     5.0
+.E3 :0719:/     5.3/     5.3/     5.1/     4.9
+: Local QPF - 6 hr timestep
+: 0.10/ 0.00/ 0.00/ 0.00/ 0.01/ 0.06/ 0.25/ 0.18/ 0.13/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Rondout Creek - Rosendale, NY
+:Flood Stage 18.0 ft
+:Latest Observed Value: 12.39 ft at Jul-16 07:30 pm
+:
+.ER ROSN6 20230717 E DC202307162021/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0717:/    11.5/    11.3/    11.2/    11.0
+.E2 :0718:/    10.8/    10.6/    10.5/    10.5
+.E3 :0719:/    10.4/    10.3/    10.1/    10.1
+: Local QPF - 6 hr timestep
+: 0.14/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.14/ 0.26/ 0.03/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 6.05 ft at Jul-16 07:30 pm
+:
+.ER WAPN6 20230717 E DC202307162021/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0717:/     6.3/     6.3/     6.2/     6.2
+.E2 :0718:/     5.9/     5.5/     5.2/     5.0
+.E3 :0719:/     4.9/     4.8/     4.8/     4.7
+: Local QPF - 6 hr timestep
+: 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.27/ 0.05/ 0.00/ 0.00/ 0.00/
+$$
+:NERFC
+:...END OF MESSAGE

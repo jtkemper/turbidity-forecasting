@@ -1,0 +1,55 @@
+
+270 
+FGUS51 KTAR 120137
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0937 PM EDT Thu May 11 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - North Creek, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 3.95 ft at May-11 09:15 pm
+:
+.ER NCKN6 20230512 E DC202305112137/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0512:/     4.2/     4.1/     4.1/     4.0
+.E2 :0513:/     4.0/     4.0/     3.9/     3.9
+.E3 :0514:/     3.9/     3.8/     3.8/     3.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Indian Lake - Indian Lake, NY
+:Flood Stage 1652.5 ft
+:Latest Observed Value: 1650.93 ft at May-11 09:00 pm
+:
+.ER INDN6 20230512 E DC202305112137/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0512:/  1651.0/  1651.0/  1651.0/  1651.0
+.E2 :0513:/  1651.0/  1651.0/  1651.0/  1651.1
+.E3 :0514:/  1651.1/  1651.1/  1651.1/  1651.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1651.25 FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:Hudson River - Waterford, NY
+:Flood Stage 34.0 ft
+:Latest Observed Value: 30.66 ft at May-11 08:30 pm
+:
+.ER WTFN6 20230512 E DC202305112137/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0512:/    30.7/    30.7/    30.7/    30.7
+.E2 :0513:/    30.6/    30.6/    30.5/    30.5
+.E3 :0514:/    30.4/    30.4/    30.3/    30.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: Gage Reading is below bottom of rating table
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+$$
+:NERFC
+:...END OF MESSAGE

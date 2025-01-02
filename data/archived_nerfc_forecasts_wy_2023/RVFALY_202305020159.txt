@@ -1,0 +1,92 @@
+
+201 
+FGUS51 KTAR 020202
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0959 PM EDT Mon May 01 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - North Creek, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 6.77 ft at May-01 09:15 pm
+:
+.ER NCKN6 20230502 E DC202305012159/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0502:/     6.8/     6.7/     6.7/     6.6
+.E2 :0503:/     6.6/     6.5/     6.4/     6.3
+.E3 :0504:/     6.2/     6.1/     6.0/     5.9
+: Local QPF - 6 hr timestep
+: 0.01/ 0.12/ 0.13/ 0.08/ 0.03/ 0.07/ 0.11/ 0.08/ 0.07/ 0.02/ 0.02/ 0.02/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Hudson River - Fort Edward, NY
+:Flood Stage 26.0 ft
+:Latest Observed Value: 24.04 ft at May-01 08:45 pm
+:
+.ER FTEN6 20230502 E DC202305012159/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0502:/    24.2/    24.3/    24.3/    24.3
+.E2 :0503:/    24.3/    24.3/    24.2/    24.2
+.E3 :0504:/    24.1/    24.1/    24.1/    24.0
+: Local QPF - 6 hr timestep
+: 0.06/ 0.00/ 0.05/ 0.11/ 0.09/ 0.09/ 0.02/ 0.01/ 0.01/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:*************************************************
+:Battenkill - Battenville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 6.54 ft at May-01 09:15 pm
+:
+.ER BTTN6 20230502 E DC202305012159/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0502:/     6.6/     6.6/     6.6/     6.5
+.E2 :0503:/     6.6/     6.6/     6.5/     6.5
+.E3 :0504:/     6.5/     6.6/     6.7/     6.7
+: Local QPF - 6 hr timestep
+: 0.01/ 0.08/ 0.18/ 0.05/ 0.00/ 0.04/ 0.11/ 0.15/ 0.11/ 0.04/ 0.02/ 0.02/
+:*************************************************
+:Hudson River - Waterford, NY
+:Flood Stage 34.0 ft
+:Latest Observed Value: 31.54 ft at May-01 09:30 pm
+:
+.ER WTFN6 20230502 E DC202305012159/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0502:/    31.6/    31.7/    31.7/    31.7
+.E2 :0503:/    31.7/    31.7/    31.7/    31.7
+.E3 :0504:/    31.7/    31.7/    31.6/    31.6
+: Local QPF - 6 hr timestep
+: 0.01/ 0.11/ 0.19/ 0.05/ 0.00/ 0.05/ 0.10/ 0.09/ 0.08/ 0.02/ 0.01/ 0.02/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 10.53 ft at May-01 09:30 pm
+:
+.ER LTLN6 20230502 E DC202305012159/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0502:/    10.3/    10.0/     9.7/     9.6
+.E2 :0503:/     9.7/     9.9/    10.0/    10.0
+.E3 :0504:/    10.0/     9.9/     9.7/     9.5
+: Local QPF - 6 hr timestep
+: 0.02/ 0.04/ 0.03/ 0.06/ 0.03/ 0.05/ 0.06/ 0.07/ 0.01/ 0.01/ 0.02/ 0.05/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 18.34 ft at May-01 09:30 pm
+:
+.ER MRNN6 20230502 E DC202305012159/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0502:/    18.0/    17.7/    18.3/    18.7
+.E2 :0503:/    18.9/    18.9/    18.7/    18.4
+.E3 :0504:/    18.1/    17.9/    17.6/    17.4
+: Local QPF - 6 hr timestep
+: 0.02/ 0.12/ 0.05/ 0.03/ 0.00/ 0.02/ 0.05/ 0.07/ 0.05/ 0.04/ 0.03/ 0.03/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

@@ -1,0 +1,29 @@
+
+065 
+FGUS51 KTAR 111151
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0750 AM EDT Tue Jul 11 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - North Creek, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 8.34 ft at Jul-11 07:15 am
+:
+.ER NCKN6 20230711 E DC202307110750/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0711:       ::/     8.4/     8.7/     8.7
+.E2 :0712:/     8.6/     8.4/     8.2/     8.0
+.E3 :0713:/     7.7/     7.4/     7.1/     6.9
+.E4 :0714:/     6.7
+: Local QPF - 6 hr timestep
+: 0.11/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.06/ 0.37/ 0.19/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

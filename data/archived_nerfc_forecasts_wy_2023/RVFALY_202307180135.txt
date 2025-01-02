@@ -1,0 +1,63 @@
+
+952 
+FGUS51 KTAR 180136
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0935 PM EDT Mon Jul 17 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schroon River - Riverbank, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 6.68 ft at Jul-17 08:30 pm
+:
+.ER RVRN6 20230718 E DC202307172135/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0718:/     6.7/     6.7/     6.6/     6.6
+.E2 :0719:/     6.5/     6.4/     6.3/     6.2
+.E3 :0720:/     6.1/     6.0/     5.9/     5.8
+: Local QPF - 6 hr timestep
+: 0.02/ 0.07/ 0.09/ 0.19/ 0.10/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.04/
+:*************************************************
+:Housatonic River - Falls Village, CT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 7.01 ft at Jul-17 09:15 pm
+:
+.ER FLVC3 20230718 E DC202307172135/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0718:/     7.0/     6.9/     6.8/     6.8
+.E2 :0719:/     6.8/     6.9/     6.8/     6.8
+.E3 :0720:/     6.7/     6.6/     6.5/     6.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.01/ 0.09/ 0.68/ 0.18/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.07/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Housatonic River - Stevenson Dam, CT
+:Flood Stage 11.0 ft
+:Latest Observed Value: 10.72 ft at Jul-17 08:30 pm
+:
+.ER STVC3 20230718 E DC202307172135/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0718:/    10.8/    10.8/    10.7/    10.7
+.E2 :0719:/    10.7/    10.7/    10.7/     9.7
+.E3 :0720:/     9.0/     8.7/     8.7/     8.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.04/ 0.40/ 0.08/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.04/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+:Housatonic River - Stevenson Dam, CT
+:
+.ER STVC3 20230718 E DC202307172135/DH02/QRIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0718:/   13.04/   13.03/   13.03/   13.02
+.E2 :0719:/   13.01/   13.01/   13.00/   10.47
+.E3 :0720:/    8.68/    7.98/    7.95/    7.67
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.04/ 0.40/ 0.08/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.04/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

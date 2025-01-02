@@ -1,0 +1,33 @@
+
+687 
+FGUS51 KTAR 260202
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1002 PM EDT Tue Jul 25 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Rondout Creek - Rosendale, NY
+:Flood Stage 18.0 ft
+:Latest Observed Value: 11.53 ft at Jul-25 09:30 pm
+:
+.ER ROSN6 20230726 E DC202307252159/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0726:/    11.7/    10.3/     9.8/     9.7
+.E2 :0727:/     9.7/     9.7/     9.6/     9.6
+.E3 :0728:/     9.7/     9.6/     9.6/     9.5
+: Local QPF - 6 hr timestep
+: 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.12/ 0.00/ 0.00/ 0.00/ 0.00/
+$$
+:
+: UPDATED FOR SHARP RISE DUE TO RUNOFF FROM THUNDERSTORMS. CREEK IS
+: NEARING CREST NOW.
+:
+: HORWOOD
+:
+:NERFC
+:...END OF MESSAGE

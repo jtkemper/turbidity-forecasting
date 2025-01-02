@@ -1,0 +1,87 @@
+
+283 
+FGUS51 KTAR 140228
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1027 PM EDT Wed Sep 13 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 3.52 ft at Sep-13 10:15 pm
+:
+.ER PTVN6 20230914 E DC202309132227/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0914:/     3.5/     3.5/     3.4/     3.3
+.E2 :0915:/     3.3/     3.3/     3.2/     3.2
+.E3 :0916:/     3.2/     3.2/     3.2/     3.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1127.56 ft at Sep-13 09:20 pm
+:Crest 1127.49 at Sep-14 2am
+:
+.ER GILN6 20230914 E DC202309132227/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0914:/  1127.5/  1127.4/  1127.3/  1127.2
+.E2 :0915:/  1127.0/  1126.9/  1126.8/  1126.6
+.E3 :0916:/  1126.5/  1126.3/  1126.1/  1126.0
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Housatonic River - Great Barrington, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 2.75 ft at Sep-13 09:30 pm
+:
+.ER GTBM3 20230914 E DC202309132227/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0914:/     2.7/     2.7/     2.7/     2.6
+.E2 :0915:/     2.6/     2.6/     2.5/     2.5
+.E3 :0916:/     2.5/     2.5/     2.4/     2.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Tenmile River - Webatuck, NY
+:Flood Stage 9.0 ft
+:Latest Observed Value: 1.83 ft at Sep-13 09:15 pm
+:
+.ER TENN6 20230914 E DC202309132227/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0914:/     1.9/     1.9/     1.8/     1.8
+.E2 :0915:/     1.8/     1.7/     1.7/     1.7
+.E3 :0916:/     1.7/     1.7/     1.6/     1.6
+: Local QPF - 6 hr timestep
+: 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Housatonic River - Stevenson Dam, CT
+:Flood Stage 11.0 ft
+:Latest Observed Value: 6.81 ft at Sep-13 09:30 pm
+:
+.ER STVC3 20230914 E DC202309132227/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0914:/     6.0/     5.0/     5.0/     2.5
+.E2 :0915:/     5.9/     5.3/     5.0/     5.2
+.E3 :0916:/     5.1/     4.2/     4.1/     4.1
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+:Housatonic River - Stevenson Dam, CT
+:
+.ER STVC3 20230914 E DC202309132227/DH02/QRIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0914:/    0.47/    2.14/    2.14/    0.47
+.E2 :0915:/    3.15/    2.50/    2.12/    2.30
+.E3 :0916:/    2.21/    1.42/    1.35/    1.30
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

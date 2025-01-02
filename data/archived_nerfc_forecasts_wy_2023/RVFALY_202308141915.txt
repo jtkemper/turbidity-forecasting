@@ -1,0 +1,54 @@
+
+854 
+FGUS51 KTAR 141917
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0315 PM EDT Mon Aug 14 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20230814 E DC202308141515/DH20/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0814:       ::       ::       ::/    1.16
+.E2 :0815:/    1.05/    1.01/    1.05/    1.14
+.E3 :0816:/    1.23/    1.25/    1.18/    1.08
+.E4 :0817:/    0.99/    0.92/    0.87
+: Local QPF - 6 hr timestep
+: 0.00/ 0.01/ 0.27/ 0.16/ 0.14/ 0.04/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1222.79 ft at Aug-14 02:45 pm
+:
+.ER HIKN6 20230814 E DC202308141515/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0814:       ::       ::       ::/  1222.8
+.E2 :0815:/  1223.0/  1223.0/  1223.1/  1223.1
+.E3 :0816:/  1223.3/  1223.4/  1223.5/  1223.5
+.E4 :0817:/  1223.6/  1223.7/  1223.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.01/ 0.27/ 0.16/ 0.14/ 0.04/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:Rondout Creek - Rosendale, NY
+:Flood Stage 18.0 ft
+:Latest Observed Value: 10.15 ft at Aug-14 02:30 pm
+:Crest 13.77 at Aug-15 2pm
+:
+.ER ROSN6 20230814 E DC202308141515/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0814:       ::       ::       ::/    10.0
+.E2 :0815:/    10.0/    11.9/    13.8/    13.5
+.E3 :0816:/    12.9/    12.5/    12.1/    11.7
+.E4 :0817:/    11.3/    11.0/    10.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.24/ 1.38/ 0.08/ 0.07/ 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+$$
+:NERFC
+:...END OF MESSAGE

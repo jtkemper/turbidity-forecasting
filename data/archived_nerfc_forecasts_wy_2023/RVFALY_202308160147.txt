@@ -1,0 +1,84 @@
+
+497 
+FGUS51 KTAR 160148
+RVFALY
+RIVER FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0947 PM EDT Tue Aug 15 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:************************************************************
+:Hoosic River - Eagle Bridge, NY 
+:Flood stage 11.0 ft
+:Latest Observed Value - 4.2 FT at Aug-15 0930 PM 
+.ER EAGN6 20230816 E DC202308152147/DH02/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0815:                          /   3.9 
+.E2  :0816:  /   3.5 /   3.4 /   3.4 /   3.4 
+.E3  :0817:  /   3.4 /   3.3 /   3.3 /   3.3 
+.E4  :0818:  /   3.2 /   3.3 /   3.7 
+: Local QPF - 6 hr timestep
+:   0.02/ 0.05/ 0.10/ 0.05/ 0.01/ 0.00/ 0.02/ 0.01/ 0.00/ 0.21/ 0.36/ 0.03/ 
+:
+:************************************************************
+:Schoharie Creek - Prattsville, NY 
+:Flood stage 12.0 ft
+:Latest Observed Value - 4.5 FT at Aug-15 0915 PM 
+.ER PTVN6 20230816 E DC202308152147/DH02/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0815:                          /   4.2 
+.E2  :0816:  /   4.0 /   3.8 /   3.6 /   3.5 
+.E3  :0817:  /   3.4 /   3.4 /   3.4 /   3.4 
+.E4  :0818:  /   3.4 /   3.4 /   3.4 
+: Local QPF - 6 hr timestep
+:   0.05/ 0.03/ 0.04/ 0.05/ 0.01/ 0.00/ 0.00/ 0.01/ 0.00/ 0.11/ 0.08/ 0.02/ 
+:
+:************************************************************
+:Esopus Creek - Mt Marion, NY 
+:Flood stage 20.0 ft
+:Latest Observed Value - 14.9 FT at Aug-15 0930 PM 
+.ER MRNN6 20230816 E DC202308152147/DH02/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0815:                          /  14.8 
+.E2  :0816:  /  14.7 /  14.5 /  14.3 /  14.2 
+.E3  :0817:  /  14.1 /  13.9 /  13.8 /  13.7 
+.E4  :0818:  /  13.7 /  13.6 /  13.5 
+: Local QPF - 6 hr timestep
+:   0.06/ 0.04/ 0.05/ 0.03/ 0.02/ 0.00/ 0.00/ 0.01/ 0.00/ 0.12/ 0.07/ 0.02/ 
+:
+:RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:************************************************************
+:Rondout Creek - Rosendale, NY 
+:Flood stage 18.0 ft
+:Latest Observed Value - 12.2 FT at Aug-15 0930 PM 
+.ER ROSN6 20230816 E DC202308152147/DH02/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0815:                          /  12.0 
+.E2  :0816:  /  11.7 /  11.5 /  11.3 /  11.0 
+.E3  :0817:  /  10.8 /  10.6 /  10.5 /  10.3 
+.E4  :0818:  /  10.2 /  10.1 /  10.1 
+: Local QPF - 6 hr timestep
+:   0.06/ 0.04/ 0.04/ 0.02/ 0.01/ 0.00/ 0.00/ 0.01/ 0.01/ 0.12/ 0.04/ 0.01/ 
+:
+:************************************************************
+:Wappinger Creek - Wappingers Falls, NY 
+:Flood stage 8.0 ft
+:Latest Observed Value - 5.0 FT at Aug-15 0930 PM 
+.ER WAPN6 20230816 E DC202308152147/DH02/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0815:                          /   5.1 
+.E2  :0816:  /   5.1 /   5.0 /   4.9 /   4.8 
+.E3  :0817:  /   4.6 /   4.4 /   4.4 /   4.3 
+.E4  :0818:  /   4.3 /   4.3 /   4.3 
+: Local QPF - 6 hr timestep
+:   0.04/ 0.03/ 0.03/ 0.02/ 0.00/ 0.01/ 0.01/ 0.01/ 0.00/ 0.11/ 0.10/ 0.02/ 
+:
+:*******************************************************************
+:
+:
+$$
+:NERFC
+:...END of MESSAGE...

@@ -1,0 +1,57 @@
+
+847 
+FGUS51 KTAR 231345
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0845 AM EST Fri Dec 23 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.13 ft at Dec-23 08:15 am
+:
+.ER KASN6 20221223 E DC202212230845/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1223:       ::       ::/     5.7/     5.1
+.E2 :1224:/     4.7/     4.5/     4.3/     4.3
+.E3 :1225:/     4.3/     4.2/     4.2/     4.2
+.E4 :1226:/     4.2/     4.2
+: Local QPF - 6 hr timestep
+: 0.25/ 0.19/ 0.06/ 0.04/ 0.02/ 0.02/ 0.02/ 0.01/ 0.01/ 0.01/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 9.27 ft at Dec-23 08:30 am
+:Crest 12.07 at Dec-23 7pm
+:
+.ER LTLN6 20221223 E DC202212230845/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1223:       ::       ::/    10.8/    12.1
+.E2 :1224:/    11.7/    11.0/    10.4/    10.0
+.E3 :1225:/     9.7/     9.5/     9.3/     9.2
+.E4 :1226:/     9.0/     8.9
+: Local QPF - 6 hr timestep
+: 0.23/ 0.13/ 0.03/ 0.02/ 0.01/ 0.01/ 0.01/ 0.01/ 0.01/ 0.01/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 4.84 ft at Dec-23 08:30 am
+:
+.ER WAPN6 20221223 E DC202212230845/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1223:       ::       ::/     5.2/     5.6
+.E2 :1224:/     5.6/     5.6/     5.5/     5.3
+.E3 :1225:/     4.9/     4.7/     4.5/     4.5
+.E4 :1226:/     4.4/     4.4
+: Local QPF - 6 hr timestep
+: 0.18/ 0.05/ 0.01/ 0.01/ 0.01/ 0.01/ 0.01/ 0.01/ 0.01/ 0.01/
+$$
+:NERFC
+:...END OF MESSAGE

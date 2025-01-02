@@ -1,0 +1,115 @@
+
+935 
+FGUS51 KTAR 250208
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1007 PM EDT Mon Apr 24 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schroon River - Riverbank, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 6.36 ft at Apr-24 10:01 pm
+:
+.ER RVRN6 20230425 E DC202304242207/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0425:/     6.4/     6.4/     6.5/     6.5
+.E2 :0426:/     6.5/     6.5/     6.4/     6.3
+.E3 :0427:/     6.3/     6.2/     6.1/     6.0
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.01/ 0.04/ 0.00/ 0.00/ 0.01/ 0.12/ 0.03/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Sacandaga River - Hope, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 4.84 ft at Apr-24 09:30 pm
+:
+.ER HOPN6 20230425 E DC202304242207/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0425:/     4.9/     4.6/     4.5/     4.4
+.E2 :0426:/     4.4/     4.3/     4.2/     4.1
+.E3 :0427:/     4.0/     3.9/     3.9/     3.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.00/ 0.02/ 0.11/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION AT LOW FLOWS
+:*************************************************
+:Hudson River - Waterford, NY
+:Flood Stage 34.0 ft
+:Latest Observed Value: 31.13 ft at Apr-24 09:30 pm
+:
+.ER WTFN6 20230425 E DC202304242207/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0425:/    31.5/    31.4/    31.2/    31.2
+.E2 :0426:/    31.2/    31.2/    31.1/    31.0
+.E3 :0427:/    31.0/    31.0/    30.9/    30.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.09/ 0.02/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20230425 E DC202304242207/DH02/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0425:/    2.93/    2.64/    2.36/    2.11
+.E2 :0426:/    1.90/    1.73/    1.60/    1.51
+.E3 :0427:/    1.43/    1.35/    1.28/    1.21
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.01/ 0.05/ 0.12/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1226.38 ft at Apr-24 09:45 pm
+:
+.ER HIKN6 20230425 E DC202304242207/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0425:/  1226.4/  1226.4/  1226.4/  1226.3
+.E2 :0426:/  1226.2/  1226.0/  1225.9/  1225.7
+.E3 :0427:/  1225.5/  1225.2/  1225.0/  1224.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.01/ 0.05/ 0.12/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.91 ft at Apr-24 09:15 pm
+:
+.ER KASN6 20230425 E DC202304242207/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0425:/     4.9/     4.6/     4.5/     4.5
+.E2 :0426:/     4.5/     4.4/     4.4/     4.4
+.E3 :0427:/     4.4/     4.4/     4.4/     4.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.01/ 0.04/ 0.09/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 586.99 ft at Apr-24 09:10 pm
+:
+.ER ASEN6 20230425 E DC202304242207/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0425:/   587.0/   586.9/   586.8/   586.8
+.E2 :0426:/   586.7/   586.7/   586.6/   586.6
+.E3 :0427:/   586.5/   586.4/   586.4/   586.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.02/ 0.01/ 0.00/ 0.00/ 0.01/ 0.08/ 0.03/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 15.60 ft at Apr-24 09:30 pm
+:
+.ER MRNN6 20230425 E DC202304242207/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0425:/    15.8/    16.0/    16.2/    16.3
+.E2 :0426:/    16.2/    16.2/    16.1/    16.0
+.E3 :0427:/    16.0/    15.9/    15.9/    15.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.02/ 0.02/ 0.00/ 0.00/ 0.01/ 0.07/ 0.04/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

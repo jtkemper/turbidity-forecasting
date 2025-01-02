@@ -1,0 +1,52 @@
+
+292 
+FGUS51 KTAR 190240
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1039 PM EDT Tue Jul 18 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hoosic River - Williamstown, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 6.59 ft at Jul-18 10:00 pm
+:
+.ER WILM3 20230719 E DC202307182239/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0719:/     8.0/     7.7/     7.2/     7.0
+.E2 :0720:/     6.8/     6.6/     6.5/     6.4
+.E3 :0721:/     6.4/     6.4/     6.3/     6.3
+: Local QPF - 6 hr timestep
+: 0.63/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.06/ 0.18/ 0.11/ 0.09/ 0.09/
+:*************************************************
+:Walloomsac River - Bennington, VT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 2.81 ft at Jul-18 10:15 pm
+:
+.ER BNTV1 20230719 E DC202307182239/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0719:/     2.9/     3.8/     3.6/     3.4
+.E2 :0720:/     3.2/     3.1/     2.9/     2.9
+.E3 :0721:/     2.8/     2.8/     2.8/     2.7
+: Local QPF - 6 hr timestep
+: 0.69/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.17/ 0.10/ 0.10/ 0.11/
+:*************************************************
+:Hoosic River - Eagle Bridge, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 4.86 ft at Jul-18 09:30 pm
+:Crest 7.89 at Jul-19 2pm
+:
+.ER EAGN6 20230719 E DC202307182239/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0719:/     5.4/     7.1/     7.9/     7.3
+.E2 :0720:/     6.7/     6.4/     6.0/     5.7
+.E3 :0721:/     5.5/     5.4/     5.2/     5.1
+: Local QPF - 6 hr timestep
+: 0.62/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.19/ 0.14/ 0.09/ 0.12/
+$$
+:NERFC
+:...END OF MESSAGE

@@ -1,0 +1,84 @@
+
+467 
+FGUS51 KTAR 281840
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0137 PM EST Tue Feb 28 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 3.79 ft at Feb-28 01:15 pm
+:
+.ER PTVN6 20230228 E DC202302281337/DH19/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0228:       ::       ::       ::/     3.7
+.E2 :0301:/     3.7/     3.6/     3.6/     3.6
+.E3 :0302:/     3.6/     3.7/     4.1/     4.6
+.E4 :0303:/     4.7/     4.5/     4.3
+: Local QPF - 6 hr timestep
+: 0.02/ 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.03/ 0.04/ 0.00/ 0.00/ 0.00/
+: Stage Reading is Affected by Ice.  Forecast Represents Natural Flow.
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1125.56 ft at Feb-28 01:15 pm
+:Crest 1125.42 at Feb-28 7pm
+:
+.ER GILN6 20230228 E DC202302281337/DH19/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :0228:       ::       ::       ::/  1125.4
+.E2 :0301:/  1125.2/  1125.1/  1124.9/  1124.8
+.E3 :0302:/  1124.7/  1124.5/  1124.4/  1124.4
+.E4 :0303:/  1124.5/  1124.7/  1124.9
+: Local QPF - 6 hr timestep
+: 0.02/ 0.00/ 0.00/ 0.00/ 0.02/ 0.00/ 0.03/ 0.04/ 0.00/ 0.00/ 0.00/
+: Forecast not based on gage reading due to gage malfunction
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Schoharie Creek - Gilboa, NY
+:Flood Stage 17.0 ft
+:Latest Observed Value: 12.42 ft at Feb-28 01:15 pm
+:
+.ER GBRN6 20230228 E DC202302281337/DH19/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0228:       ::       ::       ::/    12.3
+.E2 :0301:/    12.1/    12.0/    12.0/    12.0
+.E3 :0302:/    12.0/    12.0/    12.0/    12.0
+.E4 :0303:/    12.0/    12.0/    12.0
+: RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Breakabeen, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 3.07 ft at Feb-28 12:30 pm
+:
+.ER BKBN6 20230228 E DC202302281337/DH19/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0228:       ::       ::       ::/     3.2
+.E2 :0301:/     3.3/     3.2/     3.1/     3.1
+.E3 :0302:/     3.1/     3.2/     3.2/     3.4
+.E4 :0303:/     3.4/     3.3/     3.3
+: Local QPF - 6 hr timestep
+: 0.03/ 0.00/ 0.00/ 0.00/ 0.02/ 0.00/ 0.03/ 0.04/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Burtonsville, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 2.03 ft at Feb-28 12:45 pm
+:
+.ER BRTN6 20230228 E DC202302281337/DH19/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0228:       ::       ::       ::/     1.9
+.E2 :0301:/     1.9/     2.0/     2.0/     1.9
+.E3 :0302:/     1.9/     1.9/     2.0/     2.2
+.E4 :0303:/     2.3/     2.3/     2.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.02/ 0.00/ 0.03/ 0.04/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

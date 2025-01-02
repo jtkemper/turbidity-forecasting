@@ -1,0 +1,747 @@
+
+035 
+FGUS51 KTAR 311508
+RVFALY
+RIVER FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER........NORTON, MA
+ISSUED VIA NATIONAL WATER CENTER... TUSCALOOSA, AL
+1105 AM EDT MON OCT 31 2022
+
+THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER
+FORECAST CENTER.  PUBLIC FORECASTS AND WARNINGS ARE ISSUED BY NWS
+WEATHER FORECAST OFFICES.
+
+:
+:
+:
+:************************************************************
+:NORTH CREEK, NY - HUDSON RIVER
+:MINOR FLOOD STAGE    10.0 FT
+:
+:LATEST RIVER STAGE 3.3 FT AT 0915 AM EDT ON OCT 31
+
+
+.ER NCKN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   3.3 /   3.3 /   3.3
+.E2    : 1101 :   /   3.2 /   3.2 /   3.2 /   3.2
+.E3    : 1102 :   /   3.2 /   3.2 /   3.2 /   3.2
+.E4    : 1103 :   /   3.2 /   3.1 /   3.1 /   3.1
+.E5    : 1104 :   /   3.1 /   3.1 /   3.1 /   3.1
+.E6    : 1105 :   /   3.1
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:
+:************************************************************
+:RIVERBANK, NY - SCHROON RIVER
+:MINOR FLOOD STAGE     7.0 FT
+:
+:LATEST RIVER STAGE 1.6 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER RVRN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   1.6 /   1.6 /   1.6
+.E2    : 1101 :   /   1.6 /   1.6 /   1.6 /   1.6
+.E3    : 1102 :   /   1.6 /   1.6 /   1.6 /   1.6
+.E4    : 1103 :   /   1.6 /   1.6 /   1.6 /   1.6
+.E5    : 1104 :   /   1.6 /   1.6 /   1.6 /   1.6
+.E6    : 1105 :   /   1.6
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:HADLEY, NY - HUDSON RIVER
+:MINOR FLOOD STAGE    14.0 FT
+:
+:LATEST RIVER STAGE 2.5 FT AT 0900 AM EDT ON OCT 31
+
+
+.ER HDYN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   2.5 /   2.4 /   2.4
+.E2    : 1101 :   /   2.4 /   2.4 /   2.4 /   2.3
+.E3    : 1102 :   /   2.3 /   2.3 /   2.3 /   2.3
+.E4    : 1103 :   /   2.3 /   2.3 /   2.3 /   2.2
+.E5    : 1104 :   /   2.2 /   2.2 /   2.2 /   2.2
+.E6    : 1105 :   /   2.2
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:
+:************************************************************
+:HOPE, NY - SACANDAGA RIVER
+:MINOR FLOOD STAGE     7.0 FT
+:
+:LATEST RIVER STAGE 1.8 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER HOPN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   2.0 /   2.0 /   2.0
+.E2    : 1101 :   /   2.0 /   2.0 /   2.0 /   2.0
+.E3    : 1102 :   /   2.0 /   2.0 /   2.0 /   2.0
+.E4    : 1103 :   /   2.0 /   2.0 /   2.0 /   1.9
+.E5    : 1104 :   /   1.9 /   1.9 /   1.9 /   1.9
+.E6    : 1105 :   /   1.9
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED BY POWER GENERATION AT LOW FLOWS
+:
+:************************************************************
+:CONKLINGVILLE, NY - SACANDAGA RIVER
+:MINOR FLOOD STAGE   773.0 FT
+:
+:LATEST POOL ELEVATION 757.3 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER SACN6 1031 E DC202210311105/ DH14/HPIFFZZ/DIH6
+:POOL FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           / 757.3 / 757.2 / 757.2
+.E2    : 1101 :   / 757.2 / 757.2 / 757.2 / 757.1
+.E3    : 1102 :   / 757.1 / 757.1 / 757.1 / 757.1
+.E4    : 1103 :   / 757.1 / 757.1 / 757.0 / 757.0
+.E5    : 1104 :   / 757.0 / 757.0 / 757.0 / 756.9
+.E6    : 1105 :   / 756.9
+:
+:FORECASTER COMMENTS...
+:LAKE LEVELS BELOW 771.0 FEET ARE AFFECTED BY REGULATION
+:
+:************************************************************
+:HADLEY, NY - SACANDAGA RIVER
+:MINOR FLOOD STAGE    10.0 FT
+:
+:LATEST RIVER STAGE 2.1 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER HDLN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   3.9 /   4.0 /   1.8
+.E2    : 1101 :   /   1.8 /   3.9 /   3.9 /   1.8
+.E3    : 1102 :   /   1.8 /   3.9 /   3.9 /   1.9
+.E4    : 1103 :   /   1.9 /   3.8 /   3.8 /   1.8
+.E5    : 1104 :   /   1.8 /   4.0 /   4.0 /   4.0
+.E6    : 1105 :   /   4.0
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:
+:************************************************************
+:FORT EDWARD, NY - HUDSON RIVER
+:MINOR FLOOD STAGE    26.0 FT
+:
+:LATEST RIVER STAGE 21.5 FT AT 0945 AM EDT ON OCT 31
+
+
+.ER FTEN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /  20.7 /  21.1 /  21.1
+.E2    : 1101 :   /  20.5 /  20.5 /  21.1 /  21.1
+.E3    : 1102 :   /  20.5 /  20.5 /  21.1 /  21.1
+.E4    : 1103 :   /  20.5 /  20.5 /  21.0 /  21.0
+.E5    : 1104 :   /  20.5 /  20.5 /  21.1 /  21.1
+.E6    : 1105 :   /  21.1
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:
+:************************************************************
+:BATTENVILLE, NY - BATTENKILL
+:MINOR FLOOD STAGE    12.0 FT
+:
+:LATEST RIVER STAGE 4.4 FT AT 0915 AM EDT ON OCT 31
+
+
+.ER BTTN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   4.4 /   4.4 /   4.4
+.E2    : 1101 :   /   4.4 /   4.4 /   4.4 /   4.4
+.E3    : 1102 :   /   4.4 /   4.4 /   4.4 /   4.4
+.E4    : 1103 :   /   4.4 /   4.4 /   4.4 /   4.4
+.E5    : 1104 :   /   4.3 /   4.3 /   4.3 /   4.3
+.E6    : 1105 :   /   4.3
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:EAGLE BRIDGE, NY - HOOSIC RIVER
+:MINOR FLOOD STAGE    11.0 FT
+:
+:LATEST RIVER STAGE 2.9 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER EAGN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   2.9 /   2.9 /   2.8
+.E2    : 1101 :   /   2.8 /   2.8 /   2.8 /   2.8
+.E3    : 1102 :   /   2.8 /   2.8 /   2.8 /   2.8
+.E4    : 1103 :   /   2.8 /   2.8 /   2.8 /   2.8
+.E5    : 1104 :   /   2.8 /   2.8 /   2.8 /   2.8
+.E6    : 1105 :   /   2.8
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:WATERFORD, NY - HUDSON RIVER
+:MINOR FLOOD STAGE    34.0 FT
+:
+:LATEST RIVER STAGE 30.1 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER WTFN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /  30.4 /  30.2 /  30.2
+.E2    : 1101 :   /  30.1 /  29.9 /  29.9 /  30.1
+.E3    : 1102 :   /  30.1 /  29.9 /  29.9 /  30.1
+.E4    : 1103 :   /  30.1 /  29.8 /  29.8 /  30.1
+.E5    : 1104 :   /  30.0 /  29.8 /  29.8 /  30.1
+.E6    : 1105 :   /  30.2
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:
+:************************************************************
+:DELTA DAM, NY - MOHAWK RIVER
+:
+:LATEST INFLOW DISCHARGE M KCFS M
+
+
+.ER DDMN6 1031 E DC202210311105/ DH14/QIIFFZZ/DIH6
+:FLOW FORECAST  /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   0.1 /   0.1 /   0.1
+.E2    : 1101 :   /   0.1 /   0.1 /   0.1 /   0.1
+.E3    : 1102 :   /   0.1 /   0.1 /   0.1 /   0.1
+.E4    : 1103 :   /   0.1 /   0.1 /   0.1 /   0.1
+.E5    : 1104 :   /   0.1 /   0.1 /   0.1 /   0.1
+.E6    : 1105 :   /   0.1
+:
+:LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:
+:************************************************************
+:DELTA DAM, NY - MOHAWK RIVER
+:MINOR FLOOD STAGE   551.5 FT
+:
+:LATEST POOL ELEVATION 545.6 FT AT 0945 AM EDT ON OCT 31
+
+
+.ER DDMN6 1031 E DC202210311105/ DH14/HPIFFZZ/DIH6
+:POOL FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           / 545.6 / 545.5 / 545.5
+.E2    : 1101 :   / 545.5 / 545.4 / 545.4 / 545.4
+.E3    : 1102 :   / 545.3 / 545.3 / 545.3 / 545.2
+.E4    : 1103 :   / 545.2 / 545.2 / 545.1 / 545.1
+.E5    : 1104 :   / 545.1 / 545.0 / 545.0 / 545.0
+.E6    : 1105 :   / 544.9
+:
+:FORECASTER COMMENTS...
+:LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:
+:************************************************************
+:HINCKLEY DAM, NY - WEST CANADA CREEK
+:
+:LATEST INFLOW DISCHARGE M KCFS M
+
+
+.ER HIKN6 1031 E DC202210311105/ DH14/QIIFFZZ/DIH6
+:FLOW FORECAST  /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   0.4 /   0.4 /   0.3
+.E2    : 1101 :   /   0.3 /   0.3 /   0.3 /   0.3
+.E3    : 1102 :   /   0.3 /   0.3 /   0.3 /   0.3
+.E4    : 1103 :   /   0.3 /   0.3 /   0.3 /   0.3
+.E5    : 1104 :   /   0.3 /   0.3 /   0.3 /   0.3
+.E6    : 1105 :   /   0.3
+:
+:LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:
+:************************************************************
+:HINCKLEY DAM, NY - WEST CANADA CREEK
+:MINOR FLOOD STAGE  1227.0 FT
+:
+:LATEST POOL ELEVATION 1204.5 FT AT 0945 AM EDT ON OCT 31
+
+
+.ER HIKN6 1031 E DC202210311105/ DH14/HPIFFZZ/DIH6
+:POOL FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /1204.4 /1204.3 /1204.2
+.E2    : 1101 :   /1204.1 /1204.0 /1203.9 /1203.8
+.E3    : 1102 :   /1203.7 /1203.6 /1203.5 /1203.4
+.E4    : 1103 :   /1203.3 /1203.2 /1203.1 /1203.0
+.E5    : 1104 :   /1202.9 /1202.8 /1202.7 /1202.6
+.E6    : 1105 :   /1202.5
+:
+:FORECASTER COMMENTS...
+:LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:
+:************************************************************
+:KAST BRIDGE, NY - WEST CANADA CREEK
+:MINOR FLOOD STAGE     6.0 FT
+:
+:LATEST RIVER STAGE 2.9 FT AT 0915 AM EDT ON OCT 31
+
+
+.ER KASN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   2.9 /   3.0 /   3.5
+.E2    : 1101 :   /   3.0 /   2.8 /   2.9 /   3.5
+.E3    : 1102 :   /   2.9 /   2.8 /   2.9 /   3.5
+.E4    : 1103 :   /   2.9 /   2.8 /   2.9 /   2.9
+.E5    : 1104 :   /   2.9 /   2.9 /   2.9 /   2.9
+.E6    : 1105 :   /   2.9
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:
+:************************************************************
+:LITTLE FALLS, NY - MOHAWK RIVER
+:MINOR FLOOD STAGE    15.0 FT
+:
+:LATEST RIVER STAGE 6.0 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER LTLN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   5.6 /   5.4 /   5.5
+.E2    : 1101 :   /   6.1 /   5.6 /   5.3 /   5.4
+.E3    : 1102 :   /   6.0 /   5.6 /   5.3 /   5.3
+.E4    : 1103 :   /   6.0 /   5.5 /   5.2 /   5.3
+.E5    : 1104 :   /   5.3 /   5.3 /   5.3 /   5.3
+.E6    : 1105 :   /   5.3
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:
+:************************************************************
+:PRATTSVILLE, NY - SCHOHARIE CREEK
+:MINOR FLOOD STAGE    12.0 FT
+:
+:LATEST RIVER STAGE 3.6 FT AT 0915 AM EDT ON OCT 31
+
+
+.ER PTVN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   3.5 /   3.5 /   3.5
+.E2    : 1101 :   /   3.5 /   3.5 /   3.5 /   3.5
+.E3    : 1102 :   /   3.4 /   3.4 /   3.4 /   3.4
+.E4    : 1103 :   /   3.4 /   3.4 /   3.4 /   3.3
+.E5    : 1104 :   /   3.3 /   3.3 /   3.3 /   3.3
+.E6    : 1105 :   /   3.3
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:GILBOA DAM, NY - SCHOHARIE CREEK
+:MINOR FLOOD STAGE    Missing
+:
+:LATEST POOL ELEVATION 1122.1 FT AT 0935 AM EDT ON OCT 31
+
+
+.ER GILN6 1031 E DC202210311105/ DH14/HPIFFZZ/DIH6
+:POOL FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /1121.9 /1121.8 /1121.8
+.E2    : 1101 :   /1121.8 /1121.7 /1121.7 /1121.6
+.E3    : 1102 :   /1121.5 /1121.5 /1121.4 /1121.4
+.E4    : 1103 :   /1121.3 /1121.2 /1121.2 /1121.1
+.E5    : 1104 :   /1121.0 /1120.9 /1120.9 /1120.8
+.E6    : 1105 :   /1120.7
+:
+:FORECASTER COMMENTS...
+:LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:
+:************************************************************
+:GILBOA, NY - SCHOHARIE CREEK
+:MINOR FLOOD STAGE    17.0 FT
+:
+:LATEST RIVER STAGE 9.4 FT AT 0915 AM EDT ON OCT 31
+
+
+.ER GBRN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   9.8 /   9.8 /   9.8
+.E2    : 1101 :   /   9.8 /   9.8 /   9.8 /   9.8
+.E3    : 1102 :   /   9.8 /   9.8 /   9.8 /   9.8
+.E4    : 1103 :   /   9.8 /   9.8 /   9.8 /   9.8
+.E5    : 1104 :   /   9.8 /   9.8 /   9.8 /   9.8
+.E6    : 1105 :   /   9.8
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+:
+:************************************************************
+:BREAKABEEN, NY - SCHOHARIE CREEK
+:MINOR FLOOD STAGE    11.0 FT
+:
+:LATEST RIVER STAGE 1.3 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER BKBN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   1.2 /   1.2 /   1.2
+.E2    : 1101 :   /   1.2 /   1.2 /   1.2 /   1.2
+.E3    : 1102 :   /   1.2 /   1.2 /   1.2 /   1.2
+.E4    : 1103 :   /   1.2 /   1.2 /   1.2 /   1.2
+.E5    : 1104 :   /   1.2 /   1.2 /   1.2 /   1.2
+.E6    : 1105 :   /   1.2
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:
+:************************************************************
+:BURTONSVILLE, NY - SCHOHARIE CREEK
+:MINOR FLOOD STAGE     6.0 FT
+:
+:LATEST RIVER STAGE 1.0 FT AT 0945 AM EDT ON OCT 31
+
+
+.ER BRTN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   1.0 /   1.0 /   1.0
+.E2    : 1101 :   /   1.0 /   1.0 /   1.0 /   1.0
+.E3    : 1102 :   /   1.0 /   1.0 /   1.0 /   1.0
+.E4    : 1103 :   /   1.0 /   1.0 /   1.0 /   1.0
+.E5    : 1104 :   /   0.9 /   0.9 /   0.9 /   0.9
+.E6    : 1105 :   /   0.9
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:
+:************************************************************
+:COHOES, NY - MOHAWK RIVER
+:MINOR FLOOD STAGE    20.0 FT
+:
+:LATEST RIVER STAGE 8.1 FT AT 1000 AM EDT ON OCT 31
+
+
+.ER COHN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   9.0 /   8.9 /   9.0
+.E2    : 1101 :   /   9.1 /   8.9 /   8.7 /   8.9
+.E3    : 1102 :   /   9.1 /   8.9 /   8.7 /   8.8
+.E4    : 1103 :   /   9.0 /   8.9 /   8.7 /   8.8
+.E5    : 1104 :   /   8.9 /   8.7 /   8.6 /   8.6
+.E6    : 1105 :   /   8.5
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION AND/OR CANAL OPERATIONS
+:
+:************************************************************
+:TROY LOCK AND DAM, NY - HUDSON RIVER
+:MINOR FLOOD STAGE    21.5 FT
+:
+:LATEST RIVER STAGE 14.9 FT AT 0915 AM EDT ON OCT 31
+
+
+.ER TRYN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /  15.1 /  14.9 /  14.9
+.E2    : 1101 :   /  14.9 /  14.7 /  14.6 /  14.9
+.E3    : 1102 :   /  14.9 /  14.8 /  14.7 /  14.9
+.E4    : 1103 :   /  15.0 /  14.9 /  14.8 /  15.0
+.E5    : 1104 :   /  15.1 /  14.9 /  14.9 /  15.1
+.E6    : 1105 :   /  15.2
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION AND/OR CANAL OPERATIONS
+:
+:************************************************************
+:COLD BROOK, NY - ESOPUS CREEK
+:MINOR FLOOD STAGE    11.0 FT
+:
+:LATEST RIVER STAGE 5.1 FT AT 1000 AM EDT ON OCT 31
+
+
+.ER MTRN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   5.1 /   5.0 /   5.0
+.E2    : 1101 :   /   5.0 /   5.0 /   5.0 /   5.0
+.E3    : 1102 :   /   5.0 /   5.0 /   5.0 /   4.9
+.E4    : 1103 :   /   5.0 /   5.0 /   4.9 /   4.9
+.E5    : 1104 :   /   4.9 /   4.9 /   4.9 /   4.9
+.E6    : 1105 :   /   4.9
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:
+:************************************************************
+:ASHOKAN RESERVOIR EA, NY - ASHOKAN RESERVOIR EAST
+:MINOR FLOOD STAGE   589.0 FT
+:
+:LATEST POOL ELEVATION 572.0 FT AT 0935 AM EDT ON OCT 31
+
+
+.ER ASEN6 1031 E DC202210311105/ DH14/HPIFFZZ/DIH6
+:POOL FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           / 572.1 / 572.2 / 572.3
+.E2    : 1101 :   / 572.4 / 572.4 / 572.5 / 572.6
+.E3    : 1102 :   / 572.7 / 572.8 / 572.9 / 572.9
+.E4    : 1103 :   / 572.9 / 572.9 / 572.9 / 572.9
+.E5    : 1104 :   / 572.9 / 572.9 / 572.8 / 572.8
+.E6    : 1105 :   / 572.8
+:
+:FORECASTER COMMENTS...
+:LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+:
+:************************************************************
+:MT MARION, NY - ESOPUS CREEK
+:MINOR FLOOD STAGE    20.0 FT
+:
+:LATEST RIVER STAGE 13.6 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER MRNN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /  13.6 /  13.6 /  13.5
+.E2    : 1101 :   /  13.5 /  13.5 /  13.5 /  13.5
+.E3    : 1102 :   /  13.5 /  13.5 /  13.4 /  13.4
+.E4    : 1103 :   /  13.4 /  13.4 /  13.4 /  13.4
+.E5    : 1104 :   /  13.4 /  13.4 /  13.4 /  13.3
+.E6    : 1105 :   /  13.3
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:
+:************************************************************
+:ROUNDOUT RESVR, NY - ROUNDOUT RESERVOIR
+:MINOR FLOOD STAGE    Missing
+:
+:LATEST POOL ELEVATION 834.5 FT AT 0935 AM EDT ON OCT 31
+
+
+.ER RONN6 1031 E DC202210311105/ DH14/HPIFFZZ/DIH6
+:POOL FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           / 834.4 / 834.4 / 834.4
+.E2    : 1101 :   / 834.3 / 834.3 / 834.3 / 834.3
+.E3    : 1102 :   / 834.2 / 834.2 / 834.2 / 834.1
+.E4    : 1103 :   / 834.1 / 834.1 / 834.0 / 834.0
+.E5    : 1104 :   / 833.9 / 833.9 / 833.9 / 833.8
+.E6    : 1105 :   / 833.8
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:ROSENDALE, NY - RONDOUT CREEK
+:MINOR FLOOD STAGE    18.0 FT
+:
+:LATEST RIVER STAGE 9.5 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER ROSN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   9.5 /   9.4 /   9.4
+.E2    : 1101 :   /   9.4 /   9.4 /   9.4 /   9.4
+.E3    : 1102 :   /   9.4 /   9.4 /   9.4 /   9.3
+.E4    : 1103 :   /   9.3 /   9.3 /   9.3 /   9.3
+.E5    : 1104 :   /   9.3 /   9.3 /   9.3 /   9.3
+.E6    : 1105 :   /   9.2
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:WAPPINGERS FALLS, NY - WAPPINGER CREEK
+:MINOR FLOOD STAGE     8.0 FT
+:
+:LATEST RIVER STAGE 2.8 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER WAPN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   2.7 /   2.7 /   2.7
+.E2    : 1101 :   /   2.7 /   2.7 /   2.7 /   2.7
+.E3    : 1102 :   /   2.7 /   2.7 /   2.7 /   2.7
+.E4    : 1103 :   /   2.7 /   2.7 /   2.7 /   2.7
+.E5    : 1104 :   /   2.7 /   2.7 /   2.7 /   2.7
+.E6    : 1105 :   /   2.7
+:
+:FORECASTER COMMENTS...
+:
+:ALBANY, NY - HUDSON RIVER
+:MINOR FLOOD STAGE    11.0 FT
+:
+:LATEST RIVER STAGE 3.9 FT AT 0930 AM EDT ON OCT 31
+:RIVER FORECAST
+.ER ALBN6 1031 E DC202210311105/DH09/HGIFFZZ/DIH1
+.E1   :10/31 08AM-02PM:        /   3.7 /   3.7 /   2.8 /   1.7 /   0.9
+.E2   :10/31 02PM-08PM:/   0.3 /  -0.3 /  -0.8 /  -0.2 /   1.6 /   3.1
+.E3   :10/31 08PM-02AM:/   4.1 /   5.0 /   5.3 /   4.6 /   3.3 /   2.3
+.E4   :11/01 02AM-08AM:/   1.5 /   0.7 /   0.0 /  -0.6 /  -0.9 /   0.5
+.E5   :11/01 08AM-02PM:/   2.4 /   3.5 /   4.0 /   4.0 /   3.2 /   2.1
+.E6   :11/01 02PM-08PM:/   1.3 /   0.6 /   0.0 /  -0.7 /  -0.5 /   1.1
+.E7   :11/01 08PM-02AM:/   2.7 /   3.7 /   4.6 /   4.9 /   4.3 /   3.2
+.E8   :11/02 02AM-08AM:/   2.1 /   1.3 /   0.6 /  -0.2 /  -0.9 /  -1.4
+.E9   :11/02 08AM-02PM:/  -0.3 /   1.7 /   2.9 /   3.5 /   3.7 /   3.1
+.E10  :11/02 02PM-08PM:/   2.0 /   1.2 /   0.5 /  -0.2 /  -0.9 /  -1.1
+.E11  :11/02 08PM-02AM:/   0.2 /   2.0 /   3.2 /   4.2 /   4.7 /   4.5
+.E12  :11/03 02AM-08AM:/   3.4 /   2.3 /   1.5 /   0.7 /  -0.1 /  -0.8
+.E13  :11/03 08AM-09AM:/  -1.3
+:
+:FORECASTER COMMENT SECTION
+:FORECAST TIDE STAGES ARE NOT INTENDED FOR NAVIGATIONAL USE
+:
+:POUGHKEEPSIE, NY - HUDSON RIVER
+:MINOR FLOOD STAGE     5.0 FT
+:
+:LATEST RIVER STAGE M FT M
+:RISE ABOVE FLOOD STAGE AROUND 4PM EDT ON 10/31/2022
+.AR :CREST: POUN6 1101 E DC202210311105/DH18/HGIFFXZ 4.1
+: Crest near 4.1 M around 6PM EDT on Tue, Nov 1
+:FALL BELOW FLOOD STAGE AROUND 5PM EDT ON 10/31/2022
+:RIVER FORECAST
+.ER POUN6 1031 E DC202210311105/DH09/HGIFFZZ/DIH1
+.E1   :10/31 08AM-02PM:        /   1.0 /   0.6 /   0.7 /   1.2 /   2.1
+.E2   :10/31 02PM-08PM:/   3.2 /   4.2 /   4.9 /   5.2 /   4.9 /   4.2
+.E3   :10/31 08PM-02AM:/   3.2 /   2.3 /   1.5 /   0.7 /   0.2 /   0.1
+.E4   :11/01 02AM-08AM:/   0.3 /   0.9 /   1.4 /   1.8 /   1.8 /   1.4
+.E5   :11/01 08AM-02PM:/   0.8 /   0.1 /  -0.5 /  -0.9 /  -0.9 /  -0.4
+.E6   :11/01 02PM-08PM:/   0.6 /   1.8 /   2.9 /   3.7 /   4.1 /   3.9
+.E7   :11/01 08PM-02AM:/   3.4 /   2.6 /   1.7 /   0.8 /   0.1 /  -0.3
+.E8   :11/02 02AM-08AM:/  -0.4 /   0.0 /   0.7 /   1.4 /   1.8 /   1.9
+.E9   :11/02 08AM-02PM:/   1.7 /   1.1 /   0.4 /  -0.3 /  -0.7 /  -0.9
+.E10  :11/02 02PM-08PM:/  -0.5 /   0.4 /   1.5 /   2.6 /   3.5 /   3.9
+.E11  :11/02 08PM-02AM:/   3.9 /   3.4 /   2.5 /   1.6 /   0.8 /   0.1
+.E12  :11/03 02AM-08AM:/  -0.3 /  -0.2 /   0.2 /   1.1 /   1.9 /   2.5
+.E13  :11/03 08AM-09AM:/   2.7
+:
+:FORECASTER COMMENT SECTION
+:FORECAST TIDE STAGES ARE NOT INTENDED FOR NAVIGATIONAL USE
+:
+:POUGHKEEPSIE, NY - HUDSON RIVER
+:MINOR FLOOD STAGE    Missing
+:
+:LATEST RIVER STAGE 0.6 FT AT 0945 AM EDT ON OCT 31
+:RIVER FORECAST
+.ER PKMN6 1031 E DC202210311105/DH09/HGIFFZZ/DIH1
+.E1   :10/31 08AM-02PM:        /   1.0 /   0.6 /   0.3 /   0.1 /   0.8
+.E2   :10/31 02PM-08PM:/   1.8 /   2.6 /   3.3 /   3.8 /   4.0 /   3.7
+.E3   :10/31 08PM-02AM:/   2.8 /   1.9 /   1.3 /   0.7 /   0.2 /  -0.1
+.E4   :11/01 02AM-08AM:/   0.2 /   1.1 /   1.9 /   2.5 /   2.8 /   2.9
+.E5   :11/01 08AM-02PM:/   2.4 /   1.7 /   1.1 /   0.5 /   0.2 /   0.0
+.E6   :11/01 02PM-08PM:/   0.4 /   1.3 /   2.2 /   2.9 /   3.5 /   3.7
+.E7   :11/01 08PM-02AM:/   3.4 /   2.7 /   1.8 /   1.1 /   0.5 /   0.0
+.E8   :11/02 02AM-08AM:/  -0.3 /  -0.2 /   0.6 /   1.5 /   2.1 /   2.5
+.E9   :11/02 08AM-02PM:/   2.6 /   2.3 /   1.7 /   1.0 /   0.4 /   0.0
+.E10  :11/02 02PM-08PM:/  -0.3 /   0.0 /   0.8 /   1.8 /   2.5 /   3.2
+.E11  :11/02 08PM-02AM:/   3.5 /   3.4 /   2.8 /   1.9 /   1.1 /   0.5
+.E12  :11/03 02AM-08AM:/   0.0 /  -0.3 /  -0.1 /   0.8 /   1.8 /   2.5
+.E13  :11/03 08AM-09AM:/   3.0
+:
+:FORECASTER COMMENT SECTION
+:
+:************************************************************
+:MIDDLE GRANVILLE, NY - METTAWEE RIVER
+:MINOR FLOOD STAGE     7.0 FT
+:
+:LATEST RIVER STAGE 3.5 FT AT 0915 AM EDT ON OCT 31
+
+
+.ER GVVN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   3.5 /   3.5 /   3.5
+.E2    : 1101 :   /   3.5 /   3.4 /   3.4 /   3.4
+.E3    : 1102 :   /   3.4 /   3.4 /   3.4 /   3.4
+.E4    : 1103 :   /   3.4 /   3.4 /   3.4 /   3.4
+.E5    : 1104 :   /   3.4 /   3.4 /   3.4 /   3.4
+.E6    : 1105 :   /   3.4
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:GREAT BARRINGTON, MA - HOUSATONIC RIVER
+:MINOR FLOOD STAGE     9.0 FT
+:
+:LATEST RIVER STAGE 2.5 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER GTBM3 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   2.5 /   2.5 /   2.5
+.E2    : 1101 :   /   2.4 /   2.4 /   2.4 /   2.4
+.E3    : 1102 :   /   2.4 /   2.4 /   2.4 /   2.4
+.E4    : 1103 :   /   2.4 /   2.4 /   2.4 /   2.3
+.E5    : 1104 :   /   2.3 /   2.3 /   2.3 /   2.3
+.E6    : 1105 :   /   2.3
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:WEBATUCK, NY - TENMILE RIVER
+:MINOR FLOOD STAGE     9.0 FT
+:
+:LATEST RIVER STAGE 1.1 FT AT 0915 AM EDT ON OCT 31
+
+
+.ER TENN6 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   1.1 /   1.1 /   1.1
+.E2    : 1101 :   /   1.1 /   1.1 /   1.1 /   1.0
+.E3    : 1102 :   /   1.0 /   1.0 /   1.0 /   1.0
+.E4    : 1103 :   /   1.0 /   1.0 /   1.0 /   1.0
+.E5    : 1104 :   /   1.0 /   1.0 /   1.0 /   1.0
+.E6    : 1105 :   /   1.0
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:GAYLORDSVILLE, CT - HOUSATONIC RIVER
+:MINOR FLOOD STAGE     8.0 FT
+:
+:LATEST RIVER STAGE 2.8 FT AT 1000 AM EDT ON OCT 31
+
+
+.ER GAYC3 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   2.8 /   2.8 /   2.8
+.E2    : 1101 :   /   2.8 /   2.7 /   2.7 /   2.7
+.E3    : 1102 :   /   2.7 /   2.7 /   2.7 /   2.7
+.E4    : 1103 :   /   2.7 /   2.6 /   2.6 /   2.6
+.E5    : 1104 :   /   2.6 /   2.6 /   2.6 /   2.6
+.E6    : 1105 :   /   2.5
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:
+:************************************************************
+:STEVENSON DAM, CT - HOUSATONIC RIVER
+:MINOR FLOOD STAGE    11.0 FT
+:
+:LATEST RIVER STAGE 4.2 FT AT 0930 AM EDT ON OCT 31
+
+
+.ER STVC3 1031 E DC202210311105/ DH14/HGIFFZZ/DIH6
+:RIVER FORECAST /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   6.4 /   2.7 /   2.7
+.E2    : 1101 :   /   2.7 /   2.7 /   2.7 /   2.7
+.E3    : 1102 :   /   2.7 /   2.7 /   2.7 /   2.6
+.E4    : 1103 :   /   2.6 /   2.6 /   2.6 /   2.6
+.E5    : 1104 :   /   2.6 /   2.6 /   2.6 /   2.6
+.E6    : 1105 :   /   6.5
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED BY POWER GENERATION
+:
+:************************************************************
+:STEVENSON DAM, CT - HOUSATONIC RIVER
+:MINOR FLOOD STAGE    Missing
+:
+:LATEST RIVER DISCHARGE M KCFS M
+
+
+.ER STVC3 1031 E DC202210311105/ DH14/QRIFFZZ/DIH6
+:FLOW FORECAST  /   8AM /   2PM /   8PM /   2AM
+.E1    : 1031 :           /   4.0 /   0.5 /   0.5
+.E2    : 1101 :   /   0.5 /   0.5 /   0.5 /   0.5
+.E3    : 1102 :   /   0.5 /   0.5 /   0.5 /   0.5
+.E4    : 1103 :   /   0.5 /   0.5 /   0.5 /   0.5
+.E5    : 1104 :   /   0.5 /   0.5 /   0.5 /   0.5
+.E6    : 1105 :   /   4.1
+:
+:FORECASTER COMMENTS...
+:RIVER STAGE IS AFFECTED BY POWER GENERATION
+:
+:
+:*******************************************************************
+:
+:
+$$
+:NERFC
+:...END of MESSAGE...

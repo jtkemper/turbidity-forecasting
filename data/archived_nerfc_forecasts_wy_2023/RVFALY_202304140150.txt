@@ -1,0 +1,118 @@
+
+316 
+FGUS51 KTAR 140150
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0950 PM EDT Thu Apr 13 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - North Creek, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 8.16 ft at Apr-13 09:15 pm
+:
+.ER NCKN6 20230414 E DC202304132150/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:/     8.3/     8.3/     8.3/     8.2
+.E2 :0415:/     8.0/     7.8/     7.5/     7.3
+.E3 :0416:/     7.1/     6.9/     6.8/     6.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Schroon River - Riverbank, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 7.11 ft at Apr-13 09:31 pm
+:Crest 7.57 at Apr-16 2am
+:
+.ER RVRN6 20230414 E DC202304132150/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:/     7.2/     7.3/     7.4/     7.4
+.E2 :0415:/     7.5/     7.5/     7.5/     7.6
+.E3 :0416:/     7.6/     7.6/     7.5/     7.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RVRN6 Above minor flood stage at 2023-04-14 02:00:00
+:*************************************************
+:Hudson River - Hadley, NY
+:Flood Stage 14.0 ft
+:Latest Observed Value: 10.08 ft at Apr-13 09:00 pm
+:
+.ER HDYN6 20230414 E DC202304132150/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:/    10.3/    10.5/    10.6/    10.5
+.E2 :0415:/    10.4/    10.1/     9.9/     9.6
+.E3 :0416:/     9.4/     9.1/     8.9/     8.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Hudson River - Fort Edward, NY
+:Flood Stage 26.0 ft
+:Latest Observed Value: 24.09 ft at Apr-13 08:45 pm
+:
+.ER FTEN6 20230414 E DC202304132150/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:/    24.1/    24.3/    24.4/    24.4
+.E2 :0415:/    24.4/    24.3/    24.2/    24.1
+.E3 :0416:/    24.0/    23.9/    23.7/    23.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:*************************************************
+:Battenkill - Battenville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 6.73 ft at Apr-13 09:15 pm
+:
+.ER BTTN6 20230414 E DC202304132150/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:/     6.6/     6.5/     6.4/     6.3
+.E2 :0415:/     6.2/     6.1/     6.0/     5.9
+.E3 :0416:/     5.8/     5.8/     5.7/     5.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Hoosic River - Eagle Bridge, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.33 ft at Apr-13 09:30 pm
+:
+.ER EAGN6 20230414 E DC202304132150/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:/     5.5/     5.4/     5.2/     5.0
+.E2 :0415:/     4.8/     4.7/     4.6/     4.6
+.E3 :0416:/     4.5/     4.4/     4.4/     4.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 7.14 ft at Apr-13 09:30 pm
+:
+.ER LTLN6 20230414 E DC202304132150/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:/     7.1/     7.1/     7.1/     7.1
+.E2 :0415:/     7.1/     7.1/     7.1/     7.1
+.E3 :0416:/     7.2/     7.2/     7.3/     7.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Schoharie Creek - Breakabeen, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 1.83 ft at Apr-13 09:30 pm
+:
+.ER BKBN6 20230414 E DC202304132150/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:/     1.9/     1.9/     2.0/     2.0
+.E2 :0415:/     2.0/     1.9/     1.9/     1.9
+.E3 :0416:/     1.9/     1.9/     1.8/     1.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

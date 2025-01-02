@@ -1,0 +1,114 @@
+
+932 
+FGUS51 KTAR 251916
+RVFALY
+RIVER FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0316 PM EDT Mon Sep 25 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:************************************************************
+:Rondout Creek - Rosendale, NY 
+:Flood stage 18.0 ft
+:Latest Observed Value - 17.3 FT at Sep-25 0230 PM 
+.ER ROSN6 20230925 E DC202309251516/DH20/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0925:                  /  16.6 /  15.5 
+.E2  :0926:  /  14.8 /  14.1 /  13.4 /  12.6 
+.E3  :0927:  /  12.0 /  11.6 /  11.3 /  10.9 
+.E4  :0928:  /  10.5 /  10.2 
+: Local QPF - 6 hr timestep
+:  0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 
+:
+:************************************************************
+:Wappinger Creek - Wappingers Falls, NY 
+:Flood stage 8.0 ft
+:Latest Observed Value - 6.9 FT at Sep-25 0230 PM 
+:Crest near 7.3 FT around 8PM EDT ON 09/25/2023
+.ER WAPN6 20230925 E DC202309251516/DH20/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0925:                  /   7.3 /   7.0 
+.E2  :0926:  /   6.8 /   6.5 /   6.3 /   6.1 
+.E3  :0927:  /   5.9 /   5.6 /   5.4 /   5.2 
+.E4  :0928:  /   5.0 /   4.8 
+: Local QPF - 6 hr timestep
+:  0.12/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 
+:
+:************************************************************
+:Housatonic River - Great Barrington, MA 
+:Flood stage 9.0 ft
+:Latest Observed Value - 2.9 FT at Sep-25 0230 PM 
+.ER GTBM3 20230925 E DC202309251516/DH20/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0925:                  /   3.2 /   3.4 
+.E2  :0926:  /   3.5 /   3.4 /   3.3 /   3.2 
+.E3  :0927:  /   3.1 /   3.0 /   3.0 /   2.9 
+.E4  :0928:  /   2.8 /   2.8 
+: Local QPF - 6 hr timestep
+:  0.06/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 
+:
+:************************************************************
+:Tenmile River - Webatuck, NY 
+:Flood stage 9.0 ft
+:Latest Observed Value - 5.2 FT at Sep-25 0215 PM 
+.ER TENN6 20230925 E DC202309251516/DH20/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0925:                  /   5.4 /   5.1 
+.E2  :0926:  /   4.6 /   4.1 /   3.7 /   3.4 
+.E3  :0927:  /   3.2 /   3.1 /   3.0 /   2.9 
+.E4  :0928:  /   2.8 /   2.7 
+: Local QPF - 6 hr timestep
+:  0.16/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 
+:
+:************************************************************
+:Housatonic River - Gaylordsville, CT 
+:Flood stage 8.0 ft
+:Latest Observed Value - 6.4 FT at Sep-25 0200 PM 
+.ER GAYC3 20230925 E DC202309251516/DH20/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0925:                  /   6.7 /   6.6 
+.E2  :0926:  /   6.5 /   6.3 /   6.2 /   6.1 
+.E3  :0927:  /   5.9 /   5.7 /   5.6 /   5.4 
+.E4  :0928:  /   5.2 /   5.0 
+: Local QPF - 6 hr timestep
+:  0.19/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 
+:
+:RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:************************************************************
+:Housatonic River - Stevenson Dam, CT 
+:Flood stage 11.0 ft
+:Latest Observed Value - 7.9 FT at Sep-25 0230 PM 
+:Crest near 10.5 FT around 8PM EDT ON 09/26/2023
+.ER STVC3 20230925 E DC202309251516/DH20/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0925:                  /   9.0 /  10.5 
+.E2  :0926:  /  10.5 /  10.5 /  10.5 /   7.8 
+.E3  :0927:  /   7.6 /   7.4 /   7.2 /   6.9 
+.E4  :0928:  /   6.7 /   6.5 
+: Local QPF - 6 hr timestep
+:  0.33/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 
+:
+:RIVER STAGE IS AFFECTED BY POWER GENERATION 
+:************************************************************
+:Housatonic River - Stevenson Dam, CT 
+:Flood stage {Missing}
+:Latest Observed Value - M KCFS M 
+.ER STVC3 20230925 E DC202309251516/DH20/QRIFF/DIH6
+:FLOW FCST   /   8AM /   2PM /   8PM /   2AM 
+.E1  :0925:                  /   6.3 /  12.3 
+.E2  :0926:  /  12.3 /  12.3 /  12.4 /   6.2 
+.E3  :0927:  /   5.9 /   5.5 /   5.1 /   4.8 
+.E4  :0928:  /   4.4 /   4.0 
+: Local QPF - 6 hr timestep
+:  0.33/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 
+:
+:RIVER STAGE IS AFFECTED BY POWER GENERATION 
+:*******************************************************************
+:
+:
+$$
+:NERFC
+:...END of MESSAGE...

@@ -1,0 +1,39 @@
+
+139 
+FGUS51 KTAR 140345
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1145 PM EDT Thu Jul 13 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schroon River - Riverbank, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 5.44 ft at Jul-13 11:30 pm
+:
+.ER RVRN6 20230714 E DC202307132345/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0714:/     5.4/     5.5/     5.5/     5.5
+.E2 :0715:/     5.5/     5.4/     5.3/     5.2
+.E3 :0716:/     5.2/     5.1/     5.1/     5.1
+: Local QPF - 6 hr timestep
+: 0.06/ 0.03/ 0.05/ 0.18/ 0.02/ 0.00/ 0.00/ 0.02/ 0.13/ 0.21/ 0.27/ 0.20/
+:*************************************************
+:Walloomsac River - Bennington, VT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 2.99 ft at Jul-13 11:15 pm
+:
+.ER BNTV1 20230714 E DC202307132345/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0714:/     3.2/     3.1/     3.2/     3.4
+.E2 :0715:/     3.5/     3.3/     3.2/     3.1
+.E3 :0716:/     3.1/     3.2/     3.7/     4.0
+: Local QPF - 6 hr timestep
+: 0.15/ 0.01/ 0.00/ 0.12/ 0.10/ 0.17/ 0.44/ 0.35/
+$$
+:NERFC
+:...END OF MESSAGE

@@ -1,0 +1,41 @@
+
+958 
+FGUS51 KTAR 050120
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0919 PM EDT Fri Aug 04 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.49 ft at Aug-04 08:15 pm
+:
+.ER KASN6 20230805 E DC202308042119/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0805:/     3.8/     3.4/     3.1/     3.0
+.E2 :0806:/     2.9/     2.8/     2.8/     2.8
+.E3 :0807:/     2.8/     2.8/     2.8/     3.0
+: Local QPF - 6 hr timestep
+: 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.22/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 9.22 ft at Aug-04 08:30 pm
+:
+.ER LTLN6 20230805 E DC202308042119/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0805:/     9.0/     8.6/     7.8/     7.3
+.E2 :0806:/     7.0/     6.8/     6.7/     6.5
+.E3 :0807:/     6.4/     6.4/     6.3/     6.3
+: Local QPF - 6 hr timestep
+: 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.21/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+$$
+:NERFC
+:...END OF MESSAGE

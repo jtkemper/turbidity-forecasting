@@ -1,0 +1,82 @@
+
+064 
+FGUS51 KTAR 141938
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0334 PM EDT Fri Apr 14 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - Waterford, NY
+:Flood Stage 34.0 ft
+:Latest Observed Value: 32.08 ft at Apr-14 02:30 pm
+:
+.ER WTFN6 20230414 E DC202304141534/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:       ::       ::       ::/    32.2
+.E2 :0415:/    32.3/    32.2/    32.2/    32.1
+.E3 :0416:/    32.0/    31.8/    31.7/    31.6
+.E4 :0417:/    31.5/    31.4/    31.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.06/ 0.12/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20230414 E DC202304141534/DH20/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0414:       ::       ::       ::/    3.56
+.E2 :0415:/    3.03/    2.62/    2.28/    2.01
+.E3 :0416:/    1.79/    1.61/    1.47/    1.38
+.E4 :0417:/    1.30/    1.25/    1.27
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.15/ 0.36/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1225.84 ft at Apr-14 02:45 pm
+:
+.ER HIKN6 20230414 E DC202304141534/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0414:       ::       ::       ::/  1225.9
+.E2 :0415:/  1225.9/  1225.9/  1225.8/  1225.7
+.E3 :0416:/  1225.6/  1225.5/  1225.4/  1225.3
+.E4 :0417:/  1225.2/  1225.1/  1225.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.15/ 0.36/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.22 ft at Apr-14 03:15 pm
+:
+.ER KASN6 20230414 E DC202304141534/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:       ::       ::       ::/     4.5
+.E2 :0415:/     4.5/     4.5/     4.5/     4.4
+.E3 :0416:/     4.3/     4.2/     4.2/     4.1
+.E4 :0417:/     4.1/     4.1/     4.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.19/ 0.34/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 7.54 ft at Apr-14 02:30 pm
+:
+.ER LTLN6 20230414 E DC202304141534/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0414:       ::       ::       ::/     7.7
+.E2 :0415:/     7.9/     7.9/     7.9/     7.9
+.E3 :0416:/     7.8/     7.7/     7.6/     7.5
+.E4 :0417:/     7.4/     7.4/     7.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.22/ 0.28/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+$$
+:NERFC
+:...END OF MESSAGE

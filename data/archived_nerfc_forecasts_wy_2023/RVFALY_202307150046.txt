@@ -1,0 +1,55 @@
+
+122 
+FGUS51 KTAR 150047
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0846 PM EDT Fri Jul 14 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Mohawk River - Cohoes, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 11.50 ft at Jul-14 08:00 pm
+:
+.ER COHN6 20230715 E DC202307142046/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0715:/    11.2/    11.4/    11.2/    11.4
+.E2 :0716:/    11.4/    11.3/    11.0/    10.7
+.E3 :0717:/    10.7/    11.0/    11.4/    12.0
+: Local QPF - 6 hr timestep
+: 0.03/ 0.00/ 0.00/ 0.04/ 0.01/ 0.08/ 0.50/ 0.32/ 0.02/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION AND/OR CANAL OPERATIONS
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 586.66 ft at Jul-14 07:55 pm
+:
+.ER ASEN6 20230715 E DC202307142046/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0715:/   586.7/   586.7/   586.7/   586.7
+.E2 :0716:/   586.7/   586.7/   586.8/   586.8
+.E3 :0717:/   586.9/   586.9/   587.0/   587.0
+: Local QPF - 6 hr timestep
+: 0.19/ 0.00/ 0.00/ 0.02/ 0.05/ 0.17/ 0.49/ 0.66/ 0.03/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 14.97 ft at Jul-14 08:30 pm
+:Crest 17.15 at Jul-17 2am
+:
+.ER MRNN6 20230715 E DC202307142046/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0715:/    15.1/    15.2/    15.4/    15.5
+.E2 :0716:/    15.5/    15.4/    15.9/    16.9
+.E3 :0717:/    17.1/    17.0/    16.8/    16.6
+: Local QPF - 6 hr timestep
+: 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

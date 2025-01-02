@@ -1,0 +1,115 @@
+
+484 
+FGUS51 KTAR 020218
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1018 PM EDT Sat Apr 01 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - North Creek, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 4.20 ft at Apr-01 09:15 pm
+:Crest 6.46 at Apr-06 8pm
+:
+.ER NCKN6 20230402 E DC202304012218/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0402:/     4.5/     4.7/     4.9/     5.0
+.E2 :0403:/     5.1/     5.1/     5.1/     5.0
+.E3 :0404:/     5.0/     5.0/     5.0/     5.1
+: Local QPF - 6 hr timestep
+: 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.06/ 0.03/ 0.01/ 0.00/ 0.07/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Hoosic River - Williamstown, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 7.90 ft at Apr-01 10:00 pm
+:
+.ER WILM3 20230402 E DC202304012218/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0402:/     7.6/     7.1/     6.9/     6.7
+.E2 :0403:/     6.5/     6.4/     6.3/     6.3
+.E3 :0404:/     6.3/     6.4/     6.5/     6.5
+: Local QPF - 6 hr timestep
+: 0.13/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.10/ 0.01/ 0.03/ 0.03/
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.26 ft at Apr-01 09:15 pm
+:
+.ER KASN6 20230402 E DC202304012218/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0402:/     4.9/     4.5/     4.4/     4.3
+.E2 :0403:/     4.3/     4.2/     4.2/     4.2
+.E3 :0404:/     4.3/     4.3/     4.3/     4.3
+: Local QPF - 6 hr timestep
+: 0.04/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.06/ 0.09/ 0.02/ 0.07/ 0.02/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Schoharie Creek - Breakabeen, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.81 ft at Apr-01 09:30 pm
+:
+.ER BKBN6 20230402 E DC202304012218/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0402:/     5.6/     5.3/     5.6/     5.4
+.E2 :0403:/     5.1/     4.8/     4.5/     4.2
+.E3 :0404:/     4.1/     4.1/     4.1/     4.1
+: Local QPF - 6 hr timestep
+: 0.03/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.09/ 0.03/ 0.05/ 0.02/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 6.14 ft at Apr-01 10:00 pm
+:
+.ER MTRN6 20230402 E DC202304012218/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0402:/     6.5/     6.6/     6.4/     6.0
+.E2 :0403:/     5.7/     5.6/     5.6/     5.6
+.E3 :0404:/     5.6/     5.7/     5.7/     5.8
+: Local QPF - 6 hr timestep
+: 0.03/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.02/ 0.04/ 0.03/ 0.03/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 3.86 ft at Apr-01 09:30 pm
+:
+.ER WAPN6 20230402 E DC202304012218/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0402:/     3.9/     4.1/     4.2/     4.2
+.E2 :0403:/     4.1/     4.0/     4.0/     4.0
+.E3 :0404:/     4.0/     4.0/     4.0/     4.0
+: Local QPF - 6 hr timestep
+: 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.01/ 0.00/
+:*************************************************
+:Hudson River - Albany, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 1.41 ft at Apr-01 09:30 pm
+:Crest 5.71 at Apr-03 4pm
+:
+.ER ALBN6 20230401 ED DC202304012218/DH23/HGIFF/DIH1
+.E1 :0401:/   0.2
+.E2 :0402:/   1.1/   3.0/   4.4/   4.7/   4.2/   3.4
+.E3 :0402:/   2.5/   1.7/   1.0/   0.3/  -0.4/  -0.9
+.E4 :0402:/   0.1/   1.9/   2.8/   3.1/   3.0/   2.5
+.E5 :0402:/   1.9/   1.4/   0.9/   0.4/  -0.1/  -0.4
+.E6 :0403:/   0.8/   2.7/   3.9/   4.7/   5.1/   4.7
+.E7 :0403:/   3.8/   2.9/   2.2/   1.6/   1.1/   1.1
+.E8 :0403:/   2.7/   4.5/   5.3/   5.7/   5.7/   5.3
+.E9 :0403:/   4.5/   3.8/   3.0/   2.4/   1.7/   1.0
+.E10 :0404:/   0.7/   2.6/   4.4/   5.0/   5.0/   4.7
+.E11 :0404:/   4.0/   3.2/   2.4/   1.6/   1.0/   0.3
+.E12 :0404:/  -0.4/   0.6/   2.7/   3.9/   4.4/   4.4
+.E13 :0404:/   3.9/   3.2/   2.5/   1.8/   1.1
+: Local QPF - 6 hr timestep
+: 0.09/ 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.08/ 0.01/ 0.03/ 0.02/
+: FORECAST TIDE STAGES ARE NOT INTENDED FOR NAVIGATIONAL USE
+$$
+:NERFC
+:...END OF MESSAGE

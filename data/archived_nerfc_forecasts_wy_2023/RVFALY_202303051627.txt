@@ -1,0 +1,524 @@
+
+013 
+FGUS51 KTAR 051627
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1127 AM EST Sun Mar 05 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - North Creek, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 3.75 ft at Mar-05 10:46 am
+:
+.ER NCKN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     3.7/     3.7
+.E2 :0306:/     3.7/     3.7/     3.7/     3.7
+.E3 :0307:/     3.7/     3.7/     3.7/     3.7
+.E4 :0308:/     3.7/     3.7
+: Local QPF - 6 hr timestep
+: 0.01/ 0.01/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.02/ 0.01/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Schroon River - Riverbank, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 3.14 ft at Mar-05 10:30 am
+:
+.ER RVRN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     3.1/     3.1
+.E2 :0306:/     3.1/     3.1/     3.1/     3.1
+.E3 :0307:/     3.1/     3.1/     3.1/     3.1
+.E4 :0308:/     3.1/     3.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.00/
+:*************************************************
+:Hudson River - Hadley, NY
+:Flood Stage 14.0 ft
+:Latest Observed Value: 3.86 ft at Mar-05 11:00 am
+:
+.ER HDYN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     3.8/     3.8
+.E2 :0306:/     3.8/     3.8/     3.8/     3.8
+.E3 :0307:/     3.8/     3.8/     3.8/     3.8
+.E4 :0308:/     3.8/     3.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Sacandaga River - Hope, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 2.38 ft at Mar-05 11:16 am
+:
+.ER HOPN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     2.4/     2.4
+.E2 :0306:/     2.4/     2.4/     2.4/     2.4
+.E3 :0307:/     2.4/     2.4/     2.4/     2.4
+.E4 :0308:/     2.4/     2.4
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.01/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION AT LOW FLOWS
+:*************************************************
+:Sacandaga River - Conklingville, NY
+:Flood Stage 773.0 ft
+:Latest Observed Value: 757.49 ft at Mar-05 10:30 am
+:
+.ER SACN6 20230305 E DC202303051127/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/   757.5/   757.5
+.E2 :0306:/   757.4/   757.3/   757.3/   757.2
+.E3 :0307:/   757.2/   757.1/   757.0/   757.0
+.E4 :0308:/   756.9/   756.9
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 771.0 FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:Sacandaga River - Hadley, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 5.32 ft at Mar-05 10:30 am
+:
+.ER HDLN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     5.3/     5.3
+.E2 :0306:/     5.3/     5.3/     5.3/     5.3
+.E3 :0307:/     5.3/     5.3/     5.3/     5.3
+.E4 :0308:/     5.3/     5.3
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:*************************************************
+:Hudson River - Fort Edward, NY
+:Flood Stage 26.0 ft
+:Latest Observed Value: 22.08 ft at Mar-05 10:45 am
+:
+.ER FTEN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    22.0/    22.0
+.E2 :0306:/    22.0/    22.0/    22.0/    22.0
+.E3 :0307:/    22.0/    21.9/    21.9/    21.9
+.E4 :0308:/    21.9/    21.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:*************************************************
+:Battenkill - Battenville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 5.33 ft at Mar-05 10:15 am
+:
+.ER BTTN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     5.3/     5.3
+.E2 :0306:/     5.3/     5.3/     5.3/     5.3
+.E3 :0307:/     5.3/     5.3/     5.3/     5.2
+.E4 :0308:/     5.2/     5.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.01/ 0.01/
+:*************************************************
+:Hoosic River - Eagle Bridge, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 3.87 ft at Mar-05 10:30 am
+:
+.ER EAGN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     3.9/     3.9
+.E2 :0306:/     3.8/     3.8/     3.9/     3.8
+.E3 :0307:/     3.8/     3.8/     3.8/     3.8
+.E4 :0308:/     3.7/     3.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.00/
+:*************************************************
+:Hudson River - Waterford, NY
+:Flood Stage 34.0 ft
+:Latest Observed Value: 21.26 ft at Mar-05 10:30 am
+:
+.ER WTFN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    21.3/    21.3
+.E2 :0306:/    21.3/    21.3/    21.3/    21.3
+.E3 :0307:/    21.3/    21.3/    21.3/    21.3
+.E4 :0308:/    21.3/    21.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Mohawk River - Delta Dam, NY
+:
+.ER DDMN6 20230305 E DC202303051127/DH13/QIIFF/DIH6
+:FLOW FCST      1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    0.22/    0.22
+.E2 :0306:/    0.22/    0.22/    0.21/    0.21
+.E3 :0307:/    0.21/    0.21/    0.21/    0.21
+.E4 :0308:/    0.20/    0.20
+: Local QPF - 6 hr timestep
+: 0.02/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.02/ 0.01/ 0.00/
+: LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:Mohawk River - Delta Dam, NY
+:Flood Stage 551.5 ft
+:Latest Observed Value: 544.20 ft at Mar-05 10:45 am
+:
+.ER DDMN6 20230305 E DC202303051127/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/   544.2/   544.2
+.E2 :0306:/   544.2/   544.2/   544.2/   544.2
+.E3 :0307:/   544.2/   544.2/   544.2/   544.2
+.E4 :0308:/   544.2/   544.2
+: Local QPF - 6 hr timestep
+: 0.02/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.02/ 0.01/ 0.00/
+: LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20230305 E DC202303051127/DH13/QIIFF/DIH6
+:FLOW FCST      1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    0.41/    0.41
+.E2 :0306:/    0.40/    0.40/    0.40/    0.39
+.E3 :0307:/    0.39/    0.39/    0.39/    0.38
+.E4 :0308:/    0.38/    0.38
+: Local QPF - 6 hr timestep
+: 0.02/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.02/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1202.04 ft at Mar-05 10:45 am
+:
+.ER HIKN6 20230305 E DC202303051127/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/  1202.0/  1201.8
+.E2 :0306:/  1201.6/  1201.4/  1201.2/  1201.0
+.E3 :0307:/  1200.8/  1200.6/  1200.4/  1200.2
+.E4 :0308:/  1200.0/  1199.8
+: Local QPF - 6 hr timestep
+: 0.02/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.02/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 3.69 ft at Mar-05 10:15 am
+:
+.ER KASN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     3.1/     3.6
+.E2 :0306:/     3.7/     3.1/     3.1/     3.6
+.E3 :0307:/     3.7/     3.1/     3.1/     3.6
+.E4 :0308:/     3.7/     3.1
+: Local QPF - 6 hr timestep
+: 0.02/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.01/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 6.45 ft at Mar-05 10:30 am
+:
+.ER LTLN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     6.5/     6.6
+.E2 :0306:/     6.8/     6.8/     6.5/     6.6
+.E3 :0307:/     6.8/     6.7/     6.4/     6.5
+.E4 :0308:/     6.7/     6.6
+: Local QPF - 6 hr timestep
+: 0.02/ 0.01/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.02/ 0.01/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 3.86 ft at Mar-05 11:15 am
+:
+.ER PTVN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     3.8/     3.8
+.E2 :0306:/     3.8/     3.9/     3.9/     3.8
+.E3 :0307:/     3.8/     3.8/     3.8/     3.8
+.E4 :0308:/     3.7/     3.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.00/ 0.01/ 0.01/ 0.00/
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1123.86 ft at Mar-05 10:25 am
+:Crest 1123.78 at Mar-05 1pm
+:
+.ER GILN6 20230305 E DC202303051127/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/  1123.8/  1123.7
+.E2 :0306:/  1123.6/  1123.5/  1123.4/  1123.3
+.E3 :0307:/  1123.2/  1123.1/  1123.0/  1122.9
+.E4 :0308:/  1122.8/  1122.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.02/ 0.01/ 0.00/
+: Forecast not based on gage reading due to gage malfunction
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Schoharie Creek - Gilboa, NY
+:Flood Stage 17.0 ft
+:Latest Observed Value: 12.01 ft at Mar-05 10:15 am
+:
+.ER GBRN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    12.0/    12.0
+.E2 :0306:/    12.0/    12.0/    12.0/    12.0
+.E3 :0307:/    12.0/    12.0/    12.0/    12.0
+.E4 :0308:/    12.0/    12.0
+: RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Breakabeen, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 2.90 ft at Mar-05 10:30 am
+:
+.ER BKBN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     3.1/     3.1
+.E2 :0306:/     3.1/     3.1/     3.1/     3.1
+.E3 :0307:/     3.1/     3.1/     3.1/     3.1
+.E4 :0308:/     3.1/     3.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.02/ 0.02/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Burtonsville, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 2.07 ft at Mar-05 10:45 am
+:
+.ER BRTN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     2.1/     2.0
+.E2 :0306:/     2.0/     2.0/     2.0/     2.0
+.E3 :0307:/     2.0/     2.0/     2.0/     2.0
+.E4 :0308:/     2.0/     2.0
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.01/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Mohawk River - Cohoes, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 11.30 ft at Mar-05 11:00 am
+:
+.ER COHN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    11.2/    11.2
+.E2 :0306:/    11.2/    11.2/    11.2/    11.3
+.E3 :0307:/    11.3/    11.2/    11.2/    11.2
+.E4 :0308:/    11.2/    11.0
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION AND/OR CANAL OPERATIONS
+:*************************************************
+:Hudson River - Troy Lock and Dam, NY
+:Flood Stage 21.5 ft
+:Latest Observed Value: 17.20 ft at Mar-05 11:15 am
+:
+.ER TRYN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    17.2/    17.2
+.E2 :0306:/    17.2/    17.2/    17.2/    17.2
+.E3 :0307:/    17.2/    17.2/    17.2/    17.2
+.E4 :0308:/    17.2/    17.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION AND/OR CANAL OPERATIONS
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 4.46 ft at Mar-05 11:00 am
+:
+.ER MTRN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     4.5/     4.5
+.E2 :0306:/     4.6/     4.7/     4.7/     4.6
+.E3 :0307:/     4.6/     4.7/     4.7/     4.6
+.E4 :0308:/     4.6/     4.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.00/ 0.01/ 0.01/ 0.00/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 584.48 ft at Mar-05 10:25 am
+:
+.ER ASEN6 20230305 E DC202303051127/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/   584.5/   584.5
+.E2 :0306:/   584.5/   584.5/   584.5/   584.5
+.E3 :0307:/   584.5/   584.5/   584.5/   584.5
+.E4 :0308:/   584.5/   584.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 14.32 ft at Mar-05 10:30 am
+:
+.ER MRNN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    14.3/    14.3
+.E2 :0306:/    14.4/    14.5/    14.5/    14.6
+.E3 :0307:/    14.6/    14.7/    14.7/    14.6
+.E4 :0308:/    14.6/    14.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Roundout Reservoir - Roundout Resvr, NY
+:Latest Observed Value: 830.54 ft at Mar-05 10:25 am
+:Crest 830.52 at Mar-05 1pm
+:
+.ER RONN6 20230305 E DC202303051127/DH13/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/   830.5/   830.5
+.E2 :0306:/   830.4/   830.4/   830.4/   830.3
+.E3 :0307:/   830.3/   830.3/   830.2/   830.2
+.E4 :0308:/   830.2/   830.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Rondout Creek - Rosendale, NY
+:Flood Stage 18.0 ft
+:Latest Observed Value: 10.43 ft at Mar-05 10:30 am
+:
+.ER ROSN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    10.4/    10.4
+.E2 :0306:/    10.4/    10.5/    10.4/    10.4
+.E3 :0307:/    10.6/    10.6/    10.5/    10.5
+.E4 :0308:/    10.4/    10.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 4.19 ft at Mar-05 10:30 am
+:
+.ER WAPN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     4.2/     4.2
+.E2 :0306:/     4.2/     4.2/     4.2/     4.2
+.E3 :0307:/     4.2/     4.2/     4.2/     4.2
+.E4 :0308:/     4.2/     4.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Hudson River - Albany, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 0.60 ft at Mar-05 10:30 am
+:Crest 5.42 at Mar-05 3pm
+:
+.ER ALBN6 20230305 ES DC202303051127/DH12/HGIFF/DIH1
+.E1 :0305:/   3.3/   4.5/   5.2/   5.4/   5.0/   4.2
+.E2 :0305:/   3.3/   2.6/   1.9/   1.3/   0.5/  -0.3
+.E3 :0306:/   0.4/   2.4/   3.7/   4.2/   4.0/   3.3
+.E4 :0306:/   2.4/   1.5/   0.8/   0.1/  -0.6/  -1.2
+.E5 :0306:/  -0.5/   1.3/   2.7/   3.6/   4.0/   3.6
+.E6 :0306:/   2.8/   2.0/   1.2/   0.5/  -0.2/  -0.9
+.E7 :0307:/  -1.1/   0.5/   2.3/   3.3/   3.9/   4.0
+.E8 :0307:/   3.3/   2.3/   1.3/   0.5/  -0.2/  -0.8
+.E9 :0307:/  -0.3/   1.4/   2.9/   3.8/   4.5/   4.6
+.E10 :0307:/   3.9/   3.0/   2.2/   1.4/   0.7/  -0.0
+.E11 :0308:/  -0.6/   0.1/   1.9/   3.1/   3.9/   4.3
+.E12 :0308:/   4.1/   3.2/   1.5/   0.5/  -0.3/  -0.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: FORECAST TIDE STAGES ARE NOT INTENDED FOR NAVIGATIONAL USE
+:*************************************************
+:Hudson River - Poughkeepsie, NY
+:Flood Stage 4.2 ft
+:Latest Observed Value: 3.13 ft at Mar-05 10:45 am
+:
+.ER PKMN6 20230305 ES DC202303051127/DH12/HGIFF/DIH1
+.E1 :0305:/   2.7/   2.3/   1.6/   0.9/   0.4/  -0.1
+.E2 :0305:/  -0.4/  -0.2/   0.5/   1.4/   2.0/   2.2
+.E3 :0306:/   2.1/   1.5/   0.8/  -0.0/  -0.7/  -1.1
+.E4 :0306:/  -1.4/  -1.1/  -0.5/   0.5/   1.2/   1.8
+.E5 :0306:/   1.9/   1.6/   0.9/   0.1/  -0.7/  -1.2
+.E6 :0306:/  -1.6/  -1.6/  -1.0/   0.0/   0.9/   1.5
+.E7 :0307:/   1.8/   1.7/   1.2/   0.4/  -0.4/  -1.0
+.E8 :0307:/  -1.3/  -1.1/  -0.3/   0.7/   1.6/   2.3
+.E9 :0307:/   2.7/   2.7/   2.1/   1.3/   0.5/  -0.1
+.E10 :0307:/  -0.7/  -1.0/  -0.7/   0.1/   1.0/   1.7
+.E11 :0308:/   2.1/   2.3/   2.0/   1.3/   0.5/  -0.2
+.E12 :0308:/  -0.7/  -1.0/  -0.4/   0.6/   1.6/   2.3
+:*************************************************
+:Mettawee River - Middle Granville, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 4.19 ft at Mar-05 11:15 am
+:
+.ER GVVN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     4.2/     4.2
+.E2 :0306:/     4.1/     4.1/     4.1/     4.1
+.E3 :0307:/     4.1/     4.1/     4.1/     4.1
+.E4 :0308:/     4.1/     4.1
+: Local QPF - 6 hr timestep
+: 0.01/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.01/ 0.01/
+:*************************************************
+:Housatonic River - Great Barrington, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 2.83 ft at Mar-05 10:30 am
+:
+.ER GTBM3 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     2.8/     2.8
+.E2 :0306:/     2.8/     2.8/     2.8/     2.8
+.E3 :0307:/     2.8/     2.8/     2.8/     2.7
+.E4 :0308:/     2.7/     2.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Tenmile River - Webatuck, NY
+:Flood Stage 9.0 ft
+:Latest Observed Value: 2.48 ft at Mar-05 10:15 am
+:
+.ER TENN6 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     2.5/     2.4
+.E2 :0306:/     2.4/     2.4/     2.4/     2.3
+.E3 :0307:/     2.3/     2.3/     2.3/     2.2
+.E4 :0308:/     2.2/     2.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Housatonic River - Gaylordsville, CT
+:Flood Stage 8.0 ft
+:Latest Observed Value: 4.05 ft at Mar-05 11:00 am
+:
+.ER GAYC3 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     4.1/     4.1
+.E2 :0306:/     4.1/     4.1/     4.1/     4.1
+.E3 :0307:/     4.1/     4.1/     4.1/     4.0
+.E4 :0308:/     4.0/     4.0
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Housatonic River - Stevenson Dam, CT
+:Flood Stage 11.0 ft
+:Latest Observed Value: 3.22 ft at Mar-05 10:31 am
+:Crest 7.25 at Mar-09 1pm
+:
+.ER STVC3 20230305 E DC202303051127/DH13/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/     2.6/     6.8
+.E2 :0306:/     6.7/     6.7/     2.5/     6.8
+.E3 :0307:/     6.8/     6.8/     2.6/     6.5
+.E4 :0308:/     6.4/     6.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+:Housatonic River - Stevenson Dam, CT
+:
+.ER STVC3 20230305 E DC202303051127/DH13/QRIFF/DIH6
+:FLOW FCST      1AM      7AM      1PM      7PM
+.E1 :0305:       ::       ::/    0.49/    4.49
+.E2 :0306:/    4.43/    4.39/    0.46/    4.60
+.E3 :0307:/    4.57/    4.50/    0.49/    4.10
+.E4 :0308:/    3.90/    4.43
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

@@ -1,0 +1,43 @@
+
+984 
+FGUS51 KTAR 232001
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0300 PM EST Fri Dec 23 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1127.77 ft at Dec-23 02:15 pm
+:Crest 1130.31 at Dec-23 7pm
+:
+.ER GILN6 20221223 E DC202212231500/DH19/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1223:       ::       ::       ::/  1130.3
+.E2 :1224:/  1130.1/  1128.4/  1127.2/  1126.5
+.E3 :1225:/  1126.0/  1125.7/  1125.6/  1125.5
+.E4 :1226:/  1125.6/  1125.7/  1125.8
+: Local QPF - 6 hr timestep
+: 0.08/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Schoharie Creek - Gilboa, NY
+:Flood Stage 17.0 ft
+:Latest Observed Value: 15.01 ft at Dec-23 02:15 pm
+:Crest 17.6 at Dec-23 7pm
+:
+.ER GBRN6 20221223 E DC202212231500/DH19/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1223:       ::       ::       ::/    17.6
+.E2 :1224:/    16.9/    15.8/    14.9/    14.1
+.E3 :1225:/    12.8/    12.5/    12.2/    12.1
+.E4 :1226:/    12.0/    11.9/    11.9
+: GBRN6 Above minor flood stage at 2022-12-23 19:00:00
+: RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

@@ -1,0 +1,42 @@
+
+619 
+FGUS51 KTAR 111606
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1204 PM EDT Tue Apr 11 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.30 ft at Apr-11 11:00 am
+:
+.ER MTRN6 20230411 E DC202304111204/DH14/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0411:       ::       ::/     5.3/     5.3
+.E2 :0412:/     5.3/     5.3/     5.3/     5.3
+.E3 :0413:/     5.2/     5.2/     5.2/     5.2
+.E4 :0414:/     5.2/     5.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Roundout Reservoir - Roundout Resvr, NY
+:Latest Observed Value: 837.43 ft at Apr-11 10:00 am
+:Crest 837.50 at Apr-11 8pm
+:
+.ER RONN6 20230411 E DC202304111204/DH14/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0411:       ::       ::/   837.5/   837.5
+.E2 :0412:/   837.4/   837.4/   837.4/   837.4
+.E3 :0413:/   837.4/   837.3/   837.2/   837.2
+.E4 :0414:/   837.1/   837.1
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+$$
+:NERFC
+:...END OF MESSAGE

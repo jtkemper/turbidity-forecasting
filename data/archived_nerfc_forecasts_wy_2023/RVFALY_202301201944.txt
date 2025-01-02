@@ -1,0 +1,29 @@
+
+934 
+FGUS51 KTAR 201944
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0244 PM EST Fri Jan 20 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Housatonic River - Stevenson Dam, CT
+:Flood Stage 11.0 ft
+:Latest Observed Value: 8.26 ft at Jan-20 02:30 pm
+:
+.ER STVC3 20230120 E DC202301201444/DH19/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0120:       ::       ::       ::/     8.3
+.E2 :0121:/     8.3/     8.3/     8.3/     8.3
+.E3 :0122:/     8.3/     7.2/     7.2/     7.2
+.E4 :0123:/     7.2/     7.2/     7.2
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.04/ 0.33/ 0.44/ 0.11/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

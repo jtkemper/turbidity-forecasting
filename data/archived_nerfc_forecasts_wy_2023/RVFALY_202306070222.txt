@@ -1,0 +1,28 @@
+
+661 
+FGUS51 KTAR 070222
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1022 PM EDT Tue Jun 06 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 4.48 ft at Jun-06 10:00 pm
+:
+.ER MTRN6 20230607 E DC202306062222/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0607:/     4.2/     4.2/     4.3/     4.3
+.E2 :0608:/     4.3/     4.3/     4.3/     4.4
+.E3 :0609:/     4.4/     4.4/     4.4/     4.4
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.09/ 0.00/ 0.00/ 0.07/ 0.13/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+$$
+:NERFC
+:...END OF MESSAGE

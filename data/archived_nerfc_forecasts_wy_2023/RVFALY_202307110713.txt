@@ -1,0 +1,43 @@
+
+251 
+FGUS51 KTAR 110714
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0313 AM EDT Tue Jul 11 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Mohawk River - Delta Dam, NY
+:Flood Stage 551.5 ft
+:Latest Observed Value: 546.96 ft at Jul-11 02:45 am
+:
+.ER DDMN6 20230711 E DC202307110313/DH08/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0711:       ::/   547.0/   547.1/   547.1
+.E2 :0712:/   547.1/   547.1/   547.1/   547.0
+.E3 :0713:/   547.0/   547.0/   547.0/   546.9
+.E4 :0714:/   546.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.01/ 0.01/ 0.00/ 0.00/ 0.01/ 0.18/ 0.05/ 0.27/ 0.42/
+: LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.44 ft at Jul-11 02:15 am
+:
+.ER KASN6 20230711 E DC202307110313/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0711:       ::/     4.5/     4.2/     3.9
+.E2 :0712:/     3.7/     3.5/     3.3/     3.3
+.E3 :0713:/     3.2/     3.2/     3.2/     3.2
+.E4 :0714:/     3.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.01/ 0.01/ 0.00/ 0.03/ 0.00/ 0.16/ 0.06/ 0.42/ 0.37/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

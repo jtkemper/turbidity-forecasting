@@ -1,0 +1,116 @@
+
+991 
+FGUS51 KTAR 310256
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0955 PM EST Fri Dec 30 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20221231 E DC202212302155/DH01/QIIFF/DIH6
+:FLOW FCST      1AM      7AM      1PM      7PM
+.E1 :1231:/    1.55/    1.81/    2.01/    2.26
+.E2 :0101:/    2.77/    3.40/    3.79/    3.77
+.E3 :0102:/    3.48/    3.09/    2.71/    2.40
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.09/ 0.19/ 0.09/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1217.35 ft at Dec-30 08:45 pm
+:Crest 1220.18 at Jan-04 7pm
+:
+.ER HIKN6 20221231 E DC202212302155/DH01/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1231:/  1217.3/  1217.3/  1217.4/  1217.4
+.E2 :0101:/  1217.6/  1217.9/  1218.3/  1218.8
+.E3 :0102:/  1219.2/  1219.5/  1219.8/  1220.0
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.09/ 0.19/ 0.09/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.09 ft at Dec-30 09:15 pm
+:
+.ER KASN6 20221231 E DC202212302155/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1231:/     4.3/     4.3/     4.2/     4.1
+.E2 :0101:/     4.1/     4.3/     4.4/     4.3
+.E3 :0102:/     4.2/     4.1/     4.1/     4.0
+: Local QPF - 6 hr timestep
+: 0.13/ 0.19/ 0.08/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Schoharie Creek - Prattsville, NY
+:Flood Stage 12.0 ft
+:Latest Observed Value: 4.76 ft at Dec-30 09:15 pm
+:Crest 6.93 at Jan-01 1pm
+:
+.ER PTVN6 20221231 E DC202212302155/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1231:/     4.9/     5.3/     5.6/     5.9
+.E2 :0101:/     6.4/     6.9/     6.9/     6.6
+.E3 :0102:/     6.3/     6.0/     5.7/     5.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.01/ 0.02/ 0.07/ 0.07/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1125.47 ft at Dec-30 09:15 pm
+:Crest 1127.55 at Jan-01 7pm
+:
+.ER GILN6 20221231 E DC202212302155/DH01/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1231:/  1125.5/  1125.9/  1126.2/  1126.5
+.E2 :0101:/  1126.8/  1127.2/  1127.5/  1127.5
+.E3 :0102:/  1127.4/  1127.1/  1126.9/  1126.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.01/ 0.02/ 0.06/ 0.07/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.19 ft at Dec-30 09:00 pm
+:
+.ER MTRN6 20221231 E DC202212302155/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1231:/     5.3/     5.6/     5.8/     6.0
+.E2 :0101:/     6.3/     6.6/     6.6/     6.3
+.E3 :0102:/     6.0/     5.8/     5.6/     5.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.01/ 0.05/ 0.08/ 0.07/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 15.70 ft at Dec-30 09:30 pm
+:
+.ER MRNN6 20221231 E DC202212302155/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1231:/    15.7/    15.8/    15.9/    15.9
+.E2 :0101:/    16.1/    16.2/    16.3/    16.3
+.E3 :0102:/    16.2/    16.1/    16.1/    16.0
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.01/ 0.04/ 0.09/ 0.06/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Mettawee River - Middle Granville, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 4.54 ft at Dec-30 09:15 pm
+:
+.ER GVVN6 20221231 E DC202212302155/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1231:/     4.6/     4.6/     4.5/     4.5
+.E2 :0101:/     4.5/     4.6/     4.8/     4.8
+.E3 :0102:/     4.8/     4.7/     4.7/     4.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.03/ 0.10/ 0.15/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+$$
+:NERFC
+:...END OF MESSAGE

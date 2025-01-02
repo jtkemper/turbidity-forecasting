@@ -1,0 +1,60 @@
+
+284 
+FGUS51 KTAR 101635
+RVFALY
+RIVER FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1235 PM EDT Sun Sep 10 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:************************************************************
+:Sacandaga River - Hadley, NY 
+:Flood stage 10.0 ft
+:Latest Observed Value - 5.3 FT at Sep-10 1130 AM 
+.ER HDLN6 20230910 E DC202309101235/DH14/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0910:          /   5.4 /   1.9 /   1.8 
+.E2  :0911:  /   1.9 /   5.4 /   1.9 /   1.9 
+.E3  :0912:  /   1.8 /   5.5 /   1.9 /   1.9 
+.E4  :0913:  /   1.9 
+: Local QPF - 6 hr timestep
+:
+:
+:RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:************************************************************
+:Hudson River - Fort Edward, NY 
+:Flood stage 26.0 ft
+:Latest Observed Value - 21.0 FT at Sep-10 1145 AM 
+.ER FTEN6 20230910 E DC202309101235/DH14/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0910:          /  21.0 /  21.9 /  21.0 
+.E2  :0911:  /  21.0 /  21.1 /  22.1 /  21.1 
+.E3  :0912:  /  21.1 /  21.1 /  22.1 /  21.1 
+.E4  :0913:  /  21.1 
+: Local QPF - 6 hr timestep
+: 0.16/ 0.42/ 0.36/ 0.11/ 0.05/ 0.02/ 0.00/ 0.00/ 0.00/ 0.04/ 0.20/ 0.42/ 
+:
+:RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION AND POWER GENERATION
+:************************************************************
+:Hudson River - Waterford, NY 
+:Flood stage 34.0 ft
+:Latest Observed Value - 30.9 FT at Sep-10 1130 AM 
+.ER WTFN6 20230910 E DC202309101235/DH14/HGIFF/DIH6
+:STAGE FCST  /   8AM /   2PM /   8PM /   2AM 
+.E1  :0910:          /  30.5 /  30.6 /  30.9 
+.E2  :0911:  /  30.8 /  30.7 /  31.0 /  31.2 
+.E3  :0912:  /  31.0 /  30.7 /  30.9 /  31.0 
+.E4  :0913:  /  30.8 
+: Local QPF - 6 hr timestep
+: 0.22/ 0.32/ 0.38/ 0.08/ 0.04/ 0.02/ 0.00/ 0.00/ 0.00/ 0.03/ 0.15/ 0.51/ 
+:
+:RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+:*******************************************************************
+:
+:
+$$
+:NERFC
+:...END of MESSAGE...

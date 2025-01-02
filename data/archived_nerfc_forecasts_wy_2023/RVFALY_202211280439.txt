@@ -1,0 +1,30 @@
+
+105 
+FGUS51 KTAR 280439
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1139 PM EST Sun Nov 27 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 3.64 ft at Nov-27 11:15 pm
+:Crest 6.42 at Nov-28 1am
+:
+.ER KASN6 20221128 E DC202211272339/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1128:/     6.3/     6.3/     5.7/     5.2
+.E2 :1129:/     4.8/     4.4/     4.2/     4.0
+.E3 :1130:/     3.8/     3.7/     3.6/     3.6
+: Local QPF - 6 hr timestep
+: 0.42/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.24/ 0.58/
+: KASN6 Above minor flood stage at 2022-11-28 01:00:00
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

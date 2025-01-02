@@ -1,0 +1,41 @@
+
+733 
+FGUS51 KTAR 251836
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0232 PM EDT Sun Jun 25 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20230625 E DC202306251432/DH20/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0625:       ::       ::       ::/    1.05
+.E2 :0626:/    0.95/    1.02/    1.07/    1.08
+.E3 :0627:/    1.22/    1.71/    2.23/    2.48
+.E4 :0628:/    2.59/    2.69/    2.60
+: Local QPF - 6 hr timestep
+: 0.35/ 0.07/ 0.01/ 0.21/ 0.54/ 0.38/ 0.08/ 0.28/ 0.30/ 0.08/ 0.08/ 0.40/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1217.38 ft at Jun-25 01:45 pm
+:Crest 1222.24 at Jun-30 8am
+:
+.ER HIKN6 20230625 E DC202306251432/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0625:       ::       ::       ::/  1217.5
+.E2 :0626:/  1217.6/  1217.7/  1217.8/  1218.0
+.E3 :0627:/  1218.1/  1218.4/  1218.7/  1219.1
+.E4 :0628:/  1219.6/  1220.1/  1220.5
+: Local QPF - 6 hr timestep
+: 0.35/ 0.07/ 0.01/ 0.21/ 0.54/ 0.38/ 0.08/ 0.28/ 0.30/ 0.08/ 0.08/ 0.40/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

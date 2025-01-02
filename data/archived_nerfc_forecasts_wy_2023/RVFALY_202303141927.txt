@@ -1,0 +1,42 @@
+
+996 
+FGUS51 KTAR 141928
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0327 PM EDT Tue Mar 14 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 15.83 ft at Mar-14 02:30 pm
+:
+.ER MRNN6 20230314 E DC202303141527/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0314:       ::       ::       ::/    15.9
+.E2 :0315:/    16.0/    15.9/    15.8/    15.7
+.E3 :0316:/    15.6/    15.5/    15.3/    15.2
+.E4 :0317:/    15.2/    15.1/    15.1
+: Local QPF - 6 hr timestep
+: 0.21/ 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 4.65 ft at Mar-14 02:30 pm
+:
+.ER WAPN6 20230314 E DC202303141527/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0314:       ::       ::       ::/     4.7
+.E2 :0315:/     4.8/     4.8/     4.8/     4.7
+.E3 :0316:/     4.7/     4.6/     4.6/     4.6
+.E4 :0317:/     4.6/     4.7/     4.8
+: Local QPF - 6 hr timestep
+: 0.30/ 0.04/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/
+$$
+:NERFC
+:...END OF MESSAGE

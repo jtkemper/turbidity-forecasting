@@ -1,0 +1,79 @@
+
+923 
+FGUS51 KTAR 031839
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0237 PM EDT Mon Oct 03 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Mohawk River - Delta Dam, NY
+:
+.ER DDMN6 20221003 E DC202210031437/DH20/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :1003:       ::       ::       ::/    0.17
+.E2 :1004:/    0.17/    0.16/    0.16/    0.16
+.E3 :1005:/    0.16/    0.16/    0.15/    0.15
+.E4 :1006:/    0.15/    0.15/    0.15
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:Mohawk River - Delta Dam, NY
+:Flood Stage 551.5 ft
+:Latest Observed Value: 548.91 ft at Oct-03 01:45 pm
+:
+.ER DDMN6 20221003 E DC202210031437/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :1003:       ::       ::       ::/   548.9
+.E2 :1004:/   548.9/   548.9/   548.8/   548.8
+.E3 :1005:/   548.8/   548.8/   548.7/   548.7
+.E4 :1006:/   548.7/   548.7/   548.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 550.0 FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20221003 E DC202210031437/DH20/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :1003:       ::       ::       ::/    0.43
+.E2 :1004:/    0.42/    0.41/    0.40/    0.39
+.E3 :1005:/    0.38/    0.37/    0.36/    0.36
+.E4 :1006:/    0.35/    0.34/    0.33
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1212.65 ft at Oct-03 01:45 pm
+:
+.ER HIKN6 20221003 E DC202210031437/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :1003:       ::       ::       ::/  1212.6
+.E2 :1004:/  1212.5/  1212.4/  1212.3/  1212.2
+.E3 :1005:/  1212.1/  1212.0/  1211.9/  1211.8
+.E4 :1006:/  1211.7/  1211.5/  1211.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 6.06 ft at Oct-03 02:30 pm
+:
+.ER LTLN6 20221003 E DC202210031437/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :1003:       ::       ::       ::/     6.4
+.E2 :1004:/     5.9/     6.1/     6.0/     6.1
+.E3 :1005:/     6.1/     6.1/     6.1/     6.1
+.E4 :1006:/     6.0/     6.0/     6.0
+: Local QPF - 6 hr timestep
+: 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+$$
+:NERFC
+:...END OF MESSAGE

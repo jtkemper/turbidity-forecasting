@@ -1,0 +1,40 @@
+
+849 
+FGUS51 KTAR 310221
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1021 PM EDT Wed Aug 30 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hoosic River - Eagle Bridge, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.52 ft at Aug-30 09:30 pm
+:
+.ER EAGN6 20230831 E DC202308302221/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0831:/     5.3/     4.8/     4.4/     4.3
+.E2 :0901:/     4.2/     4.1/     4.1/     4.0
+.E3 :0902:/     4.0/     3.9/     3.9/     3.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Esopus Creek - Cold Brook, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 5.24 ft at Aug-30 10:00 pm
+:
+.ER MTRN6 20230831 E DC202308302221/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0831:/     4.8/     4.6/     4.4/     4.4
+.E2 :0901:/     4.4/     4.5/     4.5/     4.5
+.E3 :0902:/     4.6/     4.6/     4.6/     4.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED OFTEN BY DIVERSIONS
+$$
+:NERFC
+:...END OF MESSAGE

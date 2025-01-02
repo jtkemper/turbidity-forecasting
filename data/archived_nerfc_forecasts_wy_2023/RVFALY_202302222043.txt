@@ -1,0 +1,29 @@
+
+833 
+FGUS51 KTAR 222045
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0343 PM EST Wed Feb 22 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 14.54 ft at Feb-22 02:30 pm
+:
+.ER MRNN6 20230222 E DC202302221543/DH19/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0222:       ::       ::       ::/    14.5
+.E2 :0223:/    14.4/    14.2/    14.1/    14.1
+.E3 :0224:/    14.1/    14.3/    14.4/    14.4
+.E4 :0225:/    14.4/    14.3/    14.3
+: Local QPF - 6 hr timestep
+: 0.13/ 0.29/ 0.25/ 0.03/ 0.01/ 0.07/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.02/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

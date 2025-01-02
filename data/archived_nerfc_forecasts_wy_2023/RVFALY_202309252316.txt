@@ -1,0 +1,30 @@
+
+437 
+FGUS51 KTAR 252316
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0716 PM EDT Mon Sep 25 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 7.65 ft at Sep-25 06:30 pm
+:Crest 8.01 at Sep-25 8pm
+:
+.ER WAPN6 20230925 E DC202309251916/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0925:       ::       ::       ::/     8.0
+.E2 :0926:/     7.8/     7.4/     7.1/     6.8
+.E3 :0927:/     6.4/     5.9/     5.4/     5.1
+.E4 :0928:/     5.0/     4.8/     4.8
+: Local QPF - 6 hr timestep
+: 0.12/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: WAPN6 Above minor flood stage at 2023-09-25 20:00:00
+$$
+:NERFC
+:...END OF MESSAGE

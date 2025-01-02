@@ -1,0 +1,69 @@
+
+158 
+FGUS51 KTAR 041711
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0109 PM EDT Tue Apr 04 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20230404 E DC202304041309/DH14/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0404:       ::       ::/    2.48/    2.68
+.E2 :0405:/    2.98/    3.29/    3.49/    3.78
+.E3 :0406:/    4.81/    6.40/    8.17/    8.69
+.E4 :0407:/    7.97/    6.78
+: Local QPF - 6 hr timestep
+: 0.11/ 0.07/ 0.01/ 0.00/ 0.11/ 0.37/ 0.16/ 0.16/ 0.03/ 0.01/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1205.84 ft at Apr-04 12:45 pm
+:Crest 1221.83 at Apr-09 8am
+:
+.ER HIKN6 20230404 E DC202304041309/DH14/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0404:       ::       ::/  1205.9/  1206.1
+.E2 :0405:/  1206.5/  1206.9/  1207.5/  1208.1
+.E3 :0406:/  1208.8/  1209.9/  1211.5/  1213.4
+.E4 :0407:/  1215.2/  1216.6
+: Local QPF - 6 hr timestep
+: 0.11/ 0.07/ 0.01/ 0.00/ 0.11/ 0.37/ 0.16/ 0.16/ 0.03/ 0.01/ 0.00/ 0.00/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:*************************************************
+:West Canada Creek - Kast Bridge, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 4.43 ft at Apr-04 12:15 pm
+:
+.ER KASN6 20230404 E DC202304041309/DH14/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0404:       ::       ::/     4.3/     4.3
+.E2 :0405:/     4.3/     4.2/     4.3/     4.5
+.E3 :0406:/     4.6/     4.7/     4.6/     4.5
+.E4 :0407:/     4.4/     4.3
+: Local QPF - 6 hr timestep
+: 0.00/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION
+:*************************************************
+:Mohawk River - Little Falls, NY
+:Flood Stage 15.0 ft
+:Latest Observed Value: 8.64 ft at Apr-04 12:30 pm
+:
+.ER LTLN6 20230404 E DC202304041309/DH14/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0404:       ::       ::/     8.6/     8.7
+.E2 :0405:/     8.7/     8.6/     8.5/     8.9
+.E3 :0406:/     9.6/    10.2/    10.3/    10.2
+.E4 :0407:/     9.8/     9.5
+: Local QPF - 6 hr timestep
+: 0.04/ 0.04/ 0.00/ 0.00/ 0.08/ 0.27/ 0.15/ 0.12/ 0.04/ 0.01/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED SEASONALLY BY CANAL OPERATIONS
+$$
+:NERFC
+:...END OF MESSAGE

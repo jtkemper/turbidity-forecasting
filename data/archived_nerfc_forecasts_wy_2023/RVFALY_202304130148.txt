@@ -1,0 +1,29 @@
+
+910 
+FGUS51 KTAR 130148
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0948 PM EDT Wed Apr 12 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schroon River - Riverbank, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 6.66 ft at Apr-12 09:30 pm
+:Crest 7.36 at Apr-15 8pm
+:
+.ER RVRN6 20230413 E DC202304122148/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0413:/     6.8/     6.9/     6.9/     7.0
+.E2 :0414:/     7.1/     7.2/     7.2/     7.3
+.E3 :0415:/     7.3/     7.3/     7.4/     7.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RVRN6 Above minor flood stage at 2023-04-13 20:00:00
+$$
+:NERFC
+:...END OF MESSAGE

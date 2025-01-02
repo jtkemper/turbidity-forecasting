@@ -1,0 +1,42 @@
+
+666 
+FGUS51 KTAR 252058
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0458 PM EDT Mon Sep 25 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Housatonic River - Stevenson Dam, CT
+:Flood Stage 11.0 ft
+:Latest Observed Value: 10.07 ft at Sep-25 04:30 pm
+:Crest 11.05 at Sep-25 8pm
+:
+.ER STVC3 20230925 E DC202309251658/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0925:       ::       ::       ::/    11.0
+.E2 :0926:/    11.0/    10.0/     9.9/     9.8
+.E3 :0927:/     8.9/     8.5/     8.2/     7.5
+.E4 :0928:/     7.3/     6.6/     6.5
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: STVC3 Above minor flood stage at 2023-09-25 20:00:00
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+:Housatonic River - Stevenson Dam, CT
+:
+.ER STVC3 20230925 E DC202309251658/DH20/QRIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0925:       ::       ::       ::/   13.80
+.E2 :0926:/   13.67/   11.23/   11.01/   10.78
+.E3 :0927:/    8.52/    7.61/    7.04/    5.74
+.E4 :0928:/    5.30/    4.28/    4.11
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

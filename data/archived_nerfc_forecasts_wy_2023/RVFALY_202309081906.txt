@@ -1,0 +1,97 @@
+
+132 
+FGUS51 KTAR 081906
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0306 PM EDT Fri Sep 08 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1129.55 ft at Sep-08 02:15 pm
+:Crest 1129.41 at Sep-08 8pm
+:
+.ER GILN6 20230908 E DC202309081506/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0908:       ::       ::       ::/  1129.4
+.E2 :0909:/  1129.3/  1129.1/  1129.0/  1128.8
+.E3 :0910:/  1128.8/  1128.8/  1128.8/  1128.9
+.E4 :0911:/  1128.9/  1129.0/  1129.1
+: Local QPF - 6 hr timestep
+: 0.10/ 0.10/ 0.04/ 0.05/ 0.27/ 0.09/ 0.07/ 0.07/ 0.20/ 0.02/ 0.08/ 0.11/
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Schoharie Creek - Gilboa, NY
+:Flood Stage 17.0 ft
+:Latest Observed Value: 11.40 ft at Sep-08 02:15 pm
+:
+.ER GBRN6 20230908 E DC202309081506/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0908:       ::       ::       ::/    11.4
+.E2 :0909:/    11.4/    11.4/    11.4/    11.4
+.E3 :0910:/    11.4/    11.4/    11.4/    11.4
+.E4 :0911:/    11.4/    11.4/    11.4
+: RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Breakabeen, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 1.23 ft at Sep-08 02:30 pm
+:
+.ER BKBN6 20230908 E DC202309081506/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0908:       ::       ::       ::/     2.3
+.E2 :0909:/     2.3/     2.3/     2.3/     2.3
+.E3 :0910:/     2.4/     2.3/     2.3/     2.3
+.E4 :0911:/     2.4/     2.4/     2.3
+: Local QPF - 6 hr timestep
+: 0.05/ 0.08/ 0.03/ 0.02/ 0.33/ 0.08/ 0.04/ 0.07/ 0.21/ 0.02/ 0.10/ 0.11/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Burtonsville, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 0.97 ft at Sep-08 02:45 pm
+:
+.ER BRTN6 20230908 E DC202309081506/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0908:       ::       ::       ::/     1.0
+.E2 :0909:/     1.2/     1.4/     1.4/     1.4
+.E3 :0910:/     1.4/     1.4/     1.4/     1.4
+.E4 :0911:/     1.4/     1.4/     1.4
+: Local QPF - 6 hr timestep
+: 0.07/ 0.05/ 0.04/ 0.02/ 0.35/ 0.08/ 0.05/ 0.04/ 0.18/ 0.04/ 0.13/ 0.13/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Mohawk River - Cohoes, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 11.19 ft at Sep-08 02:00 pm
+:
+.ER COHN6 20230908 E DC202309081506/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0908:       ::       ::       ::/    10.2
+.E2 :0909:/     9.4/     9.6/     9.6/     9.5
+.E3 :0910:/     9.5/     9.5/     9.5/     9.4
+.E4 :0911:/     9.4/     9.5/     9.7
+: Local QPF - 6 hr timestep
+: 0.06/ 0.03/ 0.02/ 0.03/ 0.10/ 0.09/ 0.08/ 0.03/ 0.17/ 0.06/ 0.16/ 0.20/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION AND/OR CANAL OPERATIONS
+:*************************************************
+:Hudson River - Troy Lock and Dam, NY
+:Flood Stage 21.5 ft
+:Latest Observed Value: 15.76 ft at Sep-08 02:15 pm
+:
+.ER TRYN6 20230908 E DC202309081506/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0908:       ::       ::       ::/    16.2
+.E2 :0909:/    16.1/    15.9/    15.9/    15.9
+.E3 :0910:/    15.8/    15.8/    15.8/    15.8
+.E4 :0911:/    15.8/    15.8/    15.9
+: Local QPF - 6 hr timestep
+: 0.61/ 0.11/ 0.01/ 0.00/ 0.14/ 0.07/ 0.07/ 0.02/ 0.16/ 0.05/ 0.12/ 0.12/
+: RIVER STAGE IS AFFECTED AT TIMES BY POWER GENERATION AND/OR CANAL OPERATIONS
+$$
+:NERFC
+:...END OF MESSAGE

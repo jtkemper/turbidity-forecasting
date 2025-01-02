@@ -1,0 +1,41 @@
+
+016 
+FGUS51 KTAR 010807
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0404 AM EDT Mon May 01 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Rondout Creek - Rosendale, NY
+:Flood Stage 18.0 ft
+:Latest Observed Value: 16.68 ft at May-01 03:30 am
+:
+.ER ROSN6 20230501 E DC202305010404/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0501:       ::/    17.7/    16.9/    15.9
+.E2 :0502:/    15.2/    14.5/    13.9/    13.3
+.E3 :0503:/    12.7/    12.3/    12.0/    11.6
+.E4 :0504:/    11.3
+: Local QPF - 6 hr timestep
+: 0.16/ 0.00/ 0.03/ 0.04/ 0.08/ 0.05/ 0.04/ 0.01/ 0.01/ 0.03/ 0.04/ 0.02/
+:*************************************************
+:Wappinger Creek - Wappingers Falls, NY
+:Flood Stage 8.0 ft
+:Latest Observed Value: 4.91 ft at May-01 03:30 am
+:
+.ER WAPN6 20230501 E DC202305010404/DH08/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0501:       ::/     5.2/     5.4/     5.4
+.E2 :0502:/     5.2/     5.0/     4.9/     4.8
+.E3 :0503:/     4.7/     4.6/     4.6/     4.5
+.E4 :0504:/     4.5
+: Local QPF - 6 hr timestep
+: 0.05/ 0.00/ 0.01/ 0.01/ 0.09/ 0.05/ 0.02/ 0.00/ 0.00/ 0.02/ 0.05/ 0.05/
+$$
+:NERFC
+:...END OF MESSAGE

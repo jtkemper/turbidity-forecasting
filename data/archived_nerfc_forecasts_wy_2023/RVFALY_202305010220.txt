@@ -1,0 +1,47 @@
+
+769 
+FGUS51 KTAR 010224
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1020 PM EDT Sun Apr 30 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Esopus Creek - Mt Marion, NY
+:Flood Stage 20.0 ft
+:Latest Observed Value: 17.24 ft at Apr-30 09:30 pm
+:
+.ER MRNN6 20230501 E DC202304302220/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0501:/    18.1/    18.4/    18.1/    17.9
+.E2 :0502:/    17.9/    18.4/    18.8/    18.9
+.E3 :0503:/    18.7/    18.5/    18.2/    18.0
+: Local QPF - 6 hr timestep
+: 0.99/ 0.06/ 0.00/ 0.02/ 0.01/ 0.07/ 0.06/ 0.02/ 0.00/ 0.03/ 0.03/ 0.02/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Hudson River - Poughkeepsie, NY
+:Flood Stage 4.2 ft
+:Latest Observed Value: 3.23 ft at Apr-30 09:45 pm
+:
+.ER PKMN6 20230430 ED DC202304302220/DH23/HGIFF/DIH1
+.E1 :0430:/   3.3
+.E2 :0501:/   3.0/   2.4/   1.9/   1.6/   1.2/   1.1
+.E3 :0501:/   1.1/   1.4/   2.0/   2.4/   2.5/   2.2
+.E4 :0501:/   1.7/   1.1/   0.5/  -0.0/  -0.3/  -0.4
+.E5 :0501:/  -0.0/   0.8/   1.7/   2.4/   2.9/   3.0
+.E6 :0502:/   2.8/   2.2/   1.5/   0.9/   0.5/   0.2
+.E7 :0502:/   0.4/   0.9/   1.8/   2.5/   2.9/   3.0
+.E8 :0502:/   2.8/   2.2/   1.6/   1.0/   0.6/   0.1
+.E9 :0502:/   0.1/   0.6/   1.5/   2.4/   3.0/   3.4
+.E10 :0503:/   3.2/   2.7/   1.9/   1.2/   0.6/   0.0
+.E11 :0503:/  -0.2/   0.1/   0.9/   1.8/   2.4/   2.7
+.E12 :0503:/   2.7/   2.3/   1.6/   1.0/   0.4/  -0.0
+.E13 :0503:/  -0.3/   0.0/   1.0/   2.1/   2.9
+$$
+:NERFC
+:...END OF MESSAGE

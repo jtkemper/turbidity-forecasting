@@ -1,0 +1,54 @@
+
+883 
+FGUS51 KTAR 012019
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0419 PM EDT Mon May 01 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schroon River - Riverbank, NY
+:Flood Stage 7.0 ft
+:Latest Observed Value: 5.67 ft at May-01 03:30 pm
+:
+.ER RVRN6 20230501 E DC202305011619/DH20/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0501:       ::       ::       ::/     5.8
+.E2 :0502:/     6.0/     6.1/     6.1/     6.2
+.E3 :0503:/     6.3/     6.3/     6.3/     6.3
+.E4 :0504:/     6.3/     6.2/     6.2
+: Local QPF - 6 hr timestep
+: 0.10/ 0.00/ 0.13/ 0.19/ 0.07/ 0.03/ 0.07/ 0.11/ 0.08/ 0.13/ 0.03/ 0.02/
+:*************************************************
+:West Canada Creek - Hinckley Dam, NY
+:
+.ER HIKN6 20230501 E DC202305011619/DH20/QIIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0501:       ::       ::       ::/    5.51
+.E2 :0502:/    5.61/    5.31/    4.91/    4.60
+.E3 :0503:/    4.22/    3.90/    3.58/    3.31
+.E4 :0504:/    3.15/    3.01/    2.85
+: Local QPF - 6 hr timestep
+: 0.08/ 0.07/ 0.10/ 0.07/ 0.05/ 0.03/ 0.07/ 0.09/ 0.09/ 0.03/ 0.02/ 0.03/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+:West Canada Creek - Hinckley Dam, NY
+:Flood Stage 1227.0 ft
+:Latest Observed Value: 1224.12 ft at May-01 03:45 pm
+:Crest 1226.89 at May-03 2pm
+:
+.ER HIKN6 20230501 E DC202305011619/DH20/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0501:       ::       ::       ::/  1224.5
+.E2 :0502:/  1225.2/  1225.8/  1226.3/  1226.7
+.E3 :0503:/  1226.8/  1226.9/  1226.9/  1226.9
+.E4 :0504:/  1226.8/  1226.8/  1226.7
+: Local QPF - 6 hr timestep
+: 0.08/ 0.07/ 0.10/ 0.07/ 0.05/ 0.03/ 0.07/ 0.09/ 0.09/ 0.03/ 0.02/ 0.03/
+: LAKE LEVELS BELOW 1227.O FEET ARE AFFECTED BY REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

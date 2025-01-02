@@ -1,0 +1,59 @@
+
+627 
+FGUS51 KTAR 040125
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0924 PM EDT Mon Oct 03 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - Albany, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 3.49 ft at Oct-03 08:30 pm
+:Crest 7.40 at Oct-05 0am
+:
+.ER ALBN6 20221003 ED DC202210032124/DH22/HGIFF/DIH1
+.E1 :1003:/   5.4/   5.7
+.E2 :1004:/   5.4/   4.6/   3.5/   2.4/   1.4/   0.5
+.E3 :1004:/  -0.2/  -0.5/  -0.0/   1.1/   2.4/   3.4
+.E4 :1004:/   3.8/   3.6/   3.0/   2.1/   1.3/   0.6
+.E5 :1004:/   0.4/   1.0/   2.5/   4.4/   6.0/   7.1
+.E6 :1005:/   7.4/   6.9/   5.9/   4.6/   3.2/   1.8
+.E7 :1005:/   0.6/  -0.5/  -1.0/  -0.8/   0.2/   1.6
+.E8 :1005:/   2.7/   3.3/   3.2/   2.7/   1.8/   0.8
+.E9 :1005:/  -0.0/  -0.5/  -0.1/   1.2/   3.0/   4.8
+.E10 :1006:/   6.0/   6.5/   6.1/   5.1/   3.8/   2.3
+.E11 :1006:/   1.0/  -0.2/  -1.2/  -1.6/  -1.0/   0.6
+.E12 :1006:/   2.3/   3.6/   4.0/   3.8/   3.0/   1.9
+.E13 :1006:/   0.7/  -0.3/  -1.0/  -0.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: FORECAST TIDE STAGES ARE NOT INTENDED FOR NAVIGATIONAL USE
+:*************************************************
+:Hudson River - Poughkeepsie, NY
+:Flood Stage 5.0 ft
+:
+.ER POUN6 20221003 ED DC202210032124/DH22/HGIFF/DIH1
+.E1 :1003:/   3.6/   3.0
+.E2 :1004:/   2.4/   1.8/   1.4/   1.3/   1.6/   2.4
+.E3 :1004:/   3.1/   3.6/   3.8/   3.6/   3.1/   2.4
+.E4 :1004:/   1.7/   1.3/   0.9/   1.0/   1.6/   2.5
+.E5 :1004:/   3.4/   4.1/   4.7/   4.8/   4.4/   3.6
+.E6 :1005:/   2.8/   2.2/   1.5/   1.1/   0.8/   1.0
+.E7 :1005:/   1.8/   2.6/   3.2/   3.5/   3.4/   2.9
+.E8 :1005:/   2.2/   1.4/   0.8/   0.4/   0.4/   0.9
+.E9 :1005:/   1.8/   2.8/   3.6/   4.1/   4.2/   3.8
+.E10 :1006:/   3.0/   2.1/   1.4/   0.8/   0.4/   0.2
+.E11 :1006:/   0.7/   1.8/   2.6/   3.3/   3.6/   3.5
+.E12 :1006:/   3.0/   2.1/   1.3/   0.7/   0.2/   0.2
+.E13 :1006:/   0.8/   1.9/   2.9/   3.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.01/ 0.06/ 0.08/ 0.05/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: FORECAST TIDE STAGES ARE NOT INTENDED FOR NAVIGATIONAL USE
+$$
+:NERFC
+:...END OF MESSAGE

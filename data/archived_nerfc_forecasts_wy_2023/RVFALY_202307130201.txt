@@ -1,0 +1,53 @@
+
+987 
+FGUS51 KTAR 130202
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1001 PM EDT Wed Jul 12 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hudson River - North Creek, NY
+:Flood Stage 10.0 ft
+:Latest Observed Value: 8.32 ft at Jul-12 09:15 pm
+:
+.ER NCKN6 20230713 E DC202307122201/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0713:/     8.1/     7.7/     7.3/     7.0
+.E2 :0714:/     6.8/     6.6/     6.4/     6.3
+.E3 :0715:/     6.2/     6.1/     6.0/     5.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.01/ 0.03/ 0.47/ 0.27/ 0.10/ 0.09/ 0.13/ 0.00/ 0.00/ 0.00/ 0.07/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Hudson River - Hadley, NY
+:Flood Stage 14.0 ft
+:Latest Observed Value: 10.11 ft at Jul-12 09:01 pm
+:
+.ER HDYN6 20230713 E DC202307122201/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0713:/     9.6/     9.1/     8.7/     8.1
+.E2 :0714:/     7.7/     7.4/     7.2/     7.1
+.E3 :0715:/     6.9/     6.8/     6.7/     6.6
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.03/ 0.47/ 0.41/ 0.23/ 0.15/ 0.19/ 0.01/ 0.00/ 0.00/ 0.04/
+: RIVER STAGE IS AFFECTED AT TIMES BY RESERVOIR REGULATION
+:*************************************************
+:Roundout Reservoir - Roundout Resvr, NY
+:Latest Observed Value: 836.72 ft at Jul-12 09:00 pm
+:Crest 837.46 at Jul-17 8pm
+:
+.ER RONN6 20230713 E DC202307122201/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0713:/   836.8/   836.8/   836.8/   836.8
+.E2 :0714:/   836.9/   836.9/   837.0/   837.0
+.E3 :0715:/   837.1/   837.2/   837.2/   837.3
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.01/ 0.13/ 0.27/ 0.08/ 0.11/ 0.18/ 0.05/ 0.00/ 0.01/ 0.09/
+$$
+:NERFC
+:...END OF MESSAGE

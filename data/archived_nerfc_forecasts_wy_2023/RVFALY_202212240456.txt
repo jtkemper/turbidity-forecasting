@@ -1,0 +1,76 @@
+
+914 
+FGUS51 KTAR 240502
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1156 PM EST Fri Dec 23 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Housatonic River - Falls Village, CT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 5.62 ft at Dec-23 11:15 pm
+:
+.ER FLVC3 20221224 E DC202212232356/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1224:/     5.7/     6.2/     6.6/     6.7
+.E2 :1225:/     6.7/     6.6/     6.4/     6.2
+.E3 :1226:/     6.0/     5.7/     5.5/     5.3
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Tenmile River - Webatuck, NY
+:Flood Stage 9.0 ft
+:Latest Observed Value: 3.90 ft at Dec-23 11:15 pm
+:
+.ER TENN6 20221224 E DC202212232356/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1224:/     4.0/     4.4/     4.8/     5.0
+.E2 :1225:/     4.9/     4.7/     4.5/     4.2
+.E3 :1226:/     4.0/     3.8/     3.6/     3.4
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Housatonic River - Gaylordsville, CT
+:Flood Stage 8.0 ft
+:Latest Observed Value: 6.27 ft at Dec-23 11:00 pm
+:
+.ER GAYC3 20221224 E DC202212232356/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1224:/     6.7/     7.2/     7.6/     7.8
+.E2 :1225:/     7.9/     7.8/     7.6/     7.3
+.E3 :1226:/     7.1/     6.8/     6.5/     6.3
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Housatonic River - Stevenson Dam, CT
+:Flood Stage 11.0 ft
+:Latest Observed Value: 8.44 ft at Dec-23 11:30 pm
+:
+.ER STVC3 20221224 E DC202212232356/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1224:/     8.5/     8.5/    10.2/     9.1
+.E2 :1225:/     9.1/     9.5/     9.3/     9.3
+.E3 :1226:/     9.4/     9.4/     9.0/     8.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+:Housatonic River - Stevenson Dam, CT
+:
+.ER STVC3 20221224 E DC202212232356/DH01/QRIFF/DIH6
+:FLOW FCST      1AM      7AM      1PM      7PM
+.E1 :1224:/    7.51/    7.65/   11.70/    9.01
+.E2 :1225:/    9.03/    9.98/    9.30/    9.35
+.E3 :1226:/    9.78/    9.68/    8.79/    8.21
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

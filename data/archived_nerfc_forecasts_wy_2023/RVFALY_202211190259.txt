@@ -1,0 +1,65 @@
+
+329 
+FGUS51 KTAR 190259
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0959 PM EST Fri Nov 18 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1125.31 ft at Nov-18 09:15 pm
+:Crest 1125.52 at Nov-19 1am
+:
+.ER GILN6 20221119 E DC202211182159/DH01/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1119:/  1125.5/  1125.5/  1125.4/  1125.4
+.E2 :1120:/  1125.3/  1125.3/  1125.2/  1125.1
+.E3 :1121:/  1125.0/  1124.9/  1124.8/  1124.7
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Schoharie Creek - Gilboa, NY
+:Flood Stage 17.0 ft
+:Latest Observed Value: 10.51 ft at Nov-18 09:15 pm
+:
+.ER GBRN6 20221119 E DC202211182159/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1119:/    10.5/    10.5/    10.5/    10.5
+.E2 :1120:/    10.5/    10.5/    10.5/    10.5
+.E3 :1121:/    10.5/    10.5/    10.5/    10.5
+: RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Breakabeen, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 1.89 ft at Nov-18 09:30 pm
+:
+.ER BKBN6 20221119 E DC202211182159/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1119:/     1.9/     1.9/     1.9/     1.9
+.E2 :1120:/     1.9/     1.8/     1.8/     1.8
+.E3 :1121:/     1.8/     1.8/     1.8/     1.8
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Schoharie Creek - Burtonsville, NY
+:Flood Stage 6.0 ft
+:Latest Observed Value: 1.45 ft at Nov-18 09:45 pm
+:
+.ER BRTN6 20221119 E DC202211182159/DH01/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :1119:/     1.5/     1.5/     1.5/     1.5
+.E2 :1120:/     1.5/     1.4/     1.4/     1.4
+.E3 :1121:/     1.4/     1.4/     1.4/     1.4
+: Local QPF - 6 hr timestep
+: 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

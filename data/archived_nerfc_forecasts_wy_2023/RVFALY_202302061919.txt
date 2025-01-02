@@ -1,0 +1,41 @@
+
+827 
+FGUS51 KTAR 061921
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0219 PM EST Mon Feb 06 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Schoharie Creek - Gilboa Dam, NY
+:Latest Observed Value: 1119.59 ft at Feb-06 01:25 pm
+:Crest 1122.40 at Feb-11 1pm
+:
+.ER GILN6 20230206 E DC202302061419/DH19/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :0206:       ::       ::       ::/  1119.4
+.E2 :0207:/  1119.4/  1119.4/  1119.4/  1119.4
+.E3 :0208:/  1119.4/  1119.4/  1119.5/  1119.6
+.E4 :0209:/  1119.7/  1119.8/  1119.9
+: Local QPF - 6 hr timestep
+: 0.00/ 0.00/ 0.00/ 0.00/ 0.02/ 0.07/ 0.01/ 0.00/ 0.00/ 0.00/ 0.00/ 0.05/
+: LAKE LEVELS ARE AFFECTED BY RESERVOIR REGULATION AND DIVERSION
+:*************************************************
+:Schoharie Creek - Gilboa, NY
+:Flood Stage 17.0 ft
+:Latest Observed Value: 11.34 ft at Feb-06 01:15 pm
+:
+.ER GBRN6 20230206 E DC202302061419/DH19/HGIFF/DIH6
+:STAGE FCST     1AM      7AM      1PM      7PM
+.E1 :0206:       ::       ::       ::/    11.3
+.E2 :0207:/    11.3/    11.3/    11.3/    11.3
+.E3 :0208:/    11.3/    11.3/    11.3/    11.3
+.E4 :0209:/    11.3/    11.3/    11.3
+: RIVER STAGE IS AFFECTED OFTEN BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE

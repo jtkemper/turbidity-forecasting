@@ -1,0 +1,27 @@
+
+293 
+FGUS51 KTAR 020221
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+1021 PM EDT Sat Apr 01 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Hoosic River - Eagle Bridge, NY
+:Flood Stage 11.0 ft
+:Latest Observed Value: 7.67 ft at Apr-01 09:30 pm
+:
+.ER EAGN6 20230402 E DC202304012221/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0402:/     7.7/     7.3/     6.9/     6.5
+.E2 :0403:/     6.2/     6.0/     5.8/     5.6
+.E3 :0404:/     5.5/     5.6/     5.7/     5.8
+: Local QPF - 6 hr timestep
+: 0.12/ 0.03/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.01/ 0.10/ 0.01/ 0.03/ 0.02/
+$$
+:NERFC
+:...END OF MESSAGE

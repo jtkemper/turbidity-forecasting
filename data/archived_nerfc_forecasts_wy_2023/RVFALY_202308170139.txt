@@ -1,0 +1,27 @@
+
+187 
+FGUS51 KTAR 170139
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0939 PM EDT Wed Aug 16 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Roundout Reservoir - Roundout Resvr, NY
+:Latest Observed Value: 837.85 ft at Aug-16 08:40 pm
+:Crest 837.90 at Aug-18 8pm
+:
+.ER RONN6 20230817 E DC202308162139/DH02/HPIFF/DIH6
+:POOL FCST      2AM      8AM      2PM      8PM
+.E1 :0817:/   837.9/   837.9/   837.9/   837.9
+.E2 :0818:/   837.9/   837.9/   837.9/   837.9
+.E3 :0819:/   837.9/   837.9/   837.9/   837.8
+: Local QPF - 6 hr timestep
+: 0.00/ 0.01/ 0.02/ 0.06/ 0.05/ 0.23/ 0.04/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/
+$$
+:NERFC
+:...END OF MESSAGE

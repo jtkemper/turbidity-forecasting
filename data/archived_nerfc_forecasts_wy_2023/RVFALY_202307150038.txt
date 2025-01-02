@@ -1,0 +1,88 @@
+
+503 
+FGUS51 KTAR 150039
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0838 PM EDT Fri Jul 14 2023
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Housatonic River - Great Barrington, MA
+:Flood Stage 9.0 ft
+:Latest Observed Value: 4.96 ft at Jul-14 07:30 pm
+:
+.ER GTBM3 20230715 E DC202307142038/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0715:/     4.8/     4.7/     4.5/     4.3
+.E2 :0716:/     4.1/     4.0/     3.9/     4.1
+.E3 :0717:/     4.3/     4.5/     4.5/     4.5
+: Local QPF - 6 hr timestep
+: 0.00/
+:*************************************************
+:Housatonic River - Falls Village, CT
+:Flood Stage 7.0 ft
+:Latest Observed Value: 6.92 ft at Jul-14 08:15 pm
+:
+.ER FLVC3 20230715 E DC202307142038/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0715:/     6.8/     6.7/     6.6/     6.4
+.E2 :0716:/     6.3/     6.1/     5.9/     5.9
+.E3 :0717:/     6.0/     6.1/     6.2/     6.2
+: Local QPF - 6 hr timestep
+: 0.06/ 0.01/ 0.00/ 0.09/ 0.02/ 0.05/ 0.31/ 0.52/ 0.05/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Tenmile River - Webatuck, NY
+:Flood Stage 9.0 ft
+:Latest Observed Value: 3.80 ft at Jul-14 08:15 pm
+:
+.ER TENN6 20230715 E DC202307142038/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0715:/     3.9/     3.8/     3.7/     3.6
+.E2 :0716:/     3.5/     3.4/     3.3/     3.3
+.E3 :0717:/     3.5/     3.8/     3.9/     3.8
+: Local QPF - 6 hr timestep
+: 0.09/ 0.01/ 0.00/ 0.06/ 0.01/ 0.03/ 0.29/ 0.39/ 0.04/ 0.00/ 0.00/ 0.00/
+:*************************************************
+:Housatonic River - Gaylordsville, CT
+:Flood Stage 8.0 ft
+:Latest Observed Value: 7.73 ft at Jul-14 08:00 pm
+:
+.ER GAYC3 20230715 E DC202307142038/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0715:/     7.5/     7.3/     7.2/     7.1
+.E2 :0716:/     6.9/     6.8/     6.6/     6.6
+.E3 :0717:/     6.6/     6.7/     6.8/     6.8
+: Local QPF - 6 hr timestep
+: 0.06/ 0.01/ 0.00/ 0.04/ 0.01/ 0.04/ 0.31/ 0.42/ 0.05/ 0.00/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY RESERVOIR REGULATION
+:*************************************************
+:Housatonic River - Stevenson Dam, CT
+:Flood Stage 11.0 ft
+:Latest Observed Value: 10.73 ft at Jul-14 07:30 pm
+:
+.ER STVC3 20230715 E DC202307142038/DH02/HGIFF/DIH6
+:STAGE FCST     2AM      8AM      2PM      8PM
+.E1 :0715:/     9.4/     7.9/     7.9/     7.9
+.E2 :0716:/     7.9/     8.3/     8.1/     8.1
+.E3 :0717:/     8.2/     8.3/     8.3/     8.2
+: Local QPF - 6 hr timestep
+: 0.16/ 0.03/ 0.01/ 0.02/ 0.00/ 0.10/ 0.32/ 0.30/ 0.07/ 0.01/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+:Housatonic River - Stevenson Dam, CT
+:
+.ER STVC3 20230715 E DC202307142038/DH02/QRIFF/DIH6
+:FLOW FCST      2AM      8AM      2PM      8PM
+.E1 :0715:/    9.65/    6.40/    6.39/    6.39
+.E2 :0716:/    6.33/    7.13/    6.88/    6.86
+.E3 :0717:/    7.00/    7.13/    7.15/    7.04
+: Local QPF - 6 hr timestep
+: 0.16/ 0.03/ 0.01/ 0.02/ 0.00/ 0.10/ 0.32/ 0.30/ 0.07/ 0.01/ 0.00/ 0.00/
+: RIVER STAGE IS AFFECTED BY POWER GENERATION
+$$
+:NERFC
+:...END OF MESSAGE

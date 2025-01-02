@@ -1,0 +1,30 @@
+
+863 
+FGUS51 KTAR 302044
+RVFALY
+RIVER STAGE FORECAST
+NATIONAL WEATHER SERVICE
+NORTHEAST RIVER FORECAST CENTER...NORTON, MA
+0344 PM EST Wed Nov 30 2022
+:
+:THIS IS A NWS GUIDANCE PRODUCT FROM THE NORTHEAST RIVER FORECAST CENTER.
+:OFFICIAL FORECASTS/WARNINGS ARE ONLY ISSUED BY LOCAL NWS OFFICES.
+:
+:*************************************************
+:Ashokan Reservoir East - Ashokan Reservoir Ea, NY
+:Flood Stage 589.0 ft
+:Latest Observed Value: 569.65 ft at Nov-30 03:10 pm
+:Crest 572.64 at Dec-05 1pm
+:
+.ER ASEN6 20221130 E DC202211301544/DH19/HPIFF/DIH6
+:POOL FCST      1AM      7AM      1PM      7PM
+.E1 :1130:       ::       ::       ::/   569.8
+.E2 :1201:/   570.0/   570.2/   570.3/   570.5
+.E3 :1202:/   570.6/   570.8/   570.9/   571.1
+.E4 :1203:/   571.2/   571.4/   571.6
+: Local QPF - 6 hr timestep
+: 0.72/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.00/ 0.15/
+: LAKE LEVELS BELOW 587.1 FEET ARE AFFECTED BY RESERVOIR REGULATION
+$$
+:NERFC
+:...END OF MESSAGE
