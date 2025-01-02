@@ -995,4 +995,558 @@ nerfc_converter2 <- function(df) {
 ################################################################################
 ```
 
+## Antecedent Condition Calculator
+```{r}
+
+#################### FUNCTION TO CALCULATE ANTECEDENT MAXES AND MEANS ##########
+
+antecedent_calculator <- function(datetime,
+                              hours_from_gage = NULL, 
+                              hours_from_model = NULL,
+                              monthly_hours_from_gage = NULL,
+                              monthly_hours_from_model = NULL,
+                              init_date,
+                              tributary,
+                              #member = NULL,
+                              time_span = NULL,
+                              metric = NULL,
+                              obs_df = NULL,
+                              model_df = NULL,
+                              forecast_model = "NWM"
+                              ) {
+
+########################## SET UP ##############################################
+  
+  ### Find the index of the dateTime of interest in the observed data (minus 1)
+  datetime_index_obs <- which(obs_df$dateTime == datetime &
+                                obs_df$Station == tributary) 
+  
+  ### Find the index of the datet
+  datetime_index_model <- which(model_df$predict_dateTime == datetime & 
+                              model_df$tributary == tributary & 
+                              #nwm_forecasts_mt_trim$member == member &
+                              model_df$init_date == init_date
+                              )
+  
+      if(forecast_model == "NWM") {
+    
+    hours_from_model_adj <- hours_from_model
+    
+    monthly_hours_from_model_adj <- monthly_hours_from_model
+    
+    
+  } else if (forecast_model == "NERFC") {
+    
+    hours_from_model_adj <- hours_from_model*6
+    
+    monthly_hours_from_model_adj <- monthly_hours_from_model*6
+    
+    
+  }
+  
+  
+  ########## WEEKLY ANTECEDENTS ###################################################
+    if (hours_from_gage != 0){
+          log_obs_flow <- obs_df %>%
+            dplyr::ungroup() %>%
+            dplyr::slice(((datetime_index_obs - hours_from_model_adj)
+                          - hours_from_gage):(datetime_index_obs - 
+                                                hours_from_model_adj - 1)) %>%
+            .$log_observed_flow
+        
+    } else{
+        
+      log_obs_flow <- NA
+      
+      } ### End log observed flow ifelse 
+
+    if(hours_from_model != 0 ){
+      
+          log_modeled_flow <- model_df %>%
+            dplyr::filter(tributary == tributary) %>%
+            dplyr::ungroup() %>%
+            dplyr::slice((datetime_index_model - hours_from_model):(datetime_index_model -
+                                                                  1)) %>%
+            .$log_modeled_flow
+        
+      
+        }  else {
+        
+        log_modeled_flow <- NA
+      }
+
+
+    obs_and_modeled_flow <-  c(log_obs_flow, log_modeled_flow) %>%
+      na.omit() 
+      
+      mean_prior_weekly_flow <- mean(obs_and_modeled_flow) %>%
+            as_tibble() %>%
+            rename(mean_prior_weekly_log_q = 1)
+  
+
+  ################################################################################
+    
+  ############# MONTHLY ANTECEDENTS ##############################################
+
+    if (monthly_hours_from_gage > 0 & monthly_hours_from_model <= 168){
+
+          log_obs_flow_minus3 <- obs_df %>%
+            dplyr::slice((datetime_index_obs - 720):(datetime_index_obs -
+                                                       168 - 1)) %>%
+            .$log_observed_flow
+
+          obs_and_modeled_flow_monthly <- c(obs_and_modeled_flow,
+                                            log_obs_flow_minus3) %>%
+            na.omit()
+
+    } else if(monthly_hours_from_model > 168) {
+
+      log_modeled_flow_monthly <- model_df %>%
+              dplyr::filter(tributary == tributary) %>%
+            dplyr::slice((datetime_index_model -
+                            monthly_hours_from_model):(datetime_index_model - 1)) %>%
+            .$log_modeled_flow
+
+      log_observed_flow_monthly <- obs_df %>%
+            dplyr::slice(((datetime_index_obs - monthly_hours_from_model_adj)
+                          - monthly_hours_from_gage):(datetime_index_obs -
+                                                        monthly_hours_from_model_adj - 1)) %>%
+            .$log_observed_flow
+
+      obs_and_modeled_flow_monthly <- c(log_modeled_flow_monthly,
+                                        log_observed_flow_monthly) %>%
+        na.omit()
+
+    } else {
+
+      obs_and_modeled_flow_monthly <- NA
+
+      }
+
+
+
+  ################################################################################
+    
+    
+  ###### 3 MONTHLY ANTECEDENTS ####################################################
+    
+    if(time_span == "3month" & metric == "max") {
+
+      log_observed_flow_3monthy <- obs_df %>%
+            dplyr::slice((datetime_index_obs - (24*30*3)):(datetime_index_obs -
+                                                       (24*30) - 1)) %>%
+            .$log_observed_flow
+
+    obs_and_modeled_flow_3month <- c(log_observed_flow_3monthy, obs_and_modeled_flow_monthly) %>%
+      na.omit()
+
+    # mean_prior_3month_flow <- mean(obs_and_modeled_flow_3month) %>%
+    #   as_tibble() %>%
+    #   rename(mean_3monthly_ant = 1)
+
+    max_prior_3month_flow <- max(obs_and_modeled_flow_3month) %>%
+      as_tibble() %>%
+      rename(max_prior_threemonth_log_q = 1)
+
+    return(max_prior_3month_flow)
+
+    } else if (time_span == "week_month" & metric == "mean") {
+
+
+          mean_prior_monthly_flow <- mean(obs_and_modeled_flow_monthly) %>%
+            as_tibble() %>%
+            rename(mean_prior_monthly_log_q = 1)
+
+
+          mean_prior_weekly_flow <- mean(obs_and_modeled_flow) %>%
+            as_tibble() %>%
+            rename(mean_prior_weekly_log_q = 1)
+
+          mean_prior_weekly_monthly <- bind_cols(mean_prior_monthly_flow,
+                                                 mean_prior_weekly_flow)
+
+          return(mean_prior_weekly_monthly)
+
+    } else if(time_span == "week_month" & metric == "max") {
+
+
+      max_prior_monthly_flow <- max(obs_and_modeled_flow_monthly) %>%
+        as_tibble() %>%
+        rename(max_prior_monthly_log_q = 1)
+
+
+      return(max_prior_monthly_flow)
+
+
+    } 
+      else {
+
+      return(NA)
+
+    }
+
+} ### End function antecedent_calculator
+```
+
+## Find Peaks in Record
+```{r}
+
+#### This function essentially finds the peak discharge, turbidity, etc.
+#### Over a user-specified length of time
+
+#######################FUNCTION TO CALC. PEAK TIMES#############################
+peak_time_getter <- function(datetime,
+                              yearly_hours_from_gage = NULL, 
+                              yearly_hours_from_model = NULL,
+                              init_date = NULL,
+                              tributary = NULL,
+                              length = NULL,
+                              return_value = FALSE,
+                              obs_df = NULL,
+                              model_df = NULL,
+                              forecast_model = "NWM"
+                             ) {
+  
+  
+  ################# SET UP #####################################################
+  
+    ### Find the index of the dateTime of interest in the observed data (minus 1)
+  datetime_index_obs <- which(obs_df$dateTime == datetime &
+                                obs_df$Station == tributary) 
+  
+  ### Find the index of the datet
+  datetime_index_model <- which(model_df$predict_dateTime == datetime & 
+                              model_df$tributary == tributary & 
+                              model_df$init_date == init_date
+                              )
+  
+
+############# EXTRACTS THE PEAKS ###############################################
+
+
+  max_extractor <- function(hrs_from_gage, hrs_from_model, frcst_mod) {
+    
+    
+        #### Adjust for the fact that NERFC model "timesteps needed" are really 
+        #### lumped 6-hrs in the timesteps_needed dataframe
+        #### so to combine with the oberved timesteps_needed we need to convert back
+        #### to hourly (i.e., one timestep = one row)
+        
+          if(frcst_mod == "NWM") {
+          
+          hrs_from_model_adj <- hrs_from_model
+          
+          
+        } else if (frcst_mod == "NERFC") {
+          
+          hrs_from_model_adj <- hrs_from_model*6
+          
+          
+        }
+        
+          log_obs_flow_df <- obs_df %>%
+                dplyr::ungroup() %>%
+                dplyr::slice(((datetime_index_obs - hrs_from_model_adj)
+                                  - hrs_from_gage):(datetime_index_obs - 
+                                                        hrs_from_model_adj - 1)) %>%
+                dplyr::select(dateTime, log_observed_flow)
+          
+        
+            if(yearly_hours_from_model != 0 ){
+              
+                  log_modeled_flow_df <- model_df %>%
+                    dplyr::ungroup() %>%
+                    dplyr::slice((datetime_index_model - hrs_from_model):(datetime_index_model -
+                                                                          1)) %>%
+                    dplyr::select(predict_dateTime, log_modeled_flow)
+                  
+                    
+                }  else {
+                
+                log_modeled_flow_df <-  tibble(predict_dateTime = NA,
+                                               log_modeled_flow = NA)
+                }
+          
+            flow_peak_datetime <-  bind_rows(log_obs_flow_df %>%
+                                                    rename(log_flow = log_observed_flow), 
+                                                  log_modeled_flow_df %>%
+                                                    rename(dateTime = predict_dateTime,
+                                                           log_flow = log_modeled_flow)) %>%
+              drop_na() %>%
+              slice_max(order_by = log_flow) %>%
+              arrange(desc(dateTime)) %>%
+              dplyr::slice(1) %>% ### Remove duplicates and choose more recent time of occurence
+              dplyr::ungroup()
+            
+            
+            return(flow_peak_datetime)
+        
+        
+  }
+  
+################################################################################
+      
+  
+########## YEARLY ANTECEDENTS ###################################################
+  
+  
+  
+    if(length == "annual") {
+      
+        
+       annual_max_datetime <- max_extractor(yearly_hours_from_gage,
+                                              yearly_hours_from_model,
+                                            forecast_model) %>%
+         rename(annual_peak_dateTime = 1) %>%
+         dplyr::ungroup()
+        
+            if(return_value == FALSE) {
+              
+                  annual_max_datetime <- annual_max_datetime %>%
+                    dplyr::ungroup() %>%
+                    dplyr::select(annual_peak_dateTime) 
+                    
+                  return(annual_max_datetime) 
+                
+            } 
+       
+       return(annual_max_datetime)
+       
+       
+                } else if (length == "6month") {
+                  
+                  ### Modify the hours we need
+                  ### Doing this here keeps us from having to give the function
+                  ### Like twenty-billion arguments
+                    six_month_hours_from_gage <- yearly_hours_from_gage - (365*24- (24*30*6))
+                    
+                    six_month_hours_from_model <- (24*30*6) - six_month_hours_from_gage
+                    
+                    if(forecast_model == "NERFC") {
+                      
+                      six_month_hours_from_model <- round(six_month_hours_from_model/6,0)
+                      
+                    }
+                    
+                    
+                    #### Extract the maximum over the past six months
+                    
+                    six_month_max_datetime <- max_extractor(six_month_hours_from_gage,
+                                                            six_month_hours_from_model,
+                                                            forecast_model) %>%
+                      rename(six_month_peak_dateTime = 1) %>%
+                      dplyr::ungroup()
+                      
+                    if(return_value == FALSE) {
+                            
+                      six_month_max_datetime <- six_month_max_datetime %>%
+                        dplyr::ungroup() %>%
+                                  dplyr::select(annual_peak_dateTime)
+                    
+                                  
+                      return(six_month_max_datetime) 
+                                
+                          }
+       
+                    return(six_month_max_datetime)
+                    
+                } else if (length == "3month") {
+                  
+                  
+                    ### Modify the hours we need
+                  
+                    three_month_hours_from_gage <- yearly_hours_from_gage - (365*24- (24*30*3))
+                    
+                    three_month_hours_from_model <- (24*30*3) - three_month_hours_from_gage
+                    
+                    if(forecast_model == "NERFC") {
+                      
+                      three_month_hours_from_model <- round(three_month_hours_from_model/6,0)
+                      
+                    }
+                    
+                    ### Get values
+                    
+                    three_month_max_datetime <- max_extractor(three_month_hours_from_gage,
+                                                            three_month_hours_from_model,
+                                                            forecast_model) %>%
+                      rename(three_month_peak_dateTime = 1) %>%
+                      dplyr::ungroup()
+                      
+                    if(return_value == FALSE) {
+                            
+                      three_month_max_datetime <- three_month_max_datetime %>%
+                        dplyr::ungroup() %>%
+                                  dplyr::select(annual_peak_dateTime) 
+                                  
+                      return(three_month_max_datetime) 
+                                
+                          }
+       
+                    return(three_month_max_datetime)
+                
+                  
+                }
+         
+        } 
+
+  ################################################################################
+  
+
+```
+
+## Find time since peak
+
+```{r}
+
+#### This function calculates the time from an identified peak in a timeseries
+#### (as detected above)
+#### to any given time t in a time series 
+
+peak_time_calculator <- function(modeled_times_df = NULL, 
+                                 obs_peak_time_df = NULL,
+                                 length = NULL) {
+  
+  obs_peak_time_df <- obs_peak_time_df %>%
+    rename(peak_dateTime = 1)
+  
+  var_name <- paste0("time_since_", length, "_peak")
+  
+  bind_cols(modeled_times_df, obs_peak_time_df) %>%
+    dplyr::select(!contains("hours_needed")) %>%
+    mutate(time_since_peak = as.numeric(abs(difftime(predict_dateTime,
+                                          peak_dateTime,
+                                          units = "hours")))) %>%
+    dplyr::select(time_since_peak) %>%
+    setNames(var_name)
+  
+  
+    
+  
+  
+}
+```
+
+## Calculate delta discharge
+```{r}
+
+#### This function calculates the change in discharge from time
+#### t-1 to time t
+#### Effectively, this provides information for which "limb" of the hydrograph
+#### A given measurement is taken on. 
+
+limb_getter <- function(model_df){
+  
+  
+  model_df %>%
+    mutate(init_dateTime_minus_one = init_dateTime - hours(2)) %>%
+    filter(tributary == "ESOPUSCREEKATCOLDBROOKNY") %>%
+    group_by(init_date, tributary) %>% #### This is to calculate limb
+    mutate(limb_modeled = log_modeled_flow - lag(log_modeled_flow)) %>%
+    inner_join(., coldbrook_turbidity_plus_drivers_clean %>%
+                 dplyr::select(station, dateTime, log_observed_flow) %>%
+                 rename(tributary = station),
+               join_by(init_dateTime_minus_one == dateTime,
+                       tributary == tributary)) %>%
+    mutate(first_limb = log_modeled_flow - log_observed_flow) %>%
+    mutate(log_limb = coalesce(limb_modeled, first_limb)) %>%
+    dplyr::ungroup() %>%
+    dplyr::select(c(predict_dateTime, log_limb, init_date))
+    
+  
+}
+```
+
+## Calculate antecedent daily discharge
+```{r}
+
+#### A function that calculates the daily antecedent discharge across different
+#### lead times for NWM and NERFC forecasts
+
+daily_mean_calculator <- function(datetime,
+                              hours_from_gage = NULL, 
+                              hours_from_model = NULL,
+                              init_date,
+                              tributary,
+                              obs_df = NULL,
+                              model_df = NULL,
+                              forecast_model = "NWM"
+                              ) {
+  
+  #### Set up #########################################################
+
+  ### Find the index of the dateTime of interest in the observed data (minus 1)
+  datetime_index_obs <- which(obs_df$dateTime == datetime &
+                                obs_df$Station == tributary) 
+  
+  ### Find the index of the datet
+  datetime_index_model <- which(model_df$predict_dateTime == datetime & 
+                              model_df$tributary == tributary & 
+                              model_df$init_date == init_date
+                              )
+  
+  if(forecast_model == "NWM") {
+    
+    hours_from_model_adj <- hours_from_model
+    
+    
+  } else if (forecast_model == "NERFC") {
+    
+    hours_from_model_adj <- hours_from_model*6
+    
+    
+  }
+  
+  
+  ########## Extract ###################################################
+  
+  ### Get the timesteps and data from the gage
+    if (hours_from_gage != 0){
+          log_obs_flow <- obs_df %>%
+            ungroup() %>%
+            dplyr::slice(((datetime_index_obs - (hours_from_model_adj))
+                          - hours_from_gage):(datetime_index_obs - 
+                                                (hours_from_model_adj) - 1)) %>%
+            .$log_observed_flow
+        
+    } else{
+        
+      log_obs_flow <- NA
+      
+      } ### End log observed flow ifelse 
+  
+  ####################
+  
+  ### Get the timesteps and data from the forecast model
+
+    if(hours_from_model != 0 ){
+      
+          log_modeled_flow <- model_df %>%
+            dplyr::filter(tributary == tributary) %>%
+            ungroup() %>%
+            dplyr::slice((datetime_index_model - hours_from_model):(datetime_index_model -
+                                                                  1)) %>%
+            .$log_modeled_flow
+        
+      
+        }  else {
+        
+        log_modeled_flow <- NA
+        }
+  
+  #######################
+  
+  
+  #### Put them all together & calculate the mean
+    obs_and_modeled_flow <-  c(log_obs_flow, log_modeled_flow) %>%
+      na.omit() 
+      
+      mean_prior_daily_flow <- mean(obs_and_modeled_flow) %>%
+            as_tibble() %>%
+            rename(mean_prior_daily_log_q = 1)
+      
+  #######################    
+      
+}
+```
 
