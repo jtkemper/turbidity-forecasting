@@ -462,7 +462,7 @@ lgbm_runner <- function(training_data = NULL,
             if(save == TRUE) {
               
                           lgb.save(model_lgbm, 
-                                   filename = paste0("esopus_creek/r_images/final_tuned_lgbm_for_turb_", 
+                                   filename = paste0(here("r_images"), "/",
                                           save_file,
                                           ".txt"))
               
