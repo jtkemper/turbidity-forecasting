@@ -22,12 +22,12 @@ relevant variables for each LightGBM model. Once those are identified,
 we then train those models on 2016-22 data. We also tune the
 hyperparameters
 
-In each section, we also evaluate model performance on test data (from
+In each section, we also calculate model performance on test data (from
 2023).
 
 ################################################################################ 
 
-# HOUSEKEEPING
+# Housekeeping
 
 ### Packages
 
@@ -555,12 +555,12 @@ nerfc_best_params
 tuned_lgbm_nerfc <- lgbm_runner(cold_train_entire, 
                 cold_test, 
                 nerfc_chosen_model,
-                save = TRUE,
+                save = FALSE,
                 save_file = "with_nerfc",
                 tuned = TRUE,
                 tuned_params = nerfc_best_params)
 
-### Evaluate 
+################### EVALUATE ###################################################
 
 #### Calculate summary stats 
 
@@ -595,4 +595,416 @@ d_nerfc <- tuned_lgbm_nerfc[[4]]
 
 nerfc_kge_decomp_benchmark <- decompose_kge(nerfc_pred_obs_ts$predicted_turbidity, 
                                          nerfc_pred_obs_ts$fw_mean_observed_turbidity)
+```
+
+\#LightGBM-Network
+
+################################################################################ 
+
+Here, we are developing, training, and testing a LightGBM model that is
+capable of ingesting data from various upstream stations to make
+turbidity predictions for the Coldbrook station. The inclusion of
+upstream data is the primary difference from the LightGBM-Coldbrook
+model; the various variables considered are otherwise the same (i.e.,
+they differ only in *where* they are calculated). For example, the
+Network model could potentially consider as maxmimum prior monthly
+discharge at the Stony Clove station as a predictive feature for
+turbidity at Coldbrook.
+
+We start by a backwards variable selection process logically identical
+to that above. We then pick which model we like best, train it, tune it,
+and evaluate it.
+\################################################################################
+
+### Variable Selection
+
+``` r
+#### First, declare some empty lists so that we can save things
+
+model_stats_lgbm <- list()
+
+esopus_cold_lgbm_var_imp <- list()
+
+vars <- list()
+
+all_model_stats <- list()
+
+
+#### Now, make a data frame that contains all the predictors we want to include
+#### In the format that allows for them to all be used in variable selection
+
+esopus_cold_predictors <- coldbrook_turbidity_plus_drivers_clean %>%
+        dplyr::select(!c(
+          fw_mean_observed_turbidity, 
+          hour, station, site_no,
+          date, dateTime, 
+                       )) %>%
+      dplyr::select(!contains("mean_observed_flow")) %>%
+      dplyr::select(!contains("log_squared_observed_flow")) %>%
+      dplyr::select(!contains("tunnel"))  %>%
+      mutate(water_year2 = water_year) ### Allows water year to be a predictor
+    
+
+### Run a loop of different years and different models to pick our best model
+
+for(i in 1:ncol(esopus_cold_predictors)) {
+  
+    #### Print some status variables to the console to track progress
+  
+    run <- paste0("run", i)
+              
+    cat(crayon::cyan("\nModeling Run", i, "\n")) 
+    
+    #### Loop over different testing years
+          
+    for(j in 2020:2022) {
+  
+          yr <- paste("Year", j)
+                    
+          cat(crayon::yellow("\nRunning", yr, "\n")) 
+          
+          test_year <- j
+          
+          train_years <- seq(2017, j-1, 1)
+          
+          #### Training data
+          
+          esopus_cold_predictor_dataset <- esopus_cold_predictors %>%
+              filter(water_year %in% train_years)
+       
+          #### Now subset the testing data to that same subset
+          
+          esopus_cold_predictor_dataset_test <- esopus_cold_predictors %>%
+              filter(water_year == test_year) %>%
+              dplyr::select(colnames(esopus_cold_predictor_dataset))
+            
+          ######################################################################
+          
+          #### Declare the predictor and response variables 
+          
+          cold_preds <- data.matrix(esopus_cold_predictor_dataset %>%
+                                      dplyr::select(!c(log_observed_turbidity,
+                                                       water_year)))
+          
+          
+          cold_response <- esopus_cold_predictor_dataset$log_observed_turbidity
+          
+          #### Set up the environment - 
+          #### this is just preparing the dataset API to be used by lightgbm. 
+          #### This is our training data
+          
+          esopus_cold_train_lgbm <- lgb.Dataset(cold_preds, 
+                                           label = cold_response
+                                           ) 
+          
+          #### Declare the test data
+          
+          esopus_cold_test_lgbm <- data.matrix(esopus_cold_predictor_dataset_test %>%
+                                                dplyr::select(!c(log_observed_turbidity,
+                                                                 water_year)))
+          
+          
+          #### Declare the hyperparameters
+          #### Declare the hyperparameters - these are just the defaults for LightGBM
+          #### But I have spelled them out to be most clear
+          
+          cold_params <- list(objective = "regression",
+                                  num_leaves = 31L,
+                                  learning_rate = 0.1,
+                                  min_data_in_leaf = 20L,
+                                  num_threads = 10L
+                              )
+          
+          
+          
+          
+          #### Train the model
+          
+          set.seed(913)
+          
+          cold_turb_model_lgbm <- lgb.train(cold_params,
+                                            data = esopus_cold_train_lgbm,
+                                            verbose = 1L,
+                                            nrounds = 100L)
+          
+          #### Predict with the model
+          
+          cold_turb_predicted <- predict(cold_turb_model_lgbm, 
+                                         data = esopus_cold_test_lgbm) %>%
+            as_tibble() %>% rename(log_predicted_turbidity = 1)
+          
+          
+          #### Bind to observations and estimate smearing coefficient
+          
+          cold_turb_predicted_observed_smear <- bind_cols(coldbrook_turbidity_plus_drivers_clean %>% 
+                                                            drop_na() %>%
+                                                            filter(water_year == test_year),
+                                                         cold_turb_predicted) %>%
+            mutate(exp_log_model_residuals = 10^(log_observed_turbidity - log_predicted_turbidity))
+          
+          #### Estimate smearing coefficient  
+          
+          D <- mean(cold_turb_predicted_observed_smear$exp_log_model_residuals)
+          
+          ####  Now use the smearing coefficient to convert back to non-log
+          
+          cold_turb_predicted_observed <- cold_turb_predicted_observed_smear %>%
+            mutate(predicted_turbidity = (10^log_predicted_turbidity)*D) %>%
+             mutate(sqrerr = (fw_mean_observed_turbidity - predicted_turbidity)^2,
+                   predicted_turb_flux = mean_observed_flow_cms*predicted_turbidity,
+                   observed_turb_flux = mean_observed_flow_cms*fw_mean_observed_turbidity,
+                   predicted_turb_inst_load = predicted_turb_flux*60*60,
+                   observed_turb_inst_load = observed_turb_flux*60*60,
+                   abs_error = abs((fw_mean_observed_turbidity - predicted_turbidity)),
+                   abs_pct_error = abs_error/fw_mean_observed_turbidity)
+          
+          #### Evaluate performance on high turbidity 
+          #### Which here we are defining as anything over 10 FNU
+          
+          stats_high_turb <- cold_turb_predicted_observed %>%
+            ungroup() %>%
+            filter(fw_mean_observed_turbidity >= 10) %>%
+            summarise(high_turb_rmse = sqrt(mean(sqrerr)),
+                      high_turb_mae = mean(abs_error),
+                      high_turb_mape = mean(abs_pct_error),
+                      high_turb_pbias = hydroGOF::pbias(predicted_turbidity,
+                                              fw_mean_observed_turbidity)
+                      ) 
+      
+          
+          
+          #### Evaluate overall performance
+          
+          model_stats_lgbm[[j]] <- cold_turb_predicted_observed %>%
+            ungroup() %>%
+            summarise(rmse_inst_conc = sqrt(mean(sqrerr)),
+                      mae_inst_conc = mean(abs_error),
+                      predicted_turb_load = sum(predicted_turb_inst_load),
+                      observed_turb_load = sum(observed_turb_inst_load),
+                      NSE = hydroGOF::NSE(predicted_turbidity, 
+                                          fw_mean_observed_turbidity),
+                      logNSE = hydroGOF::NSE(log_predicted_turbidity, 
+                                          log_observed_turbidity),
+                      KGE = hydroGOF::KGE(predicted_turbidity, 
+                                          fw_mean_observed_turbidity),
+                      mape = mean(abs_pct_error),
+                      pbias = hydroGOF::pbias(predicted_turbidity,
+                                              fw_mean_observed_turbidity)
+                      ) %>%
+            mutate(err_load = (observed_turb_load - predicted_turb_load)
+                   ) %>%
+            bind_cols(., stats_high_turb) %>%
+            mutate(test_year = j)
+          
+          #### Calculate variable importance
+          
+          esopus_cold_lgbm_var_imp[[j]] <- lgb.importance(cold_turb_model_lgbm , 
+                                                           percentage = TRUE)
+          
+    
+    }
+    
+    #### Bind results together
+    
+    all_esopus_cold_lgbm_var_imp <- bind_rows(esopus_cold_lgbm_var_imp) 
+    
+    all_model_stats[[i]] <- bind_rows(model_stats_lgbm) %>%
+      mutate(model = i)
+    
+    summary_var_imp <- all_esopus_cold_lgbm_var_imp %>%
+      group_by(Feature) %>%
+      summarise(mean_Gain = mean(Gain)) %>%
+      ungroup()
+    
+    #### Remove the predictor feature with the lowest variable importance
+    
+    one_removed_predictors <- summary_var_imp %>%
+      ungroup() %>%
+      arrange(desc(mean_Gain)) %>%
+      dplyr::slice(-nrow(.))
+    
+    vars[[i]] <- summary_var_imp %>%
+      ungroup() %>%
+      mutate(model = i)
+    
+    #### See how many we have left
+    
+    var_count <- length(one_removed_predictors$Feature)
+    
+    if(var_count == 1) break 
+    
+    
+    #### Update variable list
+    
+    esopus_cold_predictors <- esopus_cold_predictors %>%
+      dplyr::select(one_removed_predictors$Feature,
+                    log_observed_turbidity,
+                    water_year)
+    
+
+}
+
+#### Bind all model run results together 
+
+all_all_model_stats <- bind_rows(all_model_stats)
+
+all_var_imp <- bind_rows(vars)
+
+
+#### examine each model summary statistics
+
+summary_model_stats <- all_all_model_stats %>%
+  group_by(model) %>%
+  rename(
+            kge = (KGE),
+            nse = (NSE),
+            mae = (mae_inst_conc),
+            rmse = (rmse_inst_conc),
+            mape = mape,
+            lognse = logNSE,
+            ) %>%
+  dplyr::select(!c(predicted_turb_load,
+                observed_turb_load
+                )) %>%
+  ungroup()
+
+#### Pair those summary statistics with a list of variables included
+#### in each model
+
+collapsed_models <- all_var_imp %>%
+  group_by(model) %>%
+  arrange(Feature, .by_group = TRUE) %>%
+  summarise(all_vars = paste(Feature, collapse = ",")) %>%
+  full_join(., summary_model_stats, 
+            by = "model")
+
+#### Calculate the overall performance all training/validation splits
+
+collapsed_models_w_stats <- collapsed_models %>%
+  group_by(model, all_vars) %>%
+  summarise(
+            mean_kge = mean(kge),
+            mean_nse = mean(nse),
+            mean_lognse = mean(lognse),
+            mean_mae = mean(mae),
+            mean_rmse = mean(rmse),
+            mean_pbias = mean(pbias),
+            mean_high_turb_pbias = mean(high_turb_pbias),
+            mean_err_load = mean(err_load),
+            sd_kge = sd(kge),
+            sd_nse = sd(nse),
+            sd_mae = sd(mae),
+            sd_rmse = sd(rmse),
+            sd_pbias = sd(pbias),
+            sd_err_load = sd(err_load)) %>%
+  mutate(lognse_nse = mean_nse + mean_lognse) %>%
+  mutate(nse_lognse_pbias = lognse_nse + mean_pbias) %>%
+  mutate(kge_nse = mean_kge + mean_nse)
+
+#### Choose a subset of the best performing models 
+#### And examine their performance statistics
+
+models_we_like <- all_var_imp %>%
+  dplyr::filter(model %in% c(130:137))
+
+models_we_like_stats <- collapsed_models_w_stats %>%
+  dplyr::filter(model %in% models_we_like$model)
+
+################################################################################
+
+################## EVALUATE VISUALLY ###########################################
+
+collapsed_models %>%
+  filter(model %in% models_we_like$model) %>%
+  pivot_longer(cols = rmse:err_load, names_to = "metric", values_to = "score") %>%
+  ggplot() +
+    geom_boxplot(aes(x = model, y = score, color= metric, group = model)) +
+    scale_color_brewer(palette = "Dark2") +
+    scale_x_continuous(breaks = seq(0,142, 1)) + 
+    theme_few() +
+    theme(panel.grid.major.y = element_line(color = "gray90"),
+          legend.position = "bottom") +
+    facet_wrap(~metric, scales = "free_y",
+               nrow = 8)
+
+################################################################################
+
+################################################################################
+
+#### Pick the model we like best after variable selection above
+
+picked_vars <- models_we_like %>%
+      filter(model == "134")
+```
+
+### Hyperparameter tuning
+
+``` r
+#### Tune the hyperparameters of our chosen model
+#### Tuned hyperparameters were those controlling the complexity of the decision trees 
+#### (num_leaves and min_data_in_leaf). 
+#### Users can edit the function *lgbm_tuner* to tune other hyperparams
+
+################################################################################
+#################### TUNE THE MODEL ############################################
+
+scores <- lgbm_tuner(coldbrook_turbidity_plus_drivers_clean, picked_vars)
+
+################################################################################
+
+################################################################################
+###################### CHOSE BEST HYPERPARAMS ##################################
+
+#### Select the best parameters 
+
+best_params <- scores %>%
+  arrange(mean) %>%
+  dplyr::slice(1)
+
+################################################################################
+```
+
+### Run and evaluate final tuned model on test data
+
+``` r
+#### Run the final model with the tuned parameters 
+
+tuned_lgbm_nwm <- lgbm_runner(cold_train_entire, 
+                cold_test, 
+                picked_vars,
+                save = FALSE,
+                save_file = "with_nwm",
+                tuned = TRUE,
+                tuned_params = best_params)
+
+################### EVALUATE ###################################################
+
+#### Calculate summary stats 
+
+summary_stats_final_model <- tuned_lgbm_nwm[[1]] %>%
+  dplyr::select(!c(predicted_turb_load,
+                observed_turb_load
+                )) %>%
+  ungroup() %>%
+  mutate(model = "LGBM-Network")
+
+#### And variable importance
+
+varmp_imp_final_nwm <- tuned_lgbm_nwm[[2]] %>% as_tibble()
+
+#### And get the predicted final time series
+
+nwm_pred_obs_ts <- tuned_lgbm_nwm[[3]] %>%
+  mutate(raw_error = predicted_turbidity - fw_mean_observed_turbidity) %>%
+  dplyr::select(dateTime, fw_mean_observed_turbidity, predicted_turbidity, 
+                log_predicted_turbidity, log_observed_flow)
+
+#### And the smearing factor 
+
+d_lgbm_network <- tuned_lgbm_nwm[[4]]
+
+#### Decomposed KGE
+
+kge_decomp_benchmark_network <- decompose_kge(nwm_pred_obs_ts$predicted_turbidity, 
+                                              nwm_pred_obs_ts$fw_mean_observed_turbidity)
 ```
