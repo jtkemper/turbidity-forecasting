@@ -572,3 +572,392 @@ lgbm_runner <- function(training_data = NULL,
 ##############################################################################    
 ###############################################################################
 ```
+
+## New Get GCP URLS
+
+``` r
+### We need to re-write some functions from the nwmTools package
+### Here we re-write the geturls command to better reflect 
+### the URLS of the medium-term forecasts (the built-in function had syntax
+### more reflective of the short-term urls)
+
+get_gcp_urls2 <- function (config = "short_range", 
+                                domain = "conus", date, hour = "00",
+                                minute = "00", num, ensemble = NULL, 
+                                output = "channel_rt") 
+{
+    meta = nwm_filter(source = "gcp", version = NULL, config = config, 
+        date = date, ensemble = ensemble, output = output, domain = domain)
+    dates = seq.POSIXt(as.POSIXlt(paste(date, hour, minute), 
+        tz = "UTC"), length.out = num+1, by = "1 hour")
+    YYYYDDMM = rep(format(as.POSIXct(date, tz = "UTC"), "%Y%m%d"), num)
+    forward = sprintf("%03d", seq(1, num))
+    urls = glue(meta$http_pattern, YYYYDDMM = YYYYDDMM, config = meta$config[1], 
+        HH = hour, foward = forward, output = meta$output[1], 
+        domain = meta$domain, ensemble = meta$ensemble[1], prefix = meta$prefix[1])
+    dates = ymd_hm(paste0(date[1], hour, "00")) + hours(1:(num))
+    data.frame(dateTime = dates, urls = urls, output = output)
+} 
+
+#### Must do this so that some functions internal to nwmTools can be used
+
+environment(get_gcp_urls2) <- environment(get_gcp_urls)
+
+
+
+###################################################################################
+```
+
+## File Reader
+
+``` r
+#### Function to read downloaded NetCDF files and retrieve various bits of 
+#### information from those files 
+
+file_reader <- function(file = NULL, ids = NULL) {
+  
+channel_params <- tidync(file) %>%
+  activate("D0") %>%
+  hyper_tibble() %>%
+  filter(feature_id %in% ids)
+
+channel_plus_time <- channel_params %>%
+  mutate(feature_id  = as.character(feature_id)) %>%
+  as_tibble() 
+
+return(channel_plus_time)
+  
+  
+}
+```
+
+## Temp File Maker
+
+``` r
+### Function to generate the temporary files to store downloaded NWM forecasts
+
+temp_file_maker <- function(urls = NULL) {
+  
+ urls %>%
+    mutate(date_time_mem = paste0(init_date_time, "_", init_time, "_", 
+                                  member)) %>%
+      mutate(filename = tempfile(pattern = paste0(date_time_mem,"plot"), 
+                             fileext = ".nc")) %>%
+   dplyr::select(!c(date_time_mem)) 
+  
+  
+}
+```
+
+## NWM Downloader
+
+``` r
+### A function that downloads the NWM operational forecast from the
+### Google Bucket archive 
+### This function downloads the ENTIRE NWM output for all of the continental US
+### And then extracts our COMIDs of interest and then deletes that big file
+### This is probably the non-ideal way to do this
+
+
+### Function to download the files, trim them, and save them 
+
+nwm_downloader <- function(urls_df = NULL) {
+  
+  
+  ### Show file being processed
+  
+  print(paste("Downloading", 
+              urls_df$predict_date[1],
+              urls_df$member[1]))
+  
+  ### Create temp files to store the downloaded .nc files
+  
+  urls_and_files <- temp_file_maker(urls_df)
+  
+  ### Download the .nc files 
+  ### From the Google Bucket
+  
+  download.file(url = urls_and_files$urls,
+                  destfile = urls_and_files$filename, 
+              mode = "wb", method = "libcurl",
+              quiet = TRUE)
+  
+ 
+  
+  downloaded <- urls_and_files %>%
+    mutate(data = map(filename, 
+                       .f = possibly(file_reader, 
+                             otherwise = tibble(feature_id = NA,
+                                                streamflow = NA,
+                                                nudge = NA,
+                                                velocity = NA,
+                                                qSfcLatRunoff = NA,
+                                                qBucket = NA,
+                                                qBtmVertRunoff = NA)),
+                      stations,
+                      .progress = TRUE)) %>%
+    unnest(cols = data) 
+  
+  #### Write all the final data to local files 
+  
+  write_csv(downloaded %>%
+              dplyr::select(!c(urls, filename)),
+            file = paste0(here("nwm_operational/medium_term"), "/", 
+                          downloaded$init_date_time[1], "_",
+                          downloaded$member[1],
+                          ".csv"))
+  
+  ### Remove the giant temp files 
+  
+  walk(urls_and_files$filename, file.remove)
+  
+
+  
+}
+```
+
+## NWM Downloader w/ cloud-based operations
+
+``` r
+### This function dowloads archived NWM forecasts from the Google Bucket
+### where they are stored. It utilizes cloud-based operations to extract
+### the reaches we are interested in BEFORE downloading the entire NWM file
+### to our local machine. In this way we avoid downloading giant files that 
+### contain largely extraneous data. This is perhaps the more "correct" way to 
+### do this. 
+### Note that this is a rewrite of the nwmTools get_timeseries function within 
+### Mike Johnson's nwmTools package. We are heavily indebted to the great work
+### Mike has done. Thanks Mike!!!!!! (https://github.com/mikejohnson51)
+### Also, *******It is NOT FAST*******
+### Perhaps it could be rewritten for efficiency, but hey, it works
+
+
+
+get_timeseries3 <- function(urls = NULL, 
+                            ids = NULL,
+                            outfile = NULL,
+                            index_id = "feature_id",
+                            varname = "streamflow"
+
+                            
+) {
+  
+            #### Get values function #######################################################
+            get_values <- function(url, var, ind = NULL) {
+                        v = suppressWarnings(values(terra::rast(glue("{url}://{var}"))))
+                        
+                        if (!is.null(ind)) {
+                            v = v[ind]
+                        }
+                        else {
+                            v = v
+                        }
+                        
+                        return(v)
+            }
+            ################################################################################
+
+
+### Get lead time from URL 
+### And get init_date from URL
+            
+lead_time <- str_extract(str_extract(urls, "f\\d+"), "\\d+")
+
+init_date <- as_date(str_extract(str_extract(urls, ".\\d+"), "\\d+"))
+
+member <- str_extract(urls, "mem\\d+")
+
+#### Little updater
+
+print(paste("Downloading", init_date, lead_time, member, " "))
+
+### First, set up a URL that turns the netCDF on the Google Bucket
+### Into a HD5 file
+### And utilizes external pointer (vsicurl) to access file "on the fly"
+
+nwm_url2 <- glue("HDF5:\"/vsicurl/{urls}\"")
+
+
+### Now get the feature_ids (comids) from the file
+
+all_ids <- get_values(url = nwm_url2, index_id)
+
+
+### Now find the indexes of our comids (reaches) of interest
+### In the file that contains all the comids
+### The thinking here is that the index of a given comid in the feature_id "layer"
+### Should be the same index of where the streamflow value corresponding to that comid
+### Is located
+### We need to put in a bunch of safety if-else statements to keep from breaking 
+### if the file is not found for whatever reason
+
+ 
+   if (!is.null(index_id)) {
+     
+     
+     
+      all_ids = get_values(url = nwm_url2, index_id)
+                
+     ### If no COMIDs are entered, return every streamflow ID
+     ### So all 2.7 million reaches in the NWM
+     ### But if particular COMIDs are desired
+     ### Find the index of those COMIDs
+     ### in the feature_id "layer"
+     
+        if (is.null(ids)) {
+            ind = NULL
+            ids = all_ids
+        }
+     
+        else {
+         
+                ind <- which(all_ids %in% ids)
+            
+        }
+   }
+
+    else {
+      
+        ind = NULL
+        ids = NULL
+        
+    } ### Returns null if error in reading files
+
+
+
+#### Now let's get streamflow
+#### It comes in without decimals (not sure why)
+
+q_values <- get_values(nwm_url2, varname, ind)
+
+q_values <- q_values/100
+
+#### And time 
+#### Which we need to multiply by 60
+#### to turn into "true" POSICxt time (seconds from 1970-01-01)
+
+nwm_time <- get_values(nwm_url2, "time")[1]*60
+
+
+#### Now, we have to actually extract the feature_id in the same way as we did
+#### for discharge
+#### This gets us a vector ordered in the same order as our discharge vector
+#### Without this, we will bind things that our in different orders
+#### and our final output dataframe will be meaningless 
+#### THIS IS EXTREMELY IMPORTANT
+
+comids <- get_values(nwm_url2, index_id, ind)
+
+### Bind the time, COMIDs, and modeled streamflow values into one tibble
+### Make into a tibble
+
+streamflow_by_reach <- tibble(comid = comids, 
+                              init_date = init_date, 
+                              lead_time = lead_time,
+                              member = member,
+                              predict_dateTime = as_datetime(nwm_time),
+                              modeled_q_cms = q_values
+                              )
+
+
+
+### And write that to file 
+
+write_csv(streamflow_by_reach, outfile,
+          append = TRUE,
+          col_names = !file.exists(outfile),
+          )
+
+
+#return(streamflow_by_reach)
+
+}
+```
+
+## NERFC Converter Functions
+
+These functions translate Northeast River Forecast Center (NERFC)
+forecasts files, which are archived as .txt files, into a workable
+format (tibble)
+
+``` r
+######################## NERFC_CONVERTER1 #################################
+
+#### A function to read in the text files 
+nerfc_converter1 <- function(file_strng) {
+  
+  print(file_strng)
+  
+  df <- read_fwf(file_strng) %>% rename(stuff = 1)
+  
+  ### Here we find the string that occurs after a row of ******
+  ### This indicates the station name and the start of the information we're interested it
+  ### We then discard all other rows (by NAs) that don't include the strings 
+  ### FCST, which is the row with the necessary header information (times)
+  ### and then rows that include the string .E{number}, which are the rows
+  ### with the actual forecasts
+  
+  df2 <- df %>%
+    drop_na() %>%
+    mutate(station = ifelse(lag(str_detect(stuff, ":[*]")), 
+                            .$stuff, NA))   %>%
+    filter(!is.na(station) | str_detect(stuff, "FCST") |
+             str_detect(stuff, ".E\\d"))%>%
+    fill(station, .direction = "down") %>%
+    mutate(station = str_remove_all(station, ":")) %>%
+  mutate(stuff = str_squish(stuff)) %>%
+  mutate(stuff = str_remove_all(stuff, ":")) %>%
+  mutate(stuff = str_remove_all(stuff, "/")) 
+  
+  return(df2)
+
+  
+}
+
+################################################################################
+################################################################################
+###############################################################################
+
+
+
+########################### NERFC_CONVERTER2 ###################################
+
+#### Another function to manipulate the files into the form that we need
+#### Currently, the file is just one column with strings in each sell
+#### We split by space into the number of columns we need
+#### Which is the model member, the date, and the times. 
+#### Luckily the formatting is consistent enough that this requires into splitting
+#### into six columns, the last four of which are forecasts that have a consistent 
+#### time stamp 
+#### Then pivot the file to be in long format
+#### and extrac the month and day of each forecasted discharge
+nerfc_converter2 <- function(df) {
+  
+    df %>%
+      dplyr::filter(str_detect(station, "Cold")) %>%
+      separate(stuff, 
+               into = c("mem", "date", "time1", "time2", "time3", "time4"), 
+               sep = " ") %>%
+      dplyr::slice(-1) %>%
+      janitor::row_to_names(row_number = 1, remove_row = TRUE) %>%
+      rename(date = 2, station = 7) %>%
+      dplyr::select(-1) %>%
+      pivot_longer(cols = -c(date, station), 
+                   names_to = "time", 
+                   values_to = "forecast_stage") %>%
+      mutate(forecast_stage = replace(forecast_stage, 
+                                      forecast_stage == "", NA)) %>%
+      mutate_at("forecast_stage", ~as.numeric(.)) %>%
+      mutate(month = substr(date, 1, 2)) %>%
+      mutate(day = substr(date, 3, 4)) %>%
+      #mutate(month_day = paste(month,day,sep = "-")) %>%
+      #mutate(month_day_hr = paste(month_day, time)) %>%
+      dplyr::select(!date)
+
+
+  
+}
+
+################################################################################
+################################################################################
+```
