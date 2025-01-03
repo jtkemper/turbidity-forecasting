@@ -209,8 +209,10 @@ qqm_benchmark_median <- qqm_smearer(qqm_benchmark_median,
 #### the mean absolute error (MAE)
 #### The Nash-Sutcliffe Efficiency (NSE)
 #### The Kling-Gupta Efficiency (KGE)
+#### And the decomposed KGE
 #### Percent Bias (%)
 #### And correlation 
+
 
 qqm_bench_summary_stats <- qqm_benchmark_median %>%
   mutate(raw_error_qqm = predicted_turbidity - fw_mean_observed_turbidity,
@@ -229,13 +231,9 @@ qqm_bench_summary_stats <- qqm_benchmark_median %>%
                                             fw_mean_observed_turbidity),
             corr = cor(predicted_turbidity, fw_mean_observed_turbidity),
             r_sq = hydroGOF::R2(predicted_turbidity,
-                             fw_mean_observed_turbidity)) %>%
-  mutate(model = "QQM")
-
-#### Also decompose KGE to its constituent parts 
-
-kge_decomp_benchmark_qqm <- decompose_kge(qqm_benchmark_median$predicted_turbidity, 
-              qqm_benchmark_median$fw_mean_observed_turbidity) %>%
+                             fw_mean_observed_turbidity),
+            decompose_kge(predicted_turbidity,
+                          fw_mean_observed_turbidity)) %>%
   mutate(model = "QQM")
 ```
 
@@ -555,7 +553,7 @@ nerfc_best_params
 tuned_lgbm_nerfc <- lgbm_runner(cold_train_entire, 
                 cold_test, 
                 nerfc_chosen_model,
-                save = FALSE,
+                save = TRUE,
                 save_file = "with_nerfc",
                 tuned = TRUE,
                 tuned_params = nerfc_best_params)
@@ -569,7 +567,7 @@ summary_stats_final_nerfc <- tuned_lgbm_nerfc[[1]] %>%
                 observed_turb_load
                 )) %>%
   ungroup() %>%
-  mutate(model = "LGBM-Colbdrook")
+  mutate(model = "LGBM-Coldbrook")
 
 ### And get variable importance
 
@@ -595,6 +593,10 @@ d_nerfc <- tuned_lgbm_nerfc[[4]]
 
 nerfc_kge_decomp_benchmark <- decompose_kge(nerfc_pred_obs_ts$predicted_turbidity, 
                                          nerfc_pred_obs_ts$fw_mean_observed_turbidity)
+
+#### Bind all together
+
+summary_stats_final_nerfc <- bind_cols(summary_stats_final_nerfc, nerfc_kge_decomp_benchmark)
 ```
 
 \#LightGBM-Network
@@ -972,7 +974,7 @@ best_params <- scores %>%
 tuned_lgbm_nwm <- lgbm_runner(cold_train_entire, 
                 cold_test, 
                 picked_vars,
-                save = FALSE,
+                save = TRUE,
                 save_file = "with_nwm",
                 tuned = TRUE,
                 tuned_params = best_params)
@@ -1007,4 +1009,8 @@ d_lgbm_network <- tuned_lgbm_nwm[[4]]
 
 kge_decomp_benchmark_network <- decompose_kge(nwm_pred_obs_ts$predicted_turbidity, 
                                               nwm_pred_obs_ts$fw_mean_observed_turbidity)
+
+#### Bind all together
+
+summary_stats_final_model <- bind_cols(summary_stats_final_model, kge_decomp_benchmark_network)
 ```
