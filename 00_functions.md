@@ -1507,3 +1507,141 @@ daily_mean_calculator <- function(datetime,
       
 }
 ```
+
+## Error Estimator
+
+``` r
+### This is a function to estimate various error metrics from a dataframe 
+### that contains simulated (i.e., modeled) and observed values 
+
+error_estimator <- function(observed_and_modeled_df, type = "forecast",
+                            flux = FALSE) {
+  
+  if(type == "Benchmark" & flux == TRUE) {
+    
+    observed_and_modeled_df <- observed_and_modeled_df %>%
+      dplyr::select(!c(predicted_turbidity, fw_mean_observed_turbidity)) %>%
+      rename(forecasted_turbidity = predicted_inst_load,
+             fw_mean_observed_turbidity = observed_inst_load)
+    
+  } else if(type == "Benchmark" & flux == FALSE) {
+    
+    observed_and_modeled_df <- observed_and_modeled_df %>%
+      rename(forecasted_turbidity = predicted_turbidity)
+    
+  }
+  
+  observed_and_modeled_df %>%
+    mutate(
+            raw_error = forecasted_turbidity - fw_mean_observed_turbidity,
+             sqrerr = (fw_mean_observed_turbidity - forecasted_turbidity)^2,
+             abs_error = abs((fw_mean_observed_turbidity - forecasted_turbidity)),
+             raw_pct_error = raw_error/fw_mean_observed_turbidity,
+             abs_pct_error = abs_error/fw_mean_observed_turbidity) %>%
+    summarise(rmse = sqrt(mean(sqrerr)),
+                mae = mean(abs_error),
+                NSE = hydroGOF::NSE(forecasted_turbidity, 
+                                    fw_mean_observed_turbidity),
+                      logNSE = hydroGOF::NSE(log10(forecasted_turbidity), 
+                                    log10(fw_mean_observed_turbidity)),
+                KGE = hydroGOF::KGE(forecasted_turbidity, 
+                                    fw_mean_observed_turbidity),
+                mape = mean(abs_pct_error),
+                pbias = hydroGOF::pbias(forecasted_turbidity,
+                                        fw_mean_observed_turbidity),
+                corr = cor(forecasted_turbidity, fw_mean_observed_turbidity),
+              r_sq = hydroGOF::R2(forecasted_turbidity,fw_mean_observed_turbidity)
+                ) 
+  
+}
+```
+
+## Load Error Calculator
+
+########### Function to calculate event-based error
+
+``` r
+#### This is a function that calculates the turbidity "load" error for 
+#### all storm events in 2023
+
+load_error_calculator <- function(forecast_df = NULL, 
+                                  obs_storm_df = NULL,
+                                  forecast_source = NULL,
+                                  model = NULL,
+                                  type = "Model"){
+  
+  if(forecast_source == "NERFC") {
+    
+    multiplier = 6
+    
+  } else if (forecast_source == "NWM") {
+    
+    multiplier = 1
+    
+  }
+  
+  if(type == "Benchmark") {
+    
+    
+    forecast_df <- forecast_df %>%
+      mutate(log_modeled_flow = log10(mean_observed_flow_cms),
+             log_observed_flow = log10(mean_observed_flow_cms)) %>%
+      mutate(lead_days = 0) %>%
+      rename(predict_dateTime = dateTime,
+             forecasted_turbidity = predicted_turbidity)
+    
+    
+  } else {forecast_df <- forecast_df}
+  
+  
+  forecast_df %>%
+    full_join(., obs_storm_df %>%
+               dplyr::select(dateTime, storm),
+             join_by(predict_dateTime == dateTime)) %>%
+    drop_na(forecasted_turbidity) %>%
+    dplyr::select(predict_dateTime, 
+                  storm, lead_days,
+                  forecasted_turbidity, log_modeled_flow,
+                  fw_mean_observed_turbidity, log_observed_flow) %>%
+    mutate(forecasted_flow = 10^log_modeled_flow,
+           observed_flow = 10^log_observed_flow) %>%
+    dplyr::select(!c(log_observed_flow, log_modeled_flow)) %>%
+    mutate(modeled_inst_flux = forecasted_flow*forecasted_turbidity*60*60*multiplier,
+           observed_inst_load = observed_flow*fw_mean_observed_turbidity*60*60*multiplier) %>%
+    group_by(storm, lead_days) %>%
+    summarise(observed_load = sum(observed_inst_load),
+              forecasted_load = sum(modeled_inst_flux),
+              observed_peak = max(fw_mean_observed_turbidity),
+              forecasted_peak = max(forecasted_turbidity)) %>%
+    dplyr::ungroup() %>%
+    mutate(raw_error_load = (forecasted_load - observed_load),
+           raw_error_peak = (forecasted_peak - observed_peak),
+           sqr_error_load = (raw_error_load^2),
+           sqr_error_peak = (raw_error_peak^2),
+           abs_err_load = abs(raw_error_load),
+           abs_err_peak = abs(raw_error_peak),
+           raw_pct_error_load = raw_error_load/observed_load,
+          raw_pct_error_peak = raw_error_peak/observed_peak,
+          abs_pct_err_load = abs_err_load/observed_load,
+           abs_pct_err_peak = abs_err_peak/observed_peak) %>%
+    inner_join(., storms_2023 %>%
+                 group_by(storm) %>%
+                 dplyr::slice(1) %>%
+                 dplyr::ungroup() %>%
+                 dplyr::select(storm, dateTime),
+                 by = "storm") %>%
+    inner_join(., storms_2023 %>%
+                 group_by(storm) %>%
+                 slice_max(mean_observed_flow_cms) %>%
+                 dplyr::slice(1) %>%
+                 dplyr::ungroup() %>%
+                 dplyr::select(storm, mean_observed_flow_cms) %>%
+                 rename(peak_storm_q = mean_observed_flow_cms),
+               by = "storm") %>%
+    mutate(forecast_source = forecast_source,
+           model = model,
+           type = type)
+    
+  
+}
+```
