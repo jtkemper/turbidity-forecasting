@@ -703,3 +703,21 @@ all_predictors_nerfc <- inner_join(all_antecedents_nerfc,
 
 ################################################################################
 ```
+
+# Lead groups dataframe for evaluation
+
+``` r
+lead_groups <- tibble(group = paste0("group", rep(1:8, times = 24))) %>%
+  mutate(group = str_sort(group, numeric = TRUE)) %>%
+  mutate(lead_time = seq(1,192,1))%>%
+  group_by(group) %>%
+  mutate(time_of_day = lead_time - 24*(cur_group_id()-1))%>%
+  dplyr::ungroup() %>%
+  group_by(group) %>%
+  mutate(max = max(lead_time),
+         min = min(lead_time)) %>%
+  mutate(lead_time_group = paste0(min, "-", max)) %>%
+  mutate(lead_days = round((max)/24,1)) %>%
+  dplyr::ungroup() %>%
+  dplyr::select(lead_days, lead_time_group, lead_time)
+```
