@@ -254,7 +254,8 @@ inst_turbidity_little_beaver <- readNWISdata( sites = "01362497",
 
 ##### For all sites 
 
-hourly_discharge_all_sites <- hourly_Q_maker(inst_discharge_all_sites)
+hourly_discharge_all_sites <- hourly_Q_maker(inst_discharge_all_sites) %>%
+  mutate(station = str_remove_all(station, " "))
 
 ##### For the tunnel
 
@@ -265,6 +266,7 @@ hourly_discharge_tunnel <- hourly_Q_maker(inst_discharge_tunnel)
 
 hourly_discharge_coldbrook <- hourly_discharge_all_sites %>%
   filter(site_no == "01362500")
+
 
 ```
 
